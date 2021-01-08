@@ -17,21 +17,21 @@ canonifyurls = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+#  subtitle = "Build a beautiful and simple website in minutes"
   mainSections = ["post","posts"]
   logo = "img/logo.jpeg" # Expecting square dimensions
   favicon = "img/logo.jpeg"
-  dateFormat = "January 2, 2006"
+  dateFormat = "2006. 1/2"
   commit = false
   rss = true
   comments = true
-  readingTime = true
-  wordCount = true
+#  readingTime = true
+#  wordCount = true
   useHLJS = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-#  hideAuthor = true
+  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 # タイトルの背景画像
@@ -49,10 +49,8 @@ canonifyurls = true
 
 [Author]
   name = "Kona"
-  website = "yourwebsite.com"
-  github = "username"
-  twitter = "username"
-  linkedin = "username"
+  github = "kngy0306"
+  twitter = "YoKaU2"
 
 [[menu.main]]
     name = "Blog"
