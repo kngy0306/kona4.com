@@ -21,7 +21,7 @@ canonifyurls = true
   mainSections = ["post","posts"]
   logo = "img/logo.jpeg" # Expecting square dimensions
   favicon = "img/logo.jpeg"
-  dateFormat = "2006. 1/2"
+  dateFormat = "2006/1/2"
   commit = false
   rss = true
   comments = true
@@ -48,7 +48,7 @@ canonifyurls = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Kona"
+  name = "Kon4"
   github = "kngy0306"
   twitter = "YoKaU2"
 
