@@ -14,6 +14,9 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 publishDir = "docs"
 canonifyurls = true
+hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
+summaryLength = 120 # サマリーの長さを120単語にする
+custom_css = ["css/custom.css"]
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
