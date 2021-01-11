@@ -1,7 +1,7 @@
 baseurl = "https://kona4.com/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Kon4 Blog"
+title = "Kona4 Blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
