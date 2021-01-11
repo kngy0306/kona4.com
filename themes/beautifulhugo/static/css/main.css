@@ -1,7 +1,8 @@
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  /* font-family: 'Lora', 'Times New Roman', serif; */
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -23,7 +24,7 @@ body {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.9;
   margin: 6px 0;
 }
 p + p {
@@ -31,11 +32,15 @@ p + p {
 }
 p a {
   /* text-decoration: underline */
-  color: #008AFF;
+  color: #3d98e7;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
+
+  line-height: 1.5;
+  margin-top: 2.2em;
+  margin-bottom: 2.4rem;
 }
 a {
   color: #008AFF;
@@ -43,6 +48,7 @@ a {
 a:hover,
 a:focus {
   color: #0085a1;
+  text-decoration-line: none;
 }
 blockquote {
   color: #808080;
@@ -116,7 +122,8 @@ img::-moz-selection {
 
 img {
   display: block;
-  margin: auto;
+  /* margin: auto; */
+  margin: 1.5em 0;
   max-width: 100%;
 }
 
@@ -433,6 +440,7 @@ footer .theme-by {
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 .blog-tags:before {
