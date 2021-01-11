@@ -1,4 +1,4 @@
-baseurl = "https://kngy0306.github.io/kon4.com/"
+baseurl = "https://kona4.com/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Kon4 Blog"
@@ -16,7 +16,6 @@ publishDir = "docs"
 canonifyurls = true
 hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
 summaryLength = 120 # サマリーの長さを120単語にする
-custom_css = ["css/custom.css"]
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
