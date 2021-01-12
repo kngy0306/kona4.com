@@ -27,7 +27,7 @@ Goを選んだ理由は、次の3つです。
 
 1つ目の理由として、流行している言語を学びたいという思いがあります。  
 これから多くの企業で使われる可能性のある言語を学ぶことで、この先の仕事でチャンスが広がるのではないかと考えています。
-{{<rawhtml>}}<img src="/img/2021-01-11/img.png" alt="lang trend"><a href="https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-wanted"><small>StackOverflow 2020DeveloperSurvey</small></a>{{</rawhtml>}}
+{{<rawhtml>}}<img src="/img/2021-01/img.png" alt="lang trend"><a href="https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-wanted"><small>StackOverflow 2020DeveloperSurvey</small></a>{{</rawhtml>}}
 
 2つ目に、型に厳しい言語を学びたいという理由があります。  
 これまで触れてきた言語は動的型付けが多く、型について意識せずに書くことが少なかったです。これまで実行して、エラーを直して、を繰り返していました。  Goを始めてみて、コンパイル時にエラーを出してくれるのがめっちゃありがたい！と思いました。  
