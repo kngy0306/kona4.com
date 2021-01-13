@@ -65,6 +65,17 @@ strong {
   background: linear-gradient(transparent 75%, rgba(124,199,232,0.6) 75%);
 }
 
+pre {
+  font-size: 14.5px;
+  line-height: 1.5;
+  padding: 0 15px!important;
+  overflow: scroll!important;
+}
+
+.hljs {
+  padding: 0!important;
+}
+
 blockquote {
   color: #808080;
   /* font-style: italic; */
