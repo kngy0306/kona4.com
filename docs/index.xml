@@ -5,7 +5,16 @@
     <link>https://kona4.com/</link>
     <description>Recent content on Kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 09:32:23 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 14:44:15 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>入門Goプログラミングのチャレンジ</title>
+      <link>https://kona4.com/post/2021-01-13-gooutput/</link>
+      <pubDate>Wed, 13 Jan 2021 14:44:15 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021-01-13-gooutput/</guid>
+      <description>入門Goプログラミングの中にある、チャレンジを行った。 コード package main import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; ) const ( Distance = 62100000 Day = 24 * 60 * 60 ) func main() { fmt.Println(&amp;#34;Spaceline Days Trip type Price&amp;#34;) fmt.Println(&amp;#34;========================================&amp;#34;) for i := 0; i &amp;lt; 10; i++ { var agent string var trip_type string var price int var days int // 旅行会社をランダムに決定 switch n := rand.Intn(3); n { case 0: agent = &amp;#34;Space Adventures&amp;#34; case 1: agent = &amp;#34;SpaceX&amp;#34; case 2: agent = &amp;#34;Virgin Galactic&amp;#34; } // 往復</description>
+    </item>
+    
     <item>
       <title>Aレコードについて</title>
       <link>https://kona4.com/post/2021-01-12-dns/</link>
