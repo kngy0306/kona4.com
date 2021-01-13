@@ -12,7 +12,7 @@
       <pubDate>Wed, 13 Jan 2021 14:44:15 +0900</pubDate>
       
       <guid>https://kona4.com/post/2021-01-13-gooutput/</guid>
-      <description>入門Goプログラミングの中にある、チャレンジを行った。 コード package main import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; ) const ( Distance = 62100000 Day = 24 * 60 * 60 ) func main() { fmt.Println(&amp;#34;Spaceline Days Trip type Price&amp;#34;) fmt.Println(&amp;#34;========================================&amp;#34;) for i := 0; i &amp;lt; 10; i++ { var agent string var trip_type string var price int var days int // 旅行会社をランダムに決定 switch n := rand.Intn(3); n { case 0: agent = &amp;#34;Space Adventures&amp;#34; case 1: agent = &amp;#34;SpaceX&amp;#34; case 2: agent = &amp;#34;Virgin Galactic&amp;#34; } // 往復</description>
+      <description>&lt;p&gt;書籍: &lt;a href=&#34;https://www.amazon.co.jp/%E5%85%A5%E9%96%80Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Nathan-Youngman/dp/4798158658/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&#34;&gt;入門Goプログラミング&lt;/a&gt;の中にある、チャレンジを行った。&lt;/p&gt;</description>
     </item>
     
   </channel>
