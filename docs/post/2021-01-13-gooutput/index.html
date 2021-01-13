@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>入門Goプログラミングのチャレンジ - Kona4 Blog</title>
-  <meta name="description" content="火星行きのチケット">
+  <title>入門Goプログラミングのアウトプット - Kona4 Blog</title>
+  <meta name="description" content="2021-01-13更新">
   <meta name="author" content="Kon4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -45,7 +45,7 @@
         "position": 3,
         "item": {
           "@id": "https:\/\/kona4.com\/post\/2021-01-13-gooutput\/",
-          "name": "入門 goプログラミングのチャレンジ"
+          "name": "入門 goプログラミングのアウトプット"
         }
     }]
 }
@@ -56,10 +56,10 @@
   "author": {
     "name" : "Kon4"
   },
-  "headline": "入門Goプログラミングのチャレンジ",
-  "description" : "書籍: 入門Goプログラミングの中にある、チャレンジを行った。\n",
+  "headline": "入門Goプログラミングのアウトプット",
+  "description" : "書籍: 入門Goプログラミングの中にある、チャレンジのアウトプット。\n",
   "inLanguage" : "en",
-  "wordCount":  391 ,
+  "wordCount":  457 ,
   "datePublished" : "2021-01-13T14:44:15",
   "dateModified" : "2021-01-13T14:44:15",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
@@ -78,15 +78,15 @@
 }
 </script>
 
-<meta property="og:title" content="入門Goプログラミングのチャレンジ" />
-<meta property="og:description" content="火星行きのチケット">
+<meta property="og:title" content="入門Goプログラミングのアウトプット" />
+<meta property="og:description" content="2021-01-13更新">
 <meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
 <meta property="og:url" content="https://kona4.com/post/2021-01-13-gooutput/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kona4 Blog" />
 
-  <meta name="twitter:title" content="入門Goプログラミングのチャレンジ" />
-  <meta name="twitter:description" content="火星行きのチケット">
+  <meta name="twitter:title" content="入門Goプログラミングのアウトプット" />
+  <meta name="twitter:description" content="2021-01-13更新">
   <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -227,12 +227,12 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>入門Goプログラミングのチャレンジ</h1>
+                <h1>入門Goプログラミングのアウトプット</h1>
               
               
               
                 
-                  <h2 class="post-subheading">火星行きのチケット</h2>
+                  <h2 class="post-subheading">2021-01-13更新</h2>
                 
               
               
@@ -262,8 +262,8 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>書籍: <a href="https://www.amazon.co.jp/%E5%85%A5%E9%96%80Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Nathan-Youngman/dp/4798158658/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;qid=&amp;sr=">入門Goプログラミング</a>の中にある、チャレンジを行った。</p>
-<h2 id="コード">コード</h2>
+        <p>書籍: <a href="https://www.amazon.co.jp/%E5%85%A5%E9%96%80Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Nathan-Youngman/dp/4798158658/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;qid=&amp;sr=">入門Goプログラミング</a>の中にある、チャレンジのアウトプット。</p>
+<h2 id="challenge1">Challenge1</h2>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go">
 <span class="kn">package</span> <span class="nx">main</span>
 
@@ -350,6 +350,39 @@ SpaceX           44    Round-trip  $ 72
 111left 111
 111     right111
 
+</code></pre></div><h2 id="p98-練習問題-1">P.98 練習問題-1</h2>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go">
+<span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="p">(</span>
+	<span class="s">&#34;fmt&#34;</span>
+<span class="p">)</span>
+
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">message</span> <span class="o">:=</span> <span class="s">&#34;&#34;</span>
+
+	<span class="nx">cipherText</span> <span class="o">:=</span> <span class="s">&#34;CSOITEUIWUIZNSROCNKFD&#34;</span>
+	<span class="nx">keyword</span> <span class="o">:=</span> <span class="s">&#34;GOLANG&#34;</span>
+	<span class="nx">keyIndex</span> <span class="o">:=</span> <span class="mi">0</span>
+
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="nx">cipherText</span><span class="p">);</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="nx">c</span> <span class="o">:=</span> <span class="nx">cipherText</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">-</span> <span class="sc">&#39;A&#39;</span>
+		<span class="nx">k</span> <span class="o">:=</span> <span class="nx">keyword</span><span class="p">[</span><span class="nx">keyIndex</span><span class="p">]</span> <span class="o">-</span> <span class="sc">&#39;A&#39;</span>
+		
+		<span class="nx">c</span> <span class="p">=</span> <span class="p">(</span><span class="nx">c</span><span class="o">-</span><span class="nx">k</span><span class="o">+</span><span class="mi">26</span><span class="p">)</span><span class="o">%</span><span class="mi">26</span> <span class="o">+</span> <span class="sc">&#39;A&#39;</span>
+		<span class="nx">message</span> <span class="o">+=</span> <span class="nb">string</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
+
+		<span class="nx">keyIndex</span><span class="o">++</span>
+		<span class="nx">keyIndex</span> <span class="o">%=</span> <span class="nb">len</span><span class="p">(</span><span class="nx">keyword</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">message</span><span class="p">)</span>
+<span class="p">}</span>
+
+</code></pre></div><h2 id="結果-1">結果</h2>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+WEDIGYOULUVTHEGOPHERS
+
 </code></pre></div>
 
         
@@ -370,7 +403,7 @@ SpaceX           44    Round-trip  $ 72
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;text=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8&amp;via=YoKaU2" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;text=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%82%a2%e3%82%a6%e3%83%88%e3%83%97%e3%83%83%e3%83%88&amp;via=YoKaU2" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -384,28 +417,28 @@ SpaceX           44    Round-trip  $ 72
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;title=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;title=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%82%a2%e3%82%a6%e3%83%88%e3%83%97%e3%83%83%e3%83%88" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;title=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;title=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%82%a2%e3%82%a6%e3%83%88%e3%83%97%e3%83%83%e3%83%88" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;title=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;title=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%82%a2%e3%82%a6%e3%83%88%e3%83%97%e3%83%83%e3%83%88" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;description=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkona4.com%2fpost%2f2021-01-13-gooutput%2f&amp;description=%e5%85%a5%e9%96%80Go%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%81%ae%e3%82%a2%e3%82%a6%e3%83%88%e3%83%97%e3%83%83%e3%83%88" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
