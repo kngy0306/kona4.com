@@ -323,19 +323,19 @@
 <span class="p">}</span>
 
 </code></pre></div><h2 id="結果">結果</h2>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">
-Spaceline        Days  Trip <span class="nb">type</span>   <span class="nv">Price</span>
-<span class="o">========================================</span>
-Virgin Galactic  <span class="m">39</span>    One-way     $ <span class="m">38</span>
-Virgin Galactic  <span class="m">37</span>    One-way     $ <span class="m">39</span>
-SpaceX           <span class="m">42</span>    Round-trip  $ <span class="m">74</span>
-Space Adventures <span class="m">42</span>    Round-trip  $ <span class="m">74</span>
-Space Adventures <span class="m">24</span>    One-way     $ <span class="m">49</span>
-Virgin Galactic  <span class="m">34</span>    One-way     $ <span class="m">41</span>
-Virgin Galactic  <span class="m">34</span>    Round-trip  $ <span class="m">82</span>
-Space Adventures <span class="m">24</span>    Round-trip  $ <span class="m">98</span>
-Space Adventures <span class="m">31</span>    One-way     $ <span class="m">43</span>
-SpaceX           <span class="m">44</span>    Round-trip  $ <span class="m">72</span>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+Spaceline        Days  Trip type   Price
+========================================
+Virgin Galactic  39    One-way     $ 38
+Virgin Galactic  37    One-way     $ 39
+SpaceX           42    Round-trip  $ 74
+Space Adventures 42    Round-trip  $ 74
+Space Adventures 24    One-way     $ 49
+Virgin Galactic  34    One-way     $ 41
+Virgin Galactic  34    Round-trip  $ 82
+Space Adventures 24    Round-trip  $ 98
+Space Adventures 31    One-way     $ 43
+SpaceX           44    Round-trip  $ 72
 
 </code></pre></div><h2 id="fmtprintf内の--16v-について">fmt.Printf()内の %-16v について</h2>
 <p>Printfは文章の任意の場所で値を置換する以外に、テキストのアラインメント（文字寄せ）を調節可能。</p>
@@ -346,9 +346,9 @@ SpaceX           <span class="m">44</span>    Round-trip  $ <span class="m">72</
   <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;111%-5v111\n&#34;</span><span class="p">,</span> <span class="nx">a</span><span class="p">)</span>
   <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;111%10v111\n&#34;</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span>
 
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">
-111left <span class="m">111</span>
-<span class="m">111</span>     right111
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+111left 111
+111     right111
 
 </code></pre></div>
 
