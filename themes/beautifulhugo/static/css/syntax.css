@@ -26,7 +26,7 @@
 /* NameFunctionMagic */ .chroma .fm {  }
 /* NameLabel */ .chroma .nl {  }
 /* NameNamespace */ .chroma .nn {  }
-/* NameOther */ .chroma .nx {  }
+/* NameOther */ .chroma .nx { color: #8dbeba; }
 /* NameProperty */ .chroma .py {  }
 /* NameTag */ .chroma .nt { color: #268bd2 }
 /* NameVariable */ .chroma .nv { color: #268bd2 }
