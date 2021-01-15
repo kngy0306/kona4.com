@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>入門Goプログラミングのアウトプット - Kona4 Blog</title>
-  <meta name="description" content="2021-01-13更新">
+  <meta name="description" content="2021-01-15 更新">
   <meta name="author" content="Kon4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -59,7 +59,7 @@
   "headline": "入門Goプログラミングのアウトプット",
   "description" : "書籍: 入門Goプログラミングの中にある、チャレンジのアウトプット。\n",
   "inLanguage" : "en",
-  "wordCount":  457 ,
+  "wordCount":  776 ,
   "datePublished" : "2021-01-13T14:44:15",
   "dateModified" : "2021-01-13T14:44:15",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
@@ -79,14 +79,14 @@
 </script>
 
 <meta property="og:title" content="入門Goプログラミングのアウトプット" />
-<meta property="og:description" content="2021-01-13更新">
+<meta property="og:description" content="2021-01-15 更新">
 <meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
 <meta property="og:url" content="https://kona4.com/post/2021-01-13-gooutput/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kona4 Blog" />
 
   <meta name="twitter:title" content="入門Goプログラミングのアウトプット" />
-  <meta name="twitter:description" content="2021-01-13更新">
+  <meta name="twitter:description" content="2021-01-15 更新">
   <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -232,7 +232,7 @@
               
               
                 
-                  <h2 class="post-subheading">2021-01-13更新</h2>
+                  <h2 class="post-subheading">2021-01-15 更新</h2>
                 
               
               
@@ -382,6 +382,58 @@ SpaceX           44    Round-trip  $ 72
 </code></pre></div><h2 id="結果-1">結果</h2>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
 WEDIGYOULUVTHEGOPHERS
+
+</code></pre></div><h2 id="p170-練習問題">P.170 練習問題</h2>
+<p>文章の文字列に含まれる単語の出現頻度を数え、2回以上出現した単語を表示する。</p>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go">
+<span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="p">(</span>
+	<span class="s">&#34;fmt&#34;</span>
+	<span class="s">&#34;strings&#34;</span>
+<span class="p">)</span>
+
+<span class="kd">func</span> <span class="nf">countWords</span><span class="p">(</span><span class="nx">s</span> <span class="kt">string</span><span class="p">)</span> <span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span> <span class="p">{</span>
+	<span class="nx">strSlice</span> <span class="o">:=</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Fields</span><span class="p">(</span><span class="nx">strings</span><span class="p">.</span><span class="nf">ToLower</span><span class="p">(</span><span class="nx">s</span><span class="p">))</span> <span class="c1">// 小文字に変換し、一単語ずつスライスに格納
+</span><span class="c1"></span>	<span class="nx">wordCounter</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nx">strSlice</span><span class="p">))</span>
+
+	<span class="k">for</span> <span class="nx">_</span><span class="p">,</span> <span class="nx">i</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">strSlice</span> <span class="p">{</span>
+		<span class="nx">i</span> <span class="p">=</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Trim</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="s">&#34;,.;?&#34;</span><span class="p">)</span> <span class="c1">// 句読点などを削除
+</span><span class="c1"></span>		<span class="nx">wordCounter</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">++</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="nx">wordCounter</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">s</span> <span class="o">:=</span> <span class="s">&#34;As far as eye could reach he saw nothing but the stems of the great plants about him receding in the violet shade, and far overhead the multiple transparency of huge leaves filtering the sunshine to the solemn splendour of twilight in which he walked. Whenever he felt able he ran again; the ground continued soft and springy, covered with the same resilient weed which was the first thing his hands had touched in Malacandra. Once or twice a small red creature scuttled across his path, but otherwise there seemed to be no life stirring in the wood; nothing to fear—except the fact of wandering unprovisioned and alone in a forest of unknown vegetation thousands or millions of miles beyond the reach or knowledge of man.&#34;</span>
+
+	<span class="nx">wordCounter</span> <span class="o">:=</span> <span class="nf">countWords</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span>
+
+	<span class="k">for</span> <span class="nx">word</span><span class="p">,</span> <span class="nx">count</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">wordCounter</span> <span class="p">{</span>
+		<span class="k">if</span> <span class="nx">count</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="p">{</span>
+			<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%v -&gt; %v\n&#34;</span><span class="p">,</span> <span class="nx">word</span><span class="p">,</span> <span class="nx">count</span><span class="p">)</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre></div><h2 id="結果-2">結果</h2>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+nothing -&gt; 2
+his -&gt; 2
+as -&gt; 2
+and -&gt; 3
+a -&gt; 2
+which -&gt; 2
+but -&gt; 2
+in -&gt; 5
+he -&gt; 4
+the -&gt; 12
+far -&gt; 2
+to -&gt; 3
+of -&gt; 7
+or -&gt; 3
+reach -&gt; 2
 
 </code></pre></div>
 
