@@ -5,7 +5,17 @@
     <link>https://kona4.com/</link>
     <description>Recent content on Kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Jan 2021 14:44:15 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2021 20:50:17 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Go】structの埋め込みについて</title>
+      <link>https://kona4.com/post/2021-01-16-gooutput/</link>
+      <pubDate>Sat, 16 Jan 2021 20:50:17 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021-01-16-gooutput/</guid>
+      <description>&lt;p&gt;structについてまとめたものです。&lt;br&gt;
+structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>入門Goプログラミングのアウトプット</title>
       <link>https://kona4.com/post/2021-01-13-gooutput/</link>
