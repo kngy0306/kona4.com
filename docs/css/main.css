@@ -46,13 +46,14 @@ h1,h2,h3,h4,h5,h6 {
 h2::after {
   margin-top: 10px;
   display: block;
-  height: 2px;
+  height: 2.5px;
   content: "";
   background: linear-gradient(to right, rgba(129, 41, 144, 0.7) 0%, rgba(124,199,232,0.7) 100%);
 }
 
 a {
-  color: #008AFF;
+  /* color: #008AFF; */
+  color: #5BBEE5;
 }
 a:hover,
 a:focus {
@@ -62,7 +63,7 @@ a:focus {
 }
 
 strong {
-  background: linear-gradient(transparent 75%, rgba(124,199,232,0.6) 75%);
+  background: linear-gradient(transparent 75%, rgba(129, 41,144, .5) 75%);
 }
 
 pre {
