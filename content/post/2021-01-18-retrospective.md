@@ -8,12 +8,12 @@ bigimg: [{src: "/img/2021-01/bigimg.JPG", desc: "乃木坂46 『Wilderness world
 ---
 
 こんにちは、[kona4](https://twitter.com/YoKaU2)です！
- 
- 1月の2周目が終わったので今週の振り返りをします！
 
- <!--more-->
+1月の2周目が終わったので今週の振り返りをします！
 
- ## KPTを使った振り返り
+<!--more-->
+
+## KPTを使った振り返り
 
 [こちら](https://engineer.dena.com/posts/2021.01/kencom-hoken-team-building/)の記事を拝見し、**KPT**というフレームワークを知りました。  
 なのでKPTを用いて自分の行動を振り返りを行いました。
@@ -58,7 +58,7 @@ bigimg: [{src: "/img/2021-01/bigimg.JPG", desc: "乃木坂46 『Wilderness world
 
 ## P (Problem)
 
--  卒業論文をおおかた片付けてしまいたいと考えていたが、ほぼ手を付けられなかった。
+- 卒業論文をおおかた片付けてしまいたいと考えていたが、ほぼ手を付けられなかった。
 - Goの勉強に時間を使いすぎた。
 
 ### 卒業論文をおおかた片付けてしまいたいと考えていたが、ほぼ手を付けられなかった。
@@ -97,6 +97,6 @@ bigimg: [{src: "/img/2021-01/bigimg.JPG", desc: "乃木坂46 『Wilderness world
 1. Linux標準教科書を最後まで読む。
 
 {{< rawhtml >}}<img src="/img/2021-01/linux.jpg" alt="theme" width=30%>{{< /rawhtml >}}
-1. [プロになるためのWeb技術入門](https://www.amazon.co.jp/%E3%80%8C%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEWeb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80%E3%80%8D-%E2%80%95%E2%80%95%E3%81%AA%E3%81%9C%E3%80%81%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AFWeb%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%92%E9%96%8B%E7%99%BA%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B-%E5%B0%8F%E6%A3%AE-%E8%A3%95%E4%BB%8B/dp/4774142352) を読む。
+2. [プロになるためのWeb技術入門](https://www.amazon.co.jp/%E3%80%8C%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEWeb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80%E3%80%8D-%E2%80%95%E2%80%95%E3%81%AA%E3%81%9C%E3%80%81%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AFWeb%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%92%E9%96%8B%E7%99%BA%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B-%E5%B0%8F%E6%A3%AE-%E8%A3%95%E4%BB%8B/dp/4774142352) を読む。
 
 {{< rawhtml >}}<img src="/img/2021-01/pro.jpg" alt="theme" width=30%>{{< /rawhtml >}}
