@@ -11,7 +11,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "G-CX9LP8X9W3"
+googleAnalytics = "G-CX9LP8X9W3"
 publishDir = "docs"
 canonifyurls = true
 hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
