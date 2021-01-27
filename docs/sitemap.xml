@@ -74,15 +74,15 @@
   </url>
   
   <url>
-    <loc>https://kona4.com/page/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://kona4.com/categories/</loc>
   </url>
   
   <url>
     <loc>https://kona4.com/page/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/page/about/</loc>
   </url>
   
 </urlset>
