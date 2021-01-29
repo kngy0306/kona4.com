@@ -8,10 +8,10 @@
     <lastBuildDate>Sat, 09 Jan 2021 00:10:56 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoにブログを作りました！</title>
-      <link>https://kona4.com/post/2021-01-08-first/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-08-first/</link>
       <pubDate>Sat, 09 Jan 2021 00:10:56 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-08-first/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-08-first/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;Kona4&lt;/a&gt;です。
 2021年から、ブログを&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;で作成し、公開することにしました。&lt;/p&gt;
 &lt;p&gt;軽いアウトプットはこれまで&lt;a href=&#34;https://konakomoti.hatenablog.com/&#34;&gt;はてなブログ&lt;/a&gt;に投稿していましたが、もっとページをカスタマイズしたいと思い、Hugoでサイトを構築しました。&lt;/p&gt;</description>

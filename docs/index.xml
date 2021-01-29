@@ -8,10 +8,10 @@
     <lastBuildDate>Mon, 25 Jan 2021 11:45:14 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年1月  3週目振り返り</title>
-      <link>https://kona4.com/post/2021-01-25-retrospective/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-25-retrospective/</link>
       <pubDate>Mon, 25 Jan 2021 11:45:14 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-25-retrospective/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-25-retrospective/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;
 &lt;p&gt;1月も残り1週間となりました。&lt;br&gt;
 1月の3周目が終わったので今週の振り返りをします！&lt;/p&gt;
@@ -20,49 +20,49 @@
     
     <item>
       <title>2021年1月  2週目振り返り</title>
-      <link>https://kona4.com/post/2021-01-18-retrospective/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-18-retrospective/</link>
       <pubDate>Mon, 18 Jan 2021 18:54:54 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-18-retrospective/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-18-retrospective/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;
 &lt;p&gt;1月の2周目が終わったので今週の振り返りをします！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>【Go】structの埋め込みについて</title>
-      <link>https://kona4.com/post/2021-01-16-gooutput/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-16-gooutput/</link>
       <pubDate>Sat, 16 Jan 2021 20:50:17 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-16-gooutput/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-16-gooutput/</guid>
       <description>&lt;p&gt;structについてまとめたものです。&lt;br&gt;
 structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>入門Goプログラミングのアウトプット</title>
-      <link>https://kona4.com/post/2021-01-13-gooutput/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-13-gooutput/</link>
       <pubDate>Wed, 13 Jan 2021 14:44:15 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-13-gooutput/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-13-gooutput/</guid>
       <description>&lt;p&gt;書籍: &lt;a href=&#34;https://www.amazon.co.jp/%E5%85%A5%E9%96%80Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Nathan-Youngman/dp/4798158658/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&#34;&gt;入門Goプログラミング&lt;/a&gt;の中にある、チャレンジのアウトプット。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Aレコードについて</title>
-      <link>https://kona4.com/post/2021-01-12-dns/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-12-dns/</link>
       <pubDate>Tue, 12 Jan 2021 09:32:23 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-12-dns/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-12-dns/</guid>
       <description>&lt;p&gt;本ブログのURLを、GitHub Pagesのデフォルトのドメインから、お名前.comで購入したドメインに変更しました。&lt;/p&gt;
 &lt;p&gt;この記事は、ドメインを変更したときに知った用語についてまとめたものです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2021年1月  1週目振り返り</title>
-      <link>https://kona4.com/post/2021-01-11-retrospective/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-11-retrospective/</link>
       <pubDate>Mon, 11 Jan 2021 15:47:43 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-11-retrospective/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-11-retrospective/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;
 &lt;p&gt;今年も1週間が終わりました！&lt;br&gt;
 1月に入って私が取り組んだことについてまとめです。&lt;/p&gt;</description>
@@ -70,13 +70,172 @@ structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p
     
     <item>
       <title>Hugoにブログを作りました！</title>
-      <link>https://kona4.com/post/2021-01-08-first/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-08-first/</link>
       <pubDate>Sat, 09 Jan 2021 00:10:56 +0900</pubDate>
       
-      <guid>https://kona4.com/post/2021-01-08-first/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-08-first/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;Kona4&lt;/a&gt;です。
 2021年から、ブログを&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;で作成し、公開することにしました。&lt;/p&gt;
 &lt;p&gt;軽いアウトプットはこれまで&lt;a href=&#34;https://konakomoti.hatenablog.com/&#34;&gt;はてなブログ&lt;/a&gt;に投稿していましたが、もっとページをカスタマイズしたいと思い、Hugoでサイトを構築しました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>curlコマンドでnoteからデータを取得してみる</title>
+      <link>https://kona4.com/post/2020/12/17/141316/</link>
+      <pubDate>Thu, 17 Dec 2020 14:13:16 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/12/17/141316/</guid>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;使い方を公式で説明しているわけではないが、&lt;a href=&#34;https://note.com/&#34;&gt;note&lt;/a&gt;にはAPIがあるみたい。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://note.com/hagure_melon/n/n964ff6f7ad0e&#34;&gt;【2020年度】noteのAPI一覧【完全版】&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;curlコマンドの使い方を学ぶついでに、noteに投稿されている記事のタイトルを取得してみる。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHPでテストを書く（PHPUnit）</title>
+      <link>https://kona4.com/post/2020/12/16/122401/</link>
+      <pubDate>Wed, 16 Dec 2020 12:24:01 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/12/16/122401/</guid>
+      <description>自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =&amp;gt; 自動テストという仕組みが役に立つ。
+参考書籍に則り、PHPUnitという自動テストツールを使用する。
+他にも様々なツールがあるみたい。
+PHPの自動テストフレームワークってどんなんがあるん？PHPUnitのインストール PHPUnitのインストール
+composer require --dev phpunit/phpunit テストの書き方 実行 ファイル名: MyTest.php
+&amp;lt;!--?php--&amp;gt; require_once dirname(__FILE__) . &amp;amp;#39;/vendor/autoload.php&amp;amp;#39;;  use PHPUnit\Framework\TestCase; class MyTest extends TestCase { // テスト処理  public function test1() { $array = [1, 5, 10]; // 配列（$array）の要素数が３つであることをテストする。  $this-&amp;gt;assertCount(3, $array); } public function test2() { $num1 = 1; $num2 = 1; // ２つの値が型も含めて等しいことをテストする。  $this-&amp;gt;assertSame($num1, $num2); } public function test3() { $text = &amp;#34;hello&amp;#34;; // 値が空であることをテストする。  $this-&amp;gt;assertEmpty($text); } } 実行.</description>
+    </item>
+    
+    <item>
+      <title>簡単なRESTful APIサーバーを作ってみる</title>
+      <link>https://kona4.com/post/2020/12/14/100351/</link>
+      <pubDate>Mon, 14 Dec 2020 10:03:51 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/12/14/100351/</guid>
+      <description>RESTful APIって？ 標準的なWebAPIの設計方式。リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。
+例 RESTful APIはステートレスであるべき ステートレス = WebAPIサーバはセッション変数を持つべきではない。サーバ間で共有ができなくなる。などの問題があるから。スケーラビリティの問題。（今後サーバを増やしたいときとか）
+PHPでRESTfulAPIサーバ、クライアントの作成 環境 macOS BigSur 11.0.1
+PHP 7.3.22
+MAMP 5.7
+サーバサイドのPHPファイルを作成 &amp;lt;!--?php--&amp;gt; declare(strict_types=1); // GET function getMessage() { $res = [ &amp;amp;#39;status&amp;amp;#39; =&amp;gt; &amp;amp;#39;success&amp;amp;#39;,  &amp;amp;#39;message&amp;amp;#39; =&amp;gt; &amp;amp;#39;ユーザ: &amp;amp;#39; . $_GET[&amp;amp;#39;userName&amp;amp;#39;] . &amp;amp;#39;の好きな食べ物は、&amp;amp;#39; . $_GET[&amp;amp;#39;food&amp;amp;#39;] . &amp;amp;#39;です。&amp;amp;#39;,  ]; return $res; } //POST function postMessage() { $res = [ &amp;amp;#39;status&amp;amp;#39; =&amp;gt; &amp;amp;#39;success&amp;amp;#39;,  &amp;amp;#39;message&amp;amp;#39; =&amp;gt; &amp;amp;#39;ユーザ: &amp;amp;#39; . $_POST[&amp;amp;#39;userName&amp;amp;#39;] . &amp;amp;#39;の好きな食べ物を、&amp;amp;#39; . $_POST[&amp;amp;#39;food&amp;amp;#39;] .</description>
+    </item>
+    
+    <item>
+      <title>merpay Tech Talk ~伝わる技術文書の書き方~　12/1/2020配信メモ</title>
+      <link>https://kona4.com/post/2020/12/13/190140/</link>
+      <pubDate>Sun, 13 Dec 2020 19:01:40 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/12/13/190140/</guid>
+      <description>言葉の揺れをなくす たとえば or 例えば 一つ or １つ
+正確性と分かりやすさの関係 その他 括弧は半角()ではなく全角（）を使用する。（ベースラインが整う。）　</description>
+    </item>
+    
+    <item>
+      <title>【PHP】正規表現メモ</title>
+      <link>https://kona4.com/post/2020/12/09/110055/</link>
+      <pubDate>Wed, 09 Dec 2020 11:00:55 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/12/09/110055/</guid>
+      <description>目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&amp;lt;!--?php--&amp;gt; function cutOutUrl($url) { preg_match(&amp;amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;amp;#39;, $url, $match);  return $match[0] ?? null; } $url = cutOutUrl(&amp;#34;background-image: url( https://xxxxx.png );&amp;#34;); echo $url; $ php index.php &amp;#34;https://xxxxx.png&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Rust環境構築メモ</title>
+      <link>https://kona4.com/post/2020/12/04/101225/</link>
+      <pubDate>Fri, 04 Dec 2020 10:12:25 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/12/04/101225/</guid>
+      <description>Rustの環境構築をする際に、VSCodeの拡張機能であるRemote - Containersを使用しました。     ローカル上にフォルダを作成し、
+mkdir ~/RustApp これ以降VSCode上で作業をします。
+コマンドパレットから Remote-Container: Open Folder in Container&amp;hellip;を選択し、Rustを選択します。     Docker ImageのBuildの終了後、Terminalで確認。     以上でRustの環境構築が終了しました。
+終了時 VSCode左下にあるDev Container: Rustから、リモート接続を終了する。         参考: Rust開発環境をVS Codeで簡単に構築する</description>
+    </item>
+    
+    <item>
+      <title>PHPでLINE Messaging APIを使う</title>
+      <link>https://kona4.com/post/2020/11/18/004646/</link>
+      <pubDate>Wed, 18 Nov 2020 00:46:46 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/11/18/004646/</guid>
+      <description>この記事は、LINE Developersコンソールでチャネルを作成済み。GitHubでリポジトリを作成済み。herokuにアカウントを作成済み。であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！GitHubはlinebotという名前でリポジトリを作成しました。
+環境 macOS Catalina バージョン 10.15.7PHP 7.3.11Composer 2.0.7
+herokuでアプリを作成し、GitHubと連携する linebot-echoappという名前でアプリを作成しました。
+LINE Messaging API SDKをインストールする $touch index.php$composer require linecorp/line-bot-sdkとりあえずPHPファイルを編集しておきます。
+&amp;lt;!--?php--&amp;gt; echo &amp;#34;hello&amp;#34;; GitHubへpush。git add .git commit -m &amp;ldquo;first commit&amp;rdquo;git push origin mainここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。herokuページ上部のOpen appをクリックするとページが開きます。
+Webhook URLを設定する LINE Developersで作成したチャネル内で、
+botを友だちに追加 Messaging APIタブにあるQRコードから友だち追加しておきます。
+メッセージをオウム返しする 送信したメッセージをオウム返しするコードをLINE Messaging API SDKやQiitaの記事を参考に作成しました。
+&amp;lt;!--?php--&amp;gt; require(&amp;amp;#39;vendor/autoload.php&amp;amp;#39;);  use LINE\LINEBot\Constant\HTTPHeader; use LINE\LINEBot\HTTPClient\CurlHTTPClient; use LINE\LINEBot; // Channel access tokenとChannel secretを設定 $channel_access_token = &amp;amp;#39;XXXXXXXXX&amp;amp;#39;; $channel_secret = &amp;amp;#39;XXXXXXXXX&amp;amp;#39;;  $httpClient = new CurlHTTPClient($channel_access_token); $bot = new LINEBot($httpClient, [&amp;amp;#39;channelSecret&amp;amp;#39; =&amp;gt; $channel_secret]);  $events = $bot-&amp;gt;parseEventRequest(file_get_contents(&amp;amp;#39;php://input&amp;amp;#39;), $_SERVER[&amp;amp;#39;HTTP_&amp;amp;#39; .</description>
+    </item>
+    
+    <item>
+      <title>なぜWWWが誕生したか</title>
+      <link>https://kona4.com/post/2020/11/15/102143/</link>
+      <pubDate>Sun, 15 Nov 2020 10:21:43 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/11/15/102143/</guid>
+      <description>WWWとMCSA Mosaicの登場 wwwが誕生 1989年、素粒子物理学の研究所から考案された。当時、「実験の結果などを世界の研究者と共有したい！」という話になったが、これまであった電子メールなどのやりとりは不便だった。そんな中、欧州原子核研究機構(CERN)に所属していたティム・バーナーズ ＝ リー博士がwwwを提案、開発した。wwwは、HTMLという形式でデータを表現することにした。HTMLはHyper Textという仕組みが画期的で、参照先の文書を瞬時に閲覧することが可能だった。これを表現しているのが、Hyper Linkという形式の記述方法。研究文書の中で参照されている文書をすぐに閲覧でき、その先の文書でも参照先を閲覧することができる。さらにその先の&amp;hellip;と、 インターネット上でのハイパーリンクの繋がりが蜘蛛の巣のように見えることから、World-Wide Web(世界に広がる蜘蛛の巣)と名付けられた。     ブラウザの祖先、NSCA Mosaic www登場当初は、テキストのみの簡素なページであり、画像などは別のページで表示されていた。 現在のWebページのようにテキストと画像が混在できるようにしたのが、イリノイ工科大学のマーク・アンドリーセンらによって開発されたNSCA MosaicというWebブラウザだった。Mosaicは無料で利用が可能であったため、研究の情報共有だけでなく、様々な人が使い始めた。
+今でも使用されるWebシステムの基礎 wwwによるハイパーテキストの閲覧は、Webサーバ(Apache HTTP Serverとか)とWebクライアント(Chromeなどのブラウザ)というソフトウェアで実装されている。不特定多数の人に公開される情報(コンテンツ)は一つの場所(Webサーバ)で管理するほうが楽なので、サーバとクライアントに分けている。
+ページの住所 見たいページがどこに存在するか？それを一意に特定するための仕組みをURL(Uniform Resource Locator)という。     どの方法でリソースを取得するかを表す。
+リソースが存在するホスト(コンピュータ)名を表す。 ホスト名はさらに分解することができる。     さらに、ホストコンピュータ内のどこにあるかを示している。pagesというディレクトリ(フォルダ)の中の、index.htmlが求めているページ。
+HTTPの登場 URLの利用によりコンテンツがインターネット上のどこに存在するかは示すことができた。　が、それらコンテンツ(ハイパーテキスト)を異なるコンピュータ間でどのように送受信するか、という問題があった。バーナーズ ＝ リー博士は、すでに存在していたプロトコル(FTP,SMTP)を参考に、HTTP(Hyper Text Transfer Protocol)を考案した。「プロトコル」とは「取り決め」のことで、日本人が「日本語を使って情報を交換しよう！」というふうに会話しているように、WebサーバとWebクライアントでは、「HTTPを使ってハイパーテキストを送受信しよう！」という取り決めを作った。
+参考書籍:</description>
+    </item>
+    
+    <item>
+      <title>自分用読書方法のまなび</title>
+      <link>https://kona4.com/post/2020/05/28/105348/</link>
+      <pubDate>Thu, 28 May 2020 10:53:48 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/05/28/105348/</guid>
+      <description>「ただの読書」は時間の無駄。100人に1人の人材になる読書法。つまらなかったら読むのをやめる 買ったからにはすべて読まねば、という気持ちがこれまであった。しかし読んでいてつまらない・読む気にならない本は、読んでいる時も読んだ後も記憶に残らないことはよくある。いっそ読むのをやめてしまおうと決めた。
+読んだその日から行動をする これが最も大事だと感じた。一つでもいいから行動に取り込むことでこれまで読んで終わっていた本に価値を付け加えることができる。
+問題解決や悩んでいることがあれば、読み始めた後すぐに行動に移しやすいと思った。本を読む前に目的を持つことを意識したい。
+YouTubeで本の要約動画を見る 良い本に出合うために要約動画を見て、買うのを決めることはとても効率が良いなと思った。今では10分ほどで解説されている動画が数多くある。気になった本があったら、まず動画で調べてみる。</description>
+    </item>
+    
+    <item>
+      <title>AWSを学び始める</title>
+      <link>https://kona4.com/post/2020/05/26/111332/</link>
+      <pubDate>Tue, 26 May 2020 11:13:32 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/05/26/111332/</guid>
+      <description>AWSを始めたい理由 以上の点からAWSを学ぼうという気になりました。</description>
+    </item>
+    
+    <item>
+      <title>UNI&amp;#39;S ON AIR（ユニゾンエアー ）欅坂46と日向坂46の音ゲーがかっこいい</title>
+      <link>https://kona4.com/post/2019/09/25/010040/</link>
+      <pubDate>Wed, 25 Sep 2019 01:00:40 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2019/09/25/010040/</guid>
+      <description>9月24日、欅坂46と日向坂46の音楽アプリがリリースされた。 UNI&#39;S ON AIR（ユニゾンエアー ）｜欅坂46・日向坂46 応援 [公式] 音楽アプリ さっそくダウンロードし、少し遊んでみた。とにかくかっこいい。 </description>
+    </item>
+    
+    <item>
+      <title>人生の夏休み</title>
+      <link>https://kona4.com/post/2019/09/20/002217/</link>
+      <pubDate>Fri, 20 Sep 2019 00:22:17 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2019/09/20/002217/</guid>
+      <description>真夏の全国ツアー、インターンシップ、握手会、、、僕の濃密な夏は終わりました。笑 今年も残り約三か月なので、後悔が残らぬよう毎日を充実させていきたい。 とは言っても切り替えは難しい～</description>
+    </item>
+    
+    <item>
+      <title>Cloud（クラウド）について</title>
+      <link>https://kona4.com/post/2019/08/25/222933/</link>
+      <pubDate>Sun, 25 Aug 2019 22:29:33 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2019/08/25/222933/</guid>
+      <description>インターンシップで、クラウドサービスを扱う会社にお邪魔させてもらえることになったので、クラウドについてかるーく勉強したのでまとめてみた。 参考にした本↓</description>
+    </item>
+    
+    <item>
+      <title>はじめてのブログ</title>
+      <link>https://kona4.com/post/2019/08/25/171017/</link>
+      <pubDate>Sun, 25 Aug 2019 17:10:17 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2019/08/25/171017/</guid>
+      <description>このブログは、僕の趣味である乃木坂46のことを共有したり、プログラミング等の勉強から学んだことの発信をしたいなーと思い開設しました。 好きなことを書いていきたいと思っています。 </description>
     </item>
     
     <item>

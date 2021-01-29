@@ -9,7 +9,7 @@
   </url>
   
   <url>
-    <loc>https://kona4.com/post/2021-01-25-retrospective/</loc>
+    <loc>https://kona4.com/post/2021/01/2021-01-25-retrospective/</loc>
     <lastmod>2021-01-25T11:45:14+09:00</lastmod>
   </url>
   
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://kona4.com/post/2021-01-18-retrospective/</loc>
+    <loc>https://kona4.com/post/2021/01/2021-01-18-retrospective/</loc>
     <lastmod>2021-01-18T18:54:54+09:00</lastmod>
   </url>
   
@@ -39,17 +39,17 @@
   </url>
   
   <url>
-    <loc>https://kona4.com/post/2021-01-16-gooutput/</loc>
+    <loc>https://kona4.com/post/2021/01/2021-01-16-gooutput/</loc>
     <lastmod>2021-01-16T20:50:17+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kona4.com/post/2021-01-13-gooutput/</loc>
+    <loc>https://kona4.com/post/2021/01/2021-01-13-gooutput/</loc>
     <lastmod>2021-01-13T14:44:15+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kona4.com/post/2021-01-12-dns/</loc>
+    <loc>https://kona4.com/post/2021/01/2021-01-12-dns/</loc>
     <lastmod>2021-01-12T09:32:23+09:00</lastmod>
   </url>
   
@@ -59,7 +59,7 @@
   </url>
   
   <url>
-    <loc>https://kona4.com/post/2021-01-11-retrospective/</loc>
+    <loc>https://kona4.com/post/2021/01/2021-01-11-retrospective/</loc>
     <lastmod>2021-01-11T15:47:43+09:00</lastmod>
   </url>
   
@@ -69,8 +69,108 @@
   </url>
   
   <url>
-    <loc>https://kona4.com/post/2021-01-08-first/</loc>
+    <loc>https://kona4.com/post/2021/01/2021-01-08-first/</loc>
     <lastmod>2021-01-09T00:10:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/12/17/141316/</loc>
+    <lastmod>2020-12-17T14:13:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/tags/it/</loc>
+    <lastmod>2020-12-17T14:13:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/tags/php/</loc>
+    <lastmod>2020-12-16T12:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/12/16/122401/</loc>
+    <lastmod>2020-12-16T12:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/12/14/100351/</loc>
+    <lastmod>2020-12-14T10:03:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/12/13/190140/</loc>
+    <lastmod>2020-12-13T19:01:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/12/09/110055/</loc>
+    <lastmod>2020-12-09T11:00:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/tags/rust/</loc>
+    <lastmod>2020-12-04T10:12:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/12/04/101225/</loc>
+    <lastmod>2020-12-04T10:12:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/11/18/004646/</loc>
+    <lastmod>2020-11-18T00:46:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/11/15/102143/</loc>
+    <lastmod>2020-11-15T10:21:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/05/28/105348/</loc>
+    <lastmod>2020-05-28T10:53:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2020/05/26/111332/</loc>
+    <lastmod>2020-05-26T11:13:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2019/09/25/010040/</loc>
+    <lastmod>2019-09-25T01:00:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/tags/%E6%97%A5%E5%90%91%E5%9D%8246/</loc>
+    <lastmod>2019-09-25T01:00:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/tags/%E6%AC%85%E5%9D%8246/</loc>
+    <lastmod>2019-09-25T01:00:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</loc>
+    <lastmod>2019-09-25T01:00:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2019/09/20/002217/</loc>
+    <lastmod>2019-09-20T00:22:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2019/08/25/222933/</loc>
+    <lastmod>2019-08-25T22:29:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2019/08/25/171017/</loc>
+    <lastmod>2019-08-25T17:10:17+00:00</lastmod>
   </url>
   
   <url>

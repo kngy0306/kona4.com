@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Kona4 Blog</title>
+    <link>https://kona4.com/tags/rust/</link>
+    <description>Recent content in Rust on Kona4 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 04 Dec 2020 10:12:25 +0000</lastBuildDate><atom:link href="https://kona4.com/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust環境構築メモ</title>
+      <link>https://kona4.com/post/2020/12/04/101225/</link>
+      <pubDate>Fri, 04 Dec 2020 10:12:25 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/12/04/101225/</guid>
+      <description>Rustの環境構築をする際に、VSCodeの拡張機能であるRemote - Containersを使用しました。     ローカル上にフォルダを作成し、
+mkdir ~/RustApp これ以降VSCode上で作業をします。
+コマンドパレットから Remote-Container: Open Folder in Container&amp;hellip;を選択し、Rustを選択します。     Docker ImageのBuildの終了後、Terminalで確認。     以上でRustの環境構築が終了しました。
+終了時 VSCode左下にあるDev Container: Rustから、リモート接続を終了する。         参考: Rust開発環境をVS Codeで簡単に構築する</description>
+    </item>
+    
+  </channel>
+</rss>
