@@ -32,7 +32,3 @@ pre code.hljs {
 .highlight td:last-child pre code, .highlight pre code {
   white-space: pre;
 }
-
-.coffeescript {
-  white-space: pre-wrap!important;
-}

@@ -568,12 +568,9 @@ structのことを<strong>構造体</strong>といいます。</p>
     </p>
     <div class="post-entry">
         
-        自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
-参考書籍に則り、PHPUnitという自動テストツールを使用する。
-他にも様々なツールがあるみたい。
-PHPの自動テストフレームワークってどんなんがあるん？PHPUnitのインストール PHPUnitのインストール
-composer require --dev phpunit/phpunit テストの書き方 実行 ファイル名: MyTest.php
-&lt;!--?php--&gt; require_once dirname(__FILE__) . &amp;#39;/vendor/autoload.php&amp;#39;;  use PHPUnit\Framework\TestCase; class MyTest extends TestCase { // テスト処理  public function test1() { $array = [1, 5, 10]; // 配列（$array）の要素数が３つであることをテストする。  $this-&gt;assertCount(3, $array); } public function test2() { $num1 = 1; $num2 = 1; // ２つの値が型も含めて等しいことをテストする。  $this-&gt;assertSame($num1, $num2); } public function test3() { $text = &#34;hello&#34;; // 値が空であることをテストする。  $this-&gt;assertEmpty($text); } } 実行.
+        <h2 id="自動テストの重要性">自動テストの重要性</h2>
+<p>コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; <!-- raw HTML omitted -->自動テスト<!-- raw HTML omitted -->という仕組みが役に立つ。</p>
+<p>参考書籍に則り、<!-- raw HTML omitted -->PHPUnit<!-- raw HTML omitted -->という自動テストツールを使用する。</p>
         <a href="https://kona4.com/post/2020/12/16/122401/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -614,12 +611,9 @@ composer require --dev phpunit/phpunit テストの書き方 実行 ファイル
     </p>
     <div class="post-entry">
         
-        RESTful APIって？ 標準的なWebAPIの設計方式。リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。
-例 RESTful APIはステートレスであるべき ステートレス = WebAPIサーバはセッション変数を持つべきではない。サーバ間で共有ができなくなる。などの問題があるから。スケーラビリティの問題。（今後サーバを増やしたいときとか）
-PHPでRESTfulAPIサーバ、クライアントの作成 環境 macOS BigSur 11.0.1
-PHP 7.3.22
-MAMP 5.7
-サーバサイドのPHPファイルを作成 &lt;!--?php--&gt; declare(strict_types=1); // GET function getMessage() { $res = [ &amp;#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,  &amp;#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_GET[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物は、&amp;#39; . $_GET[&amp;#39;food&amp;#39;] . &amp;#39;です。&amp;#39;,  ]; return $res; } //POST function postMessage() { $res = [ &amp;#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,  &amp;#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_POST[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物を、&amp;#39; . $_POST[&amp;#39;food&amp;#39;] .
+        <h2 id="restful-apiって">RESTful APIって？</h2>
+<p>標準的なWebAPIの設計方式。<br>
+リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。</p>
         <a href="https://kona4.com/post/2020/12/14/100351/" class="post-read-more">[Read More]</a>
         
     </div>

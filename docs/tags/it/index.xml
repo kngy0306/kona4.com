@@ -24,12 +24,9 @@
       <pubDate>Wed, 16 Dec 2020 12:24:01 +0000</pubDate>
       
       <guid>https://kona4.com/post/2020/12/16/122401/</guid>
-      <description>自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =&amp;gt; 自動テストという仕組みが役に立つ。
-参考書籍に則り、PHPUnitという自動テストツールを使用する。
-他にも様々なツールがあるみたい。
-PHPの自動テストフレームワークってどんなんがあるん？PHPUnitのインストール PHPUnitのインストール
-composer require --dev phpunit/phpunit テストの書き方 実行 ファイル名: MyTest.php
-&amp;lt;!--?php--&amp;gt; require_once dirname(__FILE__) . &amp;amp;#39;/vendor/autoload.php&amp;amp;#39;;  use PHPUnit\Framework\TestCase; class MyTest extends TestCase { // テスト処理  public function test1() { $array = [1, 5, 10]; // 配列（$array）の要素数が３つであることをテストする。  $this-&amp;gt;assertCount(3, $array); } public function test2() { $num1 = 1; $num2 = 1; // ２つの値が型も含めて等しいことをテストする。  $this-&amp;gt;assertSame($num1, $num2); } public function test3() { $text = &amp;#34;hello&amp;#34;; // 値が空であることをテストする。  $this-&amp;gt;assertEmpty($text); } } 実行.</description>
+      <description>&lt;h2 id=&#34;自動テストの重要性&#34;&gt;自動テストの重要性&lt;/h2&gt;
+&lt;p&gt;コードを書き換えた後、再テストには大きな労力がかかる。 =&amp;gt; &lt;!-- raw HTML omitted --&gt;自動テスト&lt;!-- raw HTML omitted --&gt;という仕組みが役に立つ。&lt;/p&gt;
+&lt;p&gt;参考書籍に則り、&lt;!-- raw HTML omitted --&gt;PHPUnit&lt;!-- raw HTML omitted --&gt;という自動テストツールを使用する。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -38,12 +35,9 @@ composer require --dev phpunit/phpunit テストの書き方 実行 ファイル
       <pubDate>Mon, 14 Dec 2020 10:03:51 +0000</pubDate>
       
       <guid>https://kona4.com/post/2020/12/14/100351/</guid>
-      <description>RESTful APIって？ 標準的なWebAPIの設計方式。リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。
-例 RESTful APIはステートレスであるべき ステートレス = WebAPIサーバはセッション変数を持つべきではない。サーバ間で共有ができなくなる。などの問題があるから。スケーラビリティの問題。（今後サーバを増やしたいときとか）
-PHPでRESTfulAPIサーバ、クライアントの作成 環境 macOS BigSur 11.0.1
-PHP 7.3.22
-MAMP 5.7
-サーバサイドのPHPファイルを作成 &amp;lt;!--?php--&amp;gt; declare(strict_types=1); // GET function getMessage() { $res = [ &amp;amp;#39;status&amp;amp;#39; =&amp;gt; &amp;amp;#39;success&amp;amp;#39;,  &amp;amp;#39;message&amp;amp;#39; =&amp;gt; &amp;amp;#39;ユーザ: &amp;amp;#39; . $_GET[&amp;amp;#39;userName&amp;amp;#39;] . &amp;amp;#39;の好きな食べ物は、&amp;amp;#39; . $_GET[&amp;amp;#39;food&amp;amp;#39;] . &amp;amp;#39;です。&amp;amp;#39;,  ]; return $res; } //POST function postMessage() { $res = [ &amp;amp;#39;status&amp;amp;#39; =&amp;gt; &amp;amp;#39;success&amp;amp;#39;,  &amp;amp;#39;message&amp;amp;#39; =&amp;gt; &amp;amp;#39;ユーザ: &amp;amp;#39; . $_POST[&amp;amp;#39;userName&amp;amp;#39;] . &amp;amp;#39;の好きな食べ物を、&amp;amp;#39; . $_POST[&amp;amp;#39;food&amp;amp;#39;] .</description>
+      <description>&lt;h2 id=&#34;restful-apiって&#34;&gt;RESTful APIって？&lt;/h2&gt;
+&lt;p&gt;標準的なWebAPIの設計方式。&lt;br&gt;
+リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。&lt;/p&gt;</description>
     </item>
     
     <item>

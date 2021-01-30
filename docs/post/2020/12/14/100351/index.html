@@ -8,12 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>簡単なRESTful APIサーバーを作ってみる - Kona4 Blog</title>
-  <meta name="description" content="RESTful APIって？ 標準的なWebAPIの設計方式。リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。
-例 RESTful APIはステートレスであるべき ステートレス = WebAPIサーバはセッション変数を持つべきではない。サーバ間で共有ができなくなる。などの問題があるから。スケーラビリティの問題。（今後サーバを増やしたいときとか）
-PHPでRESTfulAPIサーバ、クライアントの作成 環境 macOS BigSur 11.0.1
-PHP 7.3.22
-MAMP 5.7
-サーバサイドのPHPファイルを作成 &lt;!--?php--&gt; declare(strict_types=1); // GET function getMessage() { $res = [ &amp;#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,  &amp;#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_GET[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物は、&amp;#39; . $_GET[&amp;#39;food&amp;#39;] . &amp;#39;です。&amp;#39;,  ]; return $res; } //POST function postMessage() { $res = [ &amp;#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,  &amp;#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_POST[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物を、&amp;#39; . $_POST[&amp;#39;food&amp;#39;] .">
+  <meta name="description" content="RESTful APIって？
+標準的なWebAPIの設計方式。
+リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。">
   <meta name="author" content="Kon4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -62,9 +59,9 @@ MAMP 5.7
     "name" : "Kon4"
   },
   "headline": "簡単なRESTful APIサーバーを作ってみる",
-  "description" : "RESTful APIって？ 標準的なWebAPIの設計方式。リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。\n例 RESTful APIはステートレスであるべき ステートレス = WebAPIサーバはセッション変数を持つべきではない。サーバ間で共有ができなくなる。などの問題があるから。スケーラビリティの問題。（今後サーバを増やしたいときとか）\nPHPでRESTfulAPIサーバ、クライアントの作成 環境 macOS BigSur 11.0.1\nPHP 7.3.22\nMAMP 5.7\nサーバサイドのPHPファイルを作成 \u0026lt;!--?php--\u0026gt; declare(strict_types=1); \/\/ GET function getMessage() { $res = [ \u0026amp;#39;status\u0026amp;#39; =\u0026gt; \u0026amp;#39;success\u0026amp;#39;,  \u0026amp;#39;message\u0026amp;#39; =\u0026gt; \u0026amp;#39;ユーザ: \u0026amp;#39; . $_GET[\u0026amp;#39;userName\u0026amp;#39;] . \u0026amp;#39;の好きな食べ物は、\u0026amp;#39; . $_GET[\u0026amp;#39;food\u0026amp;#39;] . \u0026amp;#39;です。\u0026amp;#39;,  ]; return $res; } \/\/POST function postMessage() { $res = [ \u0026amp;#39;status\u0026amp;#39; =\u0026gt; \u0026amp;#39;success\u0026amp;#39;,  \u0026amp;#39;message\u0026amp;#39; =\u0026gt; \u0026amp;#39;ユーザ: \u0026amp;#39; . $_POST[\u0026amp;#39;userName\u0026amp;#39;] . \u0026amp;#39;の好きな食べ物を、\u0026amp;#39; . $_POST[\u0026amp;#39;food\u0026amp;#39;] .",
+  "description" : "RESTful APIって？ 標準的なWebAPIの設計方式。\nリソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。\n",
   "inLanguage" : "en",
-  "wordCount":  397 ,
+  "wordCount":  413 ,
   "datePublished" : "2020-12-14T10:03:51",
   "dateModified" : "2020-12-14T10:03:51",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
@@ -84,21 +81,18 @@ MAMP 5.7
 </script>
 
 <meta property="og:title" content="簡単なRESTful APIサーバーを作ってみる" />
-<meta property="og:description" content="RESTful APIって？ 標準的なWebAPIの設計方式。リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。
-例 RESTful APIはステートレスであるべき ステートレス = WebAPIサーバはセッション変数を持つべきではない。サーバ間で共有ができなくなる。などの問題があるから。スケーラビリティの問題。（今後サーバを増やしたいときとか）
-PHPでRESTfulAPIサーバ、クライアントの作成 環境 macOS BigSur 11.0.1
-PHP 7.3.22
-MAMP 5.7
-サーバサイドのPHPファイルを作成 &lt;!--?php--&gt; declare(strict_types=1); // GET function getMessage() { $res = [ &amp;#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,  &amp;#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_GET[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物は、&amp;#39; . $_GET[&amp;#39;food&amp;#39;] . &amp;#39;です。&amp;#39;,  ]; return $res; } //POST function postMessage() { $res = [ &amp;#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,  &amp;#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_POST[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物を、&amp;#39; . $_POST[&amp;#39;food&amp;#39;] .">
+<meta property="og:description" content="RESTful APIって？
+標準的なWebAPIの設計方式。
+リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。">
 <meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
 <meta property="og:url" content="https://kona4.com/post/2020/12/14/100351/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kona4 Blog" />
 
   <meta name="twitter:title" content="簡単なRESTful APIサーバーを作ってみる" />
-  <meta name="twitter:description" content="RESTful APIって？ 標準的なWebAPIの設計方式。リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。
-例 RESTful APIはステートレスであるべき ステートレス = WebAPIサーバはセッション変数を持つべきではない。サーバ間で共有ができなくなる。などの問題があるから。スケーラビリティの問題。（今後サーバを増やしたいときとか）
-PHP …">
+  <meta name="twitter:description" content="RESTful APIって？
+標準的なWebAPIの設計方式。
+リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。">
   <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -281,33 +275,46 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h1 id="restful-apiって">RESTful APIって？</h1>
-<p>標準的なWebAPIの設計方式。<!-- raw HTML omitted -->
+        <h2 id="restful-apiって">RESTful APIって？</h2>
+<p>標準的なWebAPIの設計方式。<br>
 リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。</p>
 <h4 id="例">例</h4>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h1 id="restful-apiはステートレスであるべき">RESTful APIはステートレスであるべき</h1>
-<p>ステートレス = WebAPIサーバはセッション変数を持つべきではない。<!-- raw HTML omitted -->
-サーバ間で共有ができなくなる。などの問題があるから。<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>読書リストのうち、ID「0001」の本を取得する</p>
+<ul>
+<li>（URL）https://xxxxx/readinglist/0001</li>
+<li>（HTTPメソッド） GET</li>
+</ul>
+</li>
+<li>
+<p>読書リストのうち、ID「1000」の本を削除する</p>
+<ul>
+<li>（URL）https://xxxxx/readinglist/1000</li>
+<li>（HTTPメソッド） DELETE</li>
+</ul>
+</li>
+</ul>
+<h2 id="restful-apiはステートレスであるべき">RESTful APIはステートレスであるべき</h2>
+<p>ステートレス = WebAPIサーバはセッション変数を持つべきではない。<br>
+サーバ間で共有ができなくなる。などの問題があるから。<br>
 スケーラビリティの問題。（今後サーバを増やしたいときとか）</p>
-<h1 id="phpでrestfulapiサーバクライアントの作成">PHPでRESTfulAPIサーバ、クライアントの作成</h1>
+<h2 id="phpでrestfulapiサーバクライアントの作成">PHPでRESTfulAPIサーバ、クライアントの作成</h2>
 <h4 id="環境">環境</h4>
 <p>macOS BigSur 11.0.1</p>
 <p>PHP 7.3.22</p>
 <p>MAMP 5.7</p>
 <h3 id="サーバサイドのphpファイルを作成">サーバサイドのPHPファイルを作成</h3>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
 <span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
 
 <span class="c1">// GET
 </span><span class="c1"></span><span class="k">function</span> <span class="nf">getMessage</span><span class="p">()</span>
 <span class="p">{</span>
   <span class="nv">$res</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="o">&amp;</span><span class="c1">#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_GET[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物は、&amp;#39; . $_GET[&amp;#39;food&amp;#39;] . &amp;#39;です。&amp;#39;,
-</span><span class="c1"></span>  <span class="p">];</span>
+    <span class="s1">&#39;status&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;success&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;message&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;ユーザ: &#39;</span> <span class="o">.</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;userName&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;の好きな食べ物は、&#39;</span> <span class="o">.</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;food&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;です。&#39;</span><span class="p">,</span>
+  <span class="p">];</span>
   <span class="k">return</span> <span class="nv">$res</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -315,61 +322,66 @@ if (!doNotTrack) {
 </span><span class="c1"></span><span class="k">function</span> <span class="nf">postMessage</span><span class="p">()</span>
 <span class="p">{</span>
   <span class="nv">$res</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="o">&amp;</span><span class="c1">#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $_POST[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物を、&amp;#39; . $_POST[&amp;#39;food&amp;#39;] . &amp;#39;に登録しました。&amp;#39;,
-</span><span class="c1"></span>  <span class="p">];</span>
+    <span class="s1">&#39;status&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;success&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;message&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;ユーザ: &#39;</span> <span class="o">.</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;userName&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;の好きな食べ物を、&#39;</span> <span class="o">.</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;food&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;に登録しました。&#39;</span><span class="p">,</span>
+  <span class="p">];</span>
   <span class="k">return</span> <span class="nv">$res</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="c1">// PUT
 </span><span class="c1"></span><span class="k">function</span> <span class="nf">putMessage</span><span class="p">()</span>
 <span class="p">{</span>
-  <span class="nx">parse_str</span><span class="p">(</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="o">&amp;</span><span class="c1">#39;php://input&amp;#39;), $putRequest);
-</span><span class="c1"></span>  <span class="nv">$res</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="o">&amp;</span><span class="c1">#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,
-</span><span class="c1"></span>      <span class="o">&amp;</span><span class="c1">#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $putRequest[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物を、 &amp;#39; . $putRequest[&amp;#39;food&amp;#39;] . &amp;#39;に変更しました。&amp;#39;,
-</span><span class="c1"></span>  <span class="p">];</span>
+  <span class="nx">parse_str</span><span class="p">(</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="s1">&#39;php://input&#39;</span><span class="p">),</span> <span class="nv">$putRequest</span><span class="p">);</span>
+  <span class="nv">$res</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s1">&#39;status&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;success&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;message&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;ユーザ: &#39;</span> <span class="o">.</span> <span class="nv">$putRequest</span><span class="p">[</span><span class="s1">&#39;userName&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;の好きな食べ物を、 &#39;</span> <span class="o">.</span> <span class="nv">$putRequest</span><span class="p">[</span><span class="s1">&#39;food&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;に変更しました。&#39;</span><span class="p">,</span>
+  <span class="p">];</span>
   <span class="k">return</span> <span class="nv">$res</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="c1">// DELETE
 </span><span class="c1"></span><span class="k">function</span> <span class="nf">deleteMessage</span><span class="p">()</span>
 <span class="p">{</span>
-  <span class="nx">parse_str</span><span class="p">(</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="o">&amp;</span><span class="c1">#39;php://input&amp;#39;), $deleteRequest);
-</span><span class="c1"></span>  <span class="nv">$res</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="o">&amp;</span><span class="c1">#39;status&amp;#39; =&gt; &amp;#39;success&amp;#39;,
-</span><span class="c1"></span>      <span class="o">&amp;</span><span class="c1">#39;message&amp;#39; =&gt; &amp;#39;ユーザ: &amp;#39; . $deleteRequest[&amp;#39;userName&amp;#39;] . &amp;#39;の好きな食べ物、&amp;#39; . $deleteRequest[&amp;#39;food&amp;#39;] . &amp;#39;を削除しました。&amp;#39;,
-</span><span class="c1"></span>  <span class="p">];</span>
+  <span class="nx">parse_str</span><span class="p">(</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="s1">&#39;php://input&#39;</span><span class="p">),</span> <span class="nv">$deleteRequest</span><span class="p">);</span>
+  <span class="nv">$res</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s1">&#39;status&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;success&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;message&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;ユーザ: &#39;</span> <span class="o">.</span> <span class="nv">$deleteRequest</span><span class="p">[</span><span class="s1">&#39;userName&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;の好きな食べ物、&#39;</span> <span class="o">.</span> <span class="nv">$deleteRequest</span><span class="p">[</span><span class="s1">&#39;food&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;を削除しました。&#39;</span><span class="p">,</span>
+  <span class="p">];</span>
   <span class="k">return</span> <span class="nv">$res</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="k">switch</span> <span class="p">(</span><span class="nx">strtolower</span><span class="p">(</span><span class="nv">$_SERVER</span><span class="p">[</span><span class="o">&amp;</span><span class="c1">#39;REQUEST_METHOD&amp;#39;])) {
-</span><span class="c1"></span>  <span class="k">case</span> <span class="o">&amp;</span><span class="c1">#39;get&amp;#39;:
-</span><span class="c1"></span>    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">getMessage</span><span class="p">());</span>
+<span class="k">switch</span> <span class="p">(</span><span class="nx">strtolower</span><span class="p">(</span><span class="nv">$_SERVER</span><span class="p">[</span><span class="s1">&#39;REQUEST_METHOD&#39;</span><span class="p">]))</span> <span class="p">{</span>
+  <span class="k">case</span> <span class="s1">&#39;get&#39;</span><span class="o">:</span>
+    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">getMessage</span><span class="p">());</span>
     <span class="k">break</span><span class="p">;</span>
-  <span class="k">case</span> <span class="o">&amp;</span><span class="c1">#39;post&amp;#39;:
-</span><span class="c1"></span>    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">postMessage</span><span class="p">());</span>
+  <span class="k">case</span> <span class="s1">&#39;post&#39;</span><span class="o">:</span>
+    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">postMessage</span><span class="p">());</span>
     <span class="k">break</span><span class="p">;</span>
-  <span class="k">case</span> <span class="o">&amp;</span><span class="c1">#39;put&amp;#39;:
-</span><span class="c1"></span>    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">putMessage</span><span class="p">());</span>
+  <span class="k">case</span> <span class="s1">&#39;put&#39;</span><span class="o">:</span>
+    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">putMessage</span><span class="p">());</span>
     <span class="k">break</span><span class="p">;</span>
-  <span class="k">case</span> <span class="o">&amp;</span><span class="c1">#39;delete&amp;#39;:
-</span><span class="c1"></span>    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">deleteMessage</span><span class="p">());</span>
+  <span class="k">case</span> <span class="s1">&#39;delete&#39;</span><span class="o">:</span>
+    <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nx">deleteMessage</span><span class="p">());</span>
     <span class="k">break</span><span class="p">;</span>
 <span class="p">}</span>
 
 </code></pre></div><h3 id="クライアントサイドのphpファイルを作成">クライアントサイドのPHPファイルを作成</h3>
 <p>cUEL関数を使用。</p>
-<!-- raw HTML omitted -->
+<ul>
+<li><code>curl_init()</code> でURLを指定。cURLハンドルを取得。</li>
+<li><code>curl_setopt()</code> でオプションの指定。</li>
+<li><code>curl_exec()</code> でハンドルを渡し、リクエストを送信。レスポンスを取得。</li>
+<li><code>curl_close()</code> でハンドルを閉じる。</li>
+</ul>
 <h4 id="get">GET</h4>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
 <span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
 
 <span class="nv">$params</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="o">&amp;</span><span class="c1">#39;userId&amp;#39; =&gt; 1001,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;userName&amp;#39; =&gt; &#34;kona&#34;,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;food&amp;#39; =&gt; &amp;#39;抹茶&amp;#39;,
-</span><span class="c1"></span><span class="p">];</span>
+    <span class="s1">&#39;userId&#39;</span> <span class="o">=&gt;</span> <span class="mi">1001</span><span class="p">,</span>
+    <span class="s1">&#39;userName&#39;</span> <span class="o">=&gt;</span> <span class="s2">&#34;kona&#34;</span><span class="p">,</span>
+    <span class="s1">&#39;food&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;抹茶&#39;</span><span class="p">,</span>
+<span class="p">];</span>
 
 <span class="nv">$url</span> <span class="o">=</span> <span class="s2">&#34;http://localhost:8888/server.php?&#34;</span> <span class="o">.</span> <span class="nx">http_build_query</span><span class="p">(</span><span class="nv">$params</span><span class="p">);</span>
 
@@ -382,35 +394,40 @@ if (!doNotTrack) {
 <span class="nx">print_r</span><span class="p">(</span><span class="nv">$apiResponse</span><span class="p">);</span>
 
 </code></pre></div><p>実行結果</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">サーバからの応答:
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">
+サーバからの応答:
 Array
 <span class="o">(</span>
     <span class="o">[</span>status<span class="o">]</span> <span class="o">=</span>&gt; success
     <span class="o">[</span>message<span class="o">]</span> <span class="o">=</span>&gt; ユーザ: konaの好きな食べ物は、抹茶です。
 <span class="o">)</span>
-</code></pre></div><p><!-- raw HTML omitted -->http_build_query()<!-- raw HTML omitted -->で連想配列をパラメータ文字列へ。</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="nv">$params</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="o">&amp;</span><span class="c1">#39;userId&amp;#39; =&gt; 1001,
-</span><span class="c1"></span>        <span class="o">&amp;</span><span class="c1">#39;userName&amp;#39; =&gt; &#34;kona&#34;,
-</span><span class="c1"></span>        <span class="o">&amp;</span><span class="c1">#39;food&amp;#39; =&gt; &amp;#39;抹茶&amp;#39;,
-</span><span class="c1"></span>    <span class="p">];</span>
+
+</code></pre></div><p><code>http_build_query()</code>で連想配列をパラメータ文字列へ。</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
+<span class="nv">$params</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s1">&#39;userId&#39;</span> <span class="o">=&gt;</span> <span class="mi">1001</span><span class="p">,</span>
+        <span class="s1">&#39;userName&#39;</span> <span class="o">=&gt;</span> <span class="s2">&#34;kona&#34;</span><span class="p">,</span>
+        <span class="s1">&#39;food&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;抹茶&#39;</span><span class="p">,</span>
+    <span class="p">];</span>
 
 </code></pre></div><p>↓</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">userId=1001&amp;amp;userName=kona&amp;amp;food=抹茶（Unicodeに変換される）
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+userId=1001&amp;userName=kona&amp;food=抹茶（Unicodeに変換される）
+
 </code></pre></div><h4 id="post">POST</h4>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
 <span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
 
 <span class="nv">$params</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="o">&amp;</span><span class="c1">#39;userId&amp;#39; =&gt; 1001,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;userName&amp;#39; =&gt; &#34;kona&#34;,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;food&amp;#39; =&gt; &amp;#39;抹茶&amp;#39;,
-</span><span class="c1"></span><span class="p">];</span>
+    <span class="s1">&#39;userId&#39;</span> <span class="o">=&gt;</span> <span class="mi">1001</span><span class="p">,</span>
+    <span class="s1">&#39;userName&#39;</span> <span class="o">=&gt;</span> <span class="s2">&#34;kona&#34;</span><span class="p">,</span>
+    <span class="s1">&#39;food&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;抹茶&#39;</span><span class="p">,</span>
+<span class="p">];</span>
 
 <span class="nv">$opt</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="nx">CURLOPT_URL</span> <span class="o">=&gt;</span> <span class="o">&amp;</span><span class="c1">#39;http://localhost:8888/server.php&amp;#39;,
-</span><span class="c1"></span>    <span class="nx">CURLOPT_CUSTOMREQUEST</span> <span class="o">=&gt;</span> <span class="o">&amp;</span><span class="c1">#39;POST&amp;#39;,
-</span><span class="c1"></span>    <span class="nx">CURLOPT_POSTFIELDS</span> <span class="o">=&gt;</span> <span class="nv">$params</span><span class="p">,</span>
+    <span class="nx">CURLOPT_URL</span> <span class="o">=&gt;</span> <span class="s1">&#39;http://localhost:8888/server.php&#39;</span><span class="p">,</span>
+    <span class="nx">CURLOPT_CUSTOMREQUEST</span> <span class="o">=&gt;</span> <span class="s1">&#39;POST&#39;</span><span class="p">,</span>
+    <span class="nx">CURLOPT_POSTFIELDS</span> <span class="o">=&gt;</span> <span class="nv">$params</span><span class="p">,</span>
     <span class="nx">CURLOPT_RETURNTRANSFER</span> <span class="o">=&gt;</span> <span class="k">true</span><span class="p">,</span>
 <span class="p">];</span>
 
@@ -423,27 +440,29 @@ Array
 <span class="nx">print_r</span><span class="p">(</span><span class="nv">$apiResponse</span><span class="p">);</span>
 
 </code></pre></div><p>実行結果</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">サーバからの応答:
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">
+サーバからの応答:
 Array
 <span class="o">(</span>
     <span class="o">[</span>status<span class="o">]</span> <span class="o">=</span>&gt; success
     <span class="o">[</span>message<span class="o">]</span> <span class="o">=</span>&gt; ユーザ: konaの好きな食べ物を、抹茶に登録しました。
 <span class="o">)</span>
-</code></pre></div><p><!-- raw HTML omitted -->curl_setopt_array()<!-- raw HTML omitted -->で配列で指定した設定を適応できる。</p>
+
+</code></pre></div><p><code>curl_setopt_array()</code>で配列で指定した設定を適応できる。</p>
 <h4 id="put">PUT</h4>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
 <span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
 
 <span class="nv">$params</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="o">&amp;</span><span class="c1">#39;userId&amp;#39; =&gt; 1001,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;userName&amp;#39; =&gt; &#34;kona&#34;,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;food&amp;#39; =&gt; &amp;#39;抹茶アイス&amp;#39;,
-</span><span class="c1"></span><span class="p">];</span>
+    <span class="s1">&#39;userId&#39;</span> <span class="o">=&gt;</span> <span class="mi">1001</span><span class="p">,</span>
+    <span class="s1">&#39;userName&#39;</span> <span class="o">=&gt;</span> <span class="s2">&#34;kona&#34;</span><span class="p">,</span>
+    <span class="s1">&#39;food&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;抹茶アイス&#39;</span><span class="p">,</span>
+<span class="p">];</span>
 
 <span class="nv">$opt</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="nx">CURLOPT_URL</span> <span class="o">=&gt;</span> <span class="o">&amp;</span><span class="c1">#39;http://localhost:8888/server.php&amp;#39;,
-</span><span class="c1"></span>    <span class="nx">CURLOPT_CUSTOMREQUEST</span> <span class="o">=&gt;</span> <span class="o">&amp;</span><span class="c1">#39;PUT&amp;#39;,
-</span><span class="c1"></span>    <span class="nx">CURLOPT_POSTFIELDS</span> <span class="o">=&gt;</span> <span class="nx">http_build_query</span><span class="p">(</span><span class="nv">$params</span><span class="p">),</span>
+    <span class="nx">CURLOPT_URL</span> <span class="o">=&gt;</span> <span class="s1">&#39;http://localhost:8888/server.php&#39;</span><span class="p">,</span>
+    <span class="nx">CURLOPT_CUSTOMREQUEST</span> <span class="o">=&gt;</span> <span class="s1">&#39;PUT&#39;</span><span class="p">,</span>
+    <span class="nx">CURLOPT_POSTFIELDS</span> <span class="o">=&gt;</span> <span class="nx">http_build_query</span><span class="p">(</span><span class="nv">$params</span><span class="p">),</span>
     <span class="nx">CURLOPT_RETURNTRANSFER</span> <span class="o">=&gt;</span> <span class="k">true</span><span class="p">,</span>
 <span class="p">];</span>
 
@@ -456,26 +475,28 @@ Array
 <span class="nx">print_r</span><span class="p">(</span><span class="nv">$apiResponse</span><span class="p">);</span>
 
 </code></pre></div><p>実行結果</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">サーバからの応答:
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+サーバからの応答:
 Array
 (
     [status] =&gt; success
     [message] =&gt; ユーザ: konaの好きな食べ物を、 抹茶アイスに変更しました。
 )
+
 </code></pre></div><h4 id="delete">DELETE</h4>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
 <span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
 
 <span class="nv">$params</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="o">&amp;</span><span class="c1">#39;userId&amp;#39; =&gt; 1001,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;userName&amp;#39; =&gt; &#34;kona&#34;,
-</span><span class="c1"></span>    <span class="o">&amp;</span><span class="c1">#39;food&amp;#39; =&gt; &amp;#39;抹茶アイス&amp;#39;,
-</span><span class="c1"></span><span class="p">];</span>
+    <span class="s1">&#39;userId&#39;</span> <span class="o">=&gt;</span> <span class="mi">1001</span><span class="p">,</span>
+    <span class="s1">&#39;userName&#39;</span> <span class="o">=&gt;</span> <span class="s2">&#34;kona&#34;</span><span class="p">,</span>
+    <span class="s1">&#39;food&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;抹茶アイス&#39;</span><span class="p">,</span>
+<span class="p">];</span>
 
 <span class="nv">$opt</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="nx">CURLOPT_URL</span> <span class="o">=&gt;</span> <span class="o">&amp;</span><span class="c1">#39;http://localhost:8888/server.php&amp;#39;,
-</span><span class="c1"></span>    <span class="nx">CURLOPT_CUSTOMREQUEST</span> <span class="o">=&gt;</span> <span class="o">&amp;</span><span class="c1">#39;DELETE&amp;#39;,
-</span><span class="c1"></span>    <span class="nx">CURLOPT_POSTFIELDS</span> <span class="o">=&gt;</span> <span class="nx">http_build_query</span><span class="p">(</span><span class="nv">$params</span><span class="p">),</span>
+    <span class="nx">CURLOPT_URL</span> <span class="o">=&gt;</span> <span class="s1">&#39;http://localhost:8888/server.php&#39;</span><span class="p">,</span>
+    <span class="nx">CURLOPT_CUSTOMREQUEST</span> <span class="o">=&gt;</span> <span class="s1">&#39;DELETE&#39;</span><span class="p">,</span>
+    <span class="nx">CURLOPT_POSTFIELDS</span> <span class="o">=&gt;</span> <span class="nx">http_build_query</span><span class="p">(</span><span class="nv">$params</span><span class="p">),</span>
     <span class="nx">CURLOPT_RETURNTRANSFER</span> <span class="o">=&gt;</span> <span class="k">true</span><span class="p">,</span>
 <span class="p">];</span>
 
@@ -488,15 +509,16 @@ Array
 <span class="nx">print_r</span><span class="p">(</span><span class="nv">$apiResponse</span><span class="p">);</span>
 
 </code></pre></div><p>実行結果</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">サーバからの応答: 
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+サーバからの応答: 
 Array
 (
     [status] =&gt; success
     [message] =&gt; ユーザ: konaの好きな食べ物、抹茶アイスを削除しました。
 )
-</code></pre></div><h1 id="参考書籍">参考書籍</h1>
-<!-- raw HTML omitted -->
 
+</code></pre></div><h1 id="参考書籍">参考書籍</h1>
+<p><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4297114704/hatena-blog-22/">PHP本格入門[下] ~オブジェクト指向設計、セキュリティ、現場で使える実践ノウハウまで</a></p>
 
         
           <div class="blog-tags">

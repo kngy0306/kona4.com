@@ -62,7 +62,7 @@ curlコマンドの使い方を学ぶついでに、noteに投稿されている
   "headline": "curlコマンドでnoteからデータを取得してみる",
   "description" : "はじめに 使い方を公式で説明しているわけではないが、noteにはAPIがあるみたい。\n【2020年度】noteのAPI一覧【完全版】\ncurlコマンドの使い方を学ぶついでに、noteに投稿されている記事のタイトルを取得してみる。\n",
   "inLanguage" : "en",
-  "wordCount":  134 ,
+  "wordCount":  140 ,
   "datePublished" : "2020-12-17T14:13:16",
   "dateModified" : "2020-12-17T14:13:16",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
@@ -293,67 +293,67 @@ jq-1.6
 
 </code></pre></div><h2 id="curlコマンドでnoteの特定ユーザの記事タイトルを取得してみる">curlコマンドでnoteの、特定ユーザの記事タイトルを取得してみる</h2>
 <img src="https://kona4.com/img/2020-12/17-01.png" alt="img"><samll>2020/12/17当時</small>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1
+
 </code></pre></div><p>?と&amp;をエスケープするため、\を入れている。</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{&#34;data&#34;:{&#34;contents&#34;:[{&#34;id&#34;:24798670,&#34;type&#34;:&#34;TextNote&#34;,&#34;status&#34;:&#34;published&#34;,&#34;name&#34;:&#34;テストタイトル2&#34;,&#34;description&#34;:null,&#34;price&#34;:0,&#34;key&#34;:&#34;n4551d7093a0b&#34;,&#34;slug&#34;:&#34;slug-n4551d7093a0b&#34;,&#34;publishAt&#34;:&#34;2020/12/17 13:17&#34;,&#34;thumbnailExternalUrl&#34;:&#34;&#34;,&#34;eyecatch&#34;:null,&#34;user&#34;:{&#34;id&#34;:3414203,&#34;name&#34;:&#34;こな&#34;,&#34;urlname&#34;:&#34;kypowder&#34;,&#34;nickname&#34;:&#34;こな&#34;,&#34;userProfileImagePath&#34;:&#34;https://assets.st-note.com/production/uploads/images/31550000/profile_f1ad3c646727d3424b996812d90901f0.jpg?fit=bounds\u0026format=jpeg\u0026quality=45\u0026width=330&#34;,&#34;customDomain&#34;:null,&#34;disableSupport&#34;:false,&#34;likeAppealText&#34;:null,&#34;likeAppealImage&#34;:null,&#34;purchaseAppealTextNote&#34;:null,&#34;twitterNickname&#34;:&#34;YoKaU2&#34;},&#34;canRead&#34;:true,&#34;isAuthor&#34;:false,......
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+{&#34;data&#34;:{&#34;contents&#34;:[{&#34;id&#34;:24798670,&#34;type&#34;:&#34;TextNote&#34;,&#34;status&#34;:&#34;published&#34;,&#34;name&#34;:&#34;テストタイトル2&#34;,&#34;description&#34;:null,&#34;price&#34;:0,&#34;key&#34;:&#34;n4551d7093a0b&#34;,&#34;slug&#34;:&#34;slug-n4551d7093a0b&#34;,&#34;publishAt&#34;:&#34;2020/12/17 13:17&#34;,&#34;thumbnailExternalUrl&#34;:&#34;&#34;,&#34;eyecatch&#34;:null,&#34;user&#34;:{&#34;id&#34;:3414203,&#34;name&#34;:&#34;こな&#34;,&#34;urlname&#34;:&#34;kypowder&#34;,&#34;nickname&#34;:&#34;こな&#34;,&#34;userProfileImagePath&#34;:&#34;https://assets.st-note.com/production/uploads/images/31550000/profile_f1ad3c646727d3424b996812d90901f0.jpg?fit=bounds\u0026format=jpeg\u0026quality=45\u0026width=330&#34;,&#34;customDomain&#34;:null,&#34;disableSupport&#34;:false,&#34;likeAppealText&#34;:null,&#34;likeAppealImage&#34;:null,&#34;purchaseAppealTextNote&#34;:null,&#34;twitterNickname&#34;:&#34;YoKaU2&#34;},&#34;canRead&#34;:true,&#34;isAuthor&#34;:false,......
+
 </code></pre></div><p>見やすくするために<!-- raw HTML omitted -->jq<!-- raw HTML omitted -->コマンドをパイプでつなげる。</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq
-</code></pre></div><!-- raw HTML omitted -->
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq
+
+</code></pre></div><img src="https://kona4.com/img/2020-12/17-02.png" alt="img"><samll>jqをパイプでつなげた</small>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  4473    0  4473    0     0  20612      0 --:--:-- --:--:-- --:--:-- 20612
+
 </code></pre></div><p>↑　最初の数行に表示される転送情報をスキップしたい場合、<!-- raw HTML omitted -->-s<!-- raw HTML omitted -->オプションを追加する。</p>
 <p>しかし、エラー情報まで消えてしまうので、<!-- raw HTML omitted -->-S<!-- raw HTML omitted -->も追加しとく。</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq
+
 </code></pre></div><h4 id="オブジェクトの部分抽出">オブジェクトの部分抽出</h4>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data&#34;
-</code></pre></div><!-- raw HTML omitted -->
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data&#34;
+
+</code></pre></div><img src="https://kona4.com/img/2020-12/17-03.png" alt="img"><samll>dataの中身を抽出</small>
 <p>data{</p>
 <p>}</p>
 <p>の中を抽出できた。</p>
 <p>配列を抽出する場合、</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data | .contents&#34;
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data | .contents&#34;
+
 </code></pre></div><p>とすることで</p>
-<!-- raw HTML omitted -->
+<img src="https://kona4.com/img/2020-12/17-04.png" alt="img"><samll>.contentsの中身を抽出</small>
 <p>配列に対して、<!-- raw HTML omitted -->.xx<!-- raw HTML omitted -->は適応できないので、<!-- raw HTML omitted -->.[]<!-- raw HTML omitted -->を使う。</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data | .contents[]&#34;
-</code></pre></div><!-- raw HTML omitted -->
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data | .contents[]&#34;
+
+</code></pre></div><img src="https://kona4.com/img/2020-12/17-05.png" alt="img"><samll>.で、外側の配列を取り除く</small>
 <p>一番外側にある配列を除去してくれる。</p>
 <p><!-- raw HTML omitted -->.contents | .[]<!-- raw HTML omitted -->としなくても<!-- raw HTML omitted -->.contents[]<!-- raw HTML omitted -->で繋げられる。</p>
 <p><!-- raw HTML omitted -->&quot;.data.contents[]&quot;<!-- raw HTML omitted -->でもいける。</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data | .contents[] | .name&#34;
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;.data | .contents[] | .name&#34;
+
 </code></pre></div><p>オブジェクトになったので<!-- raw HTML omitted -->.xx<!-- raw HTML omitted -->で指定することで、</p>
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/12/17/141316/20201217140820.png" alt="/images/2020/12/17/141316/20201217140820.png"/>
-    </div>
-    <a href="https://kona4.com/images/2020/12/17/141316/20201217140820.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
+<img src="https://kona4.com/img/2020-12/17-06.png" alt="img">
 <p>投稿記事のタイトルのみを抽出できた。</p>
 <p>これをさらに整形することもでき、</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;{title: [.data | .contents[].name]}&#34;
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ curl -Ss https://note.com/api/v2/creators/kypowder/contents\?kind=note\&amp;amp;page=1 | jq &#34;{title: [.data | .contents[].name]}&#34;
+
 </code></pre></div><p>とすることで、</p>
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/12/17/141316/20201217140838.png" alt="/images/2020/12/17/141316/20201217140838.png"/>
-    </div>
-    <a href="https://kona4.com/images/2020/12/17/141316/20201217140838.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
+<img src="https://kona4.com/img/2020-12/17-07.png" alt="img">
 <p>いい感じに作り直すこともできる。</p>
 <h1 id="参考情報">参考情報</h1>
-<p><!-- raw HTML omitted -->curl コマンド 使い方メモ<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->jqを活用してAPIレスポンス等から欲しい情報だけを抽出する【初級編】<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->【2020年度】noteのAPI一覧【完全版】<!-- raw HTML omitted --></p>
+<p><a href="https://qiita.com/yasuhiroki/items/a569d3371a66e365316f">curl コマンド 使い方メモ</a></p>
+<p><a href="https://dev.classmethod.jp/articles/road-to-jq-master-novice/">jqを活用してAPIレスポンス等から欲しい情報だけを抽出する【初級編】</a></p>
+<p><a href="https://note.com/hagure_melon/n/n964ff6f7ad0e">【2020年度】noteのAPI一覧【完全版】</a></p>
 
         
           <div class="blog-tags">

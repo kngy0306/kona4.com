@@ -8,12 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>PHPでテストを書く（PHPUnit） - Kona4 Blog</title>
-  <meta name="description" content="自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
-参考書籍に則り、PHPUnitという自動テストツールを使用する。
-他にも様々なツールがあるみたい。
-PHPの自動テストフレームワークってどんなんがあるん？PHPUnitのインストール PHPUnitのインストール
-composer require --dev phpunit/phpunit テストの書き方 実行 ファイル名: MyTest.php
-&lt;!--?php--&gt; require_once dirname(__FILE__) . &amp;#39;/vendor/autoload.php&amp;#39;;  use PHPUnit\Framework\TestCase; class MyTest extends TestCase { // テスト処理  public function test1() { $array = [1, 5, 10]; // 配列（$array）の要素数が３つであることをテストする。  $this-&gt;assertCount(3, $array); } public function test2() { $num1 = 1; $num2 = 1; // ２つの値が型も含めて等しいことをテストする。  $this-&gt;assertSame($num1, $num2); } public function test3() { $text = &#34;hello&#34;; // 値が空であることをテストする。  $this-&gt;assertEmpty($text); } } 実行.">
+  <meta name="description" content="自動テストの重要性
+コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
+参考書籍に則り、PHPUnitという自動テストツールを使用する。">
   <meta name="author" content="Kon4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -62,9 +59,9 @@ composer require --dev phpunit/phpunit テストの書き方 実行 ファイル
     "name" : "Kon4"
   },
   "headline": "PHPでテストを書く（PHPUnit）",
-  "description" : "自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =\u0026gt; 自動テストという仕組みが役に立つ。\n参考書籍に則り、PHPUnitという自動テストツールを使用する。\n他にも様々なツールがあるみたい。\nPHPの自動テストフレームワークってどんなんがあるん？PHPUnitのインストール PHPUnitのインストール\ncomposer require --dev phpunit\/phpunit テストの書き方 実行 ファイル名: MyTest.php\n\u0026lt;!--?php--\u0026gt; require_once dirname(__FILE__) . \u0026amp;#39;\/vendor\/autoload.php\u0026amp;#39;;  use PHPUnit\\Framework\\TestCase; class MyTest extends TestCase { \/\/ テスト処理  public function test1() { $array = [1, 5, 10]; \/\/ 配列（$array）の要素数が３つであることをテストする。  $this-\u0026gt;assertCount(3, $array); } public function test2() { $num1 = 1; $num2 = 1; \/\/ ２つの値が型も含めて等しいことをテストする。  $this-\u0026gt;assertSame($num1, $num2); } public function test3() { $text = \u0026#34;hello\u0026#34;; \/\/ 値が空であることをテストする。  $this-\u0026gt;assertEmpty($text); } } 実行.",
+  "description" : "自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =\u0026gt; 自動テストという仕組みが役に立つ。\n参考書籍に則り、PHPUnitという自動テストツールを使用する。\n",
   "inLanguage" : "en",
-  "wordCount":  123 ,
+  "wordCount":  133 ,
   "datePublished" : "2020-12-16T12:24:01",
   "dateModified" : "2020-12-16T12:24:01",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
@@ -84,23 +81,18 @@ composer require --dev phpunit/phpunit テストの書き方 実行 ファイル
 </script>
 
 <meta property="og:title" content="PHPでテストを書く（PHPUnit）" />
-<meta property="og:description" content="自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
-参考書籍に則り、PHPUnitという自動テストツールを使用する。
-他にも様々なツールがあるみたい。
-PHPの自動テストフレームワークってどんなんがあるん？PHPUnitのインストール PHPUnitのインストール
-composer require --dev phpunit/phpunit テストの書き方 実行 ファイル名: MyTest.php
-&lt;!--?php--&gt; require_once dirname(__FILE__) . &amp;#39;/vendor/autoload.php&amp;#39;;  use PHPUnit\Framework\TestCase; class MyTest extends TestCase { // テスト処理  public function test1() { $array = [1, 5, 10]; // 配列（$array）の要素数が３つであることをテストする。  $this-&gt;assertCount(3, $array); } public function test2() { $num1 = 1; $num2 = 1; // ２つの値が型も含めて等しいことをテストする。  $this-&gt;assertSame($num1, $num2); } public function test3() { $text = &#34;hello&#34;; // 値が空であることをテストする。  $this-&gt;assertEmpty($text); } } 実行.">
+<meta property="og:description" content="自動テストの重要性
+コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
+参考書籍に則り、PHPUnitという自動テストツールを使用する。">
 <meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
 <meta property="og:url" content="https://kona4.com/post/2020/12/16/122401/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kona4 Blog" />
 
   <meta name="twitter:title" content="PHPでテストを書く（PHPUnit）" />
-  <meta name="twitter:description" content="自動テストの重要性 コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
-参考書籍に則り、PHPUnitという自動テストツールを使用する。
-他にも様々なツールがあるみたい。
-PHPの自動テストフレームワークってどんなんがあるん？PHPUnitのインストール PHPUnitのインストール
-composer require --dev …">
+  <meta name="twitter:description" content="自動テストの重要性
+コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
+参考書籍に則り、PHPUnitという自動テストツールを使用する。">
   <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -283,22 +275,25 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <!-- raw HTML omitted -->
-<h1 id="自動テストの重要性">自動テストの重要性</h1>
+        <h2 id="自動テストの重要性">自動テストの重要性</h2>
 <p>コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; <!-- raw HTML omitted -->自動テスト<!-- raw HTML omitted -->という仕組みが役に立つ。</p>
 <p>参考書籍に則り、<!-- raw HTML omitted -->PHPUnit<!-- raw HTML omitted -->という自動テストツールを使用する。</p>
 <p>他にも様々なツールがあるみたい。</p>
-<p><!-- raw HTML omitted -->PHPの自動テストフレームワークってどんなんがあるん？<!-- raw HTML omitted --></p>
-<h1 id="phpunitのインストール">PHPUnitのインストール</h1>
+<p><a href="https://qiita.com/geckothic/items/adeb3eddb4131ebff2cf">PHPの自動テストフレームワークってどんなんがあるん？</a></p>
+<h2 id="phpunitのインストール">PHPUnitのインストール</h2>
 <p>PHPUnitのインストール</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">composer require --dev phpunit/phpunit
-</code></pre></div><h1 id="テストの書き方">テストの書き方</h1>
-<!-- raw HTML omitted -->
-<h1 id="実行">実行</h1>
+</code></pre></div><h2 id="テストの書き方">テストの書き方</h2>
+<ul>
+<li>PHPUnitに用意されてる TestCaseを継承したクラスを作成する必要がある。</li>
+<li>クラス名、ファイル名は<!-- raw HTML omitted -->Test<!-- raw HTML omitted -->で終わる必要がある。</li>
+<li>テストの成功か、失敗かはメソッド内に書かれた<!-- raw HTML omitted -->assertOOメソッド<!-- raw HTML omitted -->が真を返すかどうかで決まる。</li>
+</ul>
+<h2 id="実行">実行</h2>
 <p>ファイル名: MyTest.php</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
-<span class="k">require_once</span> <span class="nx">dirname</span><span class="p">(</span><span class="no">__FILE__</span><span class="p">)</span> <span class="o">.</span> <span class="o">&amp;</span><span class="c1">#39;/vendor/autoload.php&amp;#39;;
-</span><span class="c1"></span>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
+<span class="k">require_once</span> <span class="nx">dirname</span><span class="p">(</span><span class="no">__FILE__</span><span class="p">)</span> <span class="o">.</span> <span class="s1">&#39;/vendor/autoload.php&#39;</span><span class="p">;</span>
+
 <span class="k">use</span> <span class="nx">PHPUnit\Framework\TestCase</span><span class="p">;</span>
 
 <span class="k">class</span> <span class="nc">MyTest</span> <span class="k">extends</span> <span class="nx">TestCase</span>
@@ -333,7 +328,8 @@ if (!doNotTrack) {
 </code></pre></div><p><!-- raw HTML omitted -->実行<!-- raw HTML omitted --></p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">./vendor/phpunit/phpunit/phpunit MyTest.php
 </code></pre></div><p><!-- raw HTML omitted -->実行結果<!-- raw HTML omitted --></p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">PHPUnit 9.5.0 by Sebastian Bergmann and contributors.
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+PHPUnit 9.5.0 by Sebastian Bergmann and contributors.
 
 ..F                                                                 3 / 3 (100%)
 
@@ -348,19 +344,29 @@ Failed asserting that a string is empty.
 
 FAILURES!
 Tests: 3, Assertions: 3, Failures: 1.
+
 </code></pre></div><p>↑の実行結果は２つが成功し、１つが失敗している。</p>
 <p>2行目が結果を示している。</p>
-<!-- raw HTML omitted -->
-<h1 id="おまけエイリアスの作成">おまけ（エイリアスの作成）</h1>
+<ul>
+<li>「.」が<strong>成功</strong></li>
+<li>「F」が失敗</li>
+<li>「E」がエラー</li>
+<li>「R」がリスク</li>
+<li>「S」がスキップ</li>
+<li>「I」が不完全</li>
+</ul>
+<h2 id="おまけエイリアスの作成">おまけ（エイリアスの作成）</h2>
 <p>エイリアスを作成して楽しよう</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">alias phpunit=&#34;./vendor/phpunit/phpunit/phpunit&#34;
-</code></pre></div><p>以降、</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">phpunit MyTest.php
-</code></pre></div><p>で実行可能。</p>
-<h1 id="参考情報">参考情報</h1>
-<p><!-- raw HTML omitted -->PHPの自動テストフレームワークってどんなんがあるん？<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+alias phpunit=&#34;./vendor/phpunit/phpunit/phpunit&#34;
 
+</code></pre></div><p>以降、</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+phpunit MyTest.php
+
+</code></pre></div><p>で実行可能。</p>
+<h2 id="参考情報">参考情報</h2>
+<p><a href="https://qiita.com/geckothic/items/adeb3eddb4131ebff2cf">(PHPの自動テストフレームワークってどんなんがあるん？</a></p>
 
         
           <div class="blog-tags">
