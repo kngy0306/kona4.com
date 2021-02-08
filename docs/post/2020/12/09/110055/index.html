@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>【PHP】正規表現メモ - Kona4 Blog</title>
-  <meta name="description" content="目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&lt;!--?php--&gt; function cutOutUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match);  return $match[0] ?? null; } $url = cutOutUrl(&#34;background-image: url( https://xxxxx.png );&#34;); echo $url; $ php index.php &#34;https://xxxxx.png&#34; ">
+  <meta name="description" content="目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );
+function getUrl($url) { preg_match(&#39;/(https).*\.(png|jpg|jpeg)/i&#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&#34;background-image: url( https://xxxxx.png );&#34;); echo $url; $ php index.php &#34;https://xxxxx.png&#34; ">
   <meta name="author" content="Kon4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -57,7 +58,7 @@
     "name" : "Kon4"
   },
   "headline": "【PHP】正規表現メモ",
-  "description" : "目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https:\/\/xxxxx.png );\u0026lt;!--?php--\u0026gt; function cutOutUrl($url) { preg_match(\u0026amp;#39;\/(https).*\\.(png|jpg|jpeg)\/i\u0026amp;#39;, $url, $match);  return $match[0] ?? null; } $url = cutOutUrl(\u0026#34;background-image: url( https:\/\/xxxxx.png );\u0026#34;); echo $url; $ php index.php \u0026#34;https:\/\/xxxxx.png\u0026#34; ",
+  "description" : "目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https:\/\/xxxxx.png );\nfunction getUrl($url) { preg_match(\u0026#39;\/(https).*\\.(png|jpg|jpeg)\/i\u0026#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(\u0026#34;background-image: url( https:\/\/xxxxx.png );\u0026#34;); echo $url; $ php index.php \u0026#34;https:\/\/xxxxx.png\u0026#34; ",
   "inLanguage" : "en",
   "wordCount":  29 ,
   "datePublished" : "2020-12-09T11:00:55",
@@ -79,14 +80,16 @@
 </script>
 
 <meta property="og:title" content="【PHP】正規表現メモ" />
-<meta property="og:description" content="目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&lt;!--?php--&gt; function cutOutUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match);  return $match[0] ?? null; } $url = cutOutUrl(&#34;background-image: url( https://xxxxx.png );&#34;); echo $url; $ php index.php &#34;https://xxxxx.png&#34; ">
+<meta property="og:description" content="目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );
+function getUrl($url) { preg_match(&#39;/(https).*\.(png|jpg|jpeg)/i&#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&#34;background-image: url( https://xxxxx.png );&#34;); echo $url; $ php index.php &#34;https://xxxxx.png&#34; ">
 <meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
 <meta property="og:url" content="https://kona4.com/post/2020/12/09/110055/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kona4 Blog" />
 
   <meta name="twitter:title" content="【PHP】正規表現メモ" />
-  <meta name="twitter:description" content="目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&lt;!--?php--&gt; function cutOutUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match);  return …">
+  <meta name="twitter:description" content="目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );
+function getUrl($url) { preg_match(&#39;/(https).*\.(png|jpg|jpeg)/i&#39;, $url, $match); return $match[0] ?? null; } $url = …">
   <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -269,20 +272,22 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p><strong>目的: CSSプロパティで指定された画像URLを取り出したい</strong>
-<!-- raw HTML omitted -->background-image: url( <a href="https://xxxxx.png">https://xxxxx.png</a> );<!-- raw HTML omitted --></p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
-<span class="k">function</span> <span class="nf">cutOutUrl</span><span class="p">(</span><span class="nv">$url</span><span class="p">)</span>
+        <h3 id="目的-cssプロパティで指定された画像urlを取り出したい">目的: CSSプロパティで指定された画像URLを取り出したい</h3>
+<p><code>background-image: url( https://xxxxx.png );</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
+<span class="k">function</span> <span class="nf">getUrl</span><span class="p">(</span><span class="nv">$url</span><span class="p">)</span>
 <span class="p">{</span>
-  <span class="nx">preg_match</span><span class="p">(</span><span class="o">&amp;</span><span class="c1">#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match);
-</span><span class="c1"></span>  <span class="k">return</span> <span class="nv">$match</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">??</span> <span class="k">null</span><span class="p">;</span>
+  <span class="nx">preg_match</span><span class="p">(</span><span class="s1">&#39;/(https).*\.(png|jpg|jpeg)/i&#39;</span><span class="p">,</span> <span class="nv">$url</span><span class="p">,</span> <span class="nv">$match</span><span class="p">);</span>
+  <span class="k">return</span> <span class="nv">$match</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">??</span> <span class="k">null</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="nv">$url</span> <span class="o">=</span> <span class="nx">cutOutUrl</span><span class="p">(</span><span class="s2">&#34;background-image: url( https://xxxxx.png );&#34;</span><span class="p">);</span>
+<span class="nv">$url</span> <span class="o">=</span> <span class="nx">getUrl</span><span class="p">(</span><span class="s2">&#34;background-image: url( https://xxxxx.png );&#34;</span><span class="p">);</span>
 <span class="k">echo</span> <span class="nv">$url</span><span class="p">;</span>
 
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ php index.php 
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ php index.php 
 &#34;https://xxxxx.png&#34;
+
 </code></pre></div>
 
         

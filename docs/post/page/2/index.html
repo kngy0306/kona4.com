@@ -287,21 +287,19 @@ if (!doNotTrack) {
     </p>
     <div class="post-entry">
         
-        <h1 id="言葉の揺れをなくす">言葉の揺れをなくす</h1>
+        <h2 id="言葉の揺れをなくす">言葉の揺れをなくす</h2>
 <p>たとえば or 例えば
 一つ or １つ</p>
-<h1 id="正確性と分かりやすさの関係">正確性と分かりやすさの関係</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h1 id="その他">その他</h1>
-<p>括弧は半角()ではなく全角（）を使用する。（ベースラインが整う。）　</p>
-
+        <a href="https://kona4.com/post/2020/12/13/190140/" class="post-read-more">[Read More]</a>
         
     </div>
 
+    
+    <div class="blog-tags">
+        
+        <a href="https://kona4.com//tags/%E3%83%A1%E3%83%A2/">メモ</a>&nbsp;
+        
+    </div>
     
 
 </article>
@@ -330,20 +328,22 @@ if (!doNotTrack) {
     </p>
     <div class="post-entry">
         
-        <p><strong>目的: CSSプロパティで指定された画像URLを取り出したい</strong>
-<!-- raw HTML omitted -->background-image: url( <a href="https://xxxxx.png">https://xxxxx.png</a> );<!-- raw HTML omitted --></p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
-<span class="k">function</span> <span class="nf">cutOutUrl</span><span class="p">(</span><span class="nv">$url</span><span class="p">)</span>
+        <h3 id="目的-cssプロパティで指定された画像urlを取り出したい">目的: CSSプロパティで指定された画像URLを取り出したい</h3>
+<p><code>background-image: url( https://xxxxx.png );</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
+<span class="k">function</span> <span class="nf">getUrl</span><span class="p">(</span><span class="nv">$url</span><span class="p">)</span>
 <span class="p">{</span>
-  <span class="nx">preg_match</span><span class="p">(</span><span class="o">&amp;</span><span class="c1">#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match);
-</span><span class="c1"></span>  <span class="k">return</span> <span class="nv">$match</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">??</span> <span class="k">null</span><span class="p">;</span>
+  <span class="nx">preg_match</span><span class="p">(</span><span class="s1">&#39;/(https).*\.(png|jpg|jpeg)/i&#39;</span><span class="p">,</span> <span class="nv">$url</span><span class="p">,</span> <span class="nv">$match</span><span class="p">);</span>
+  <span class="k">return</span> <span class="nv">$match</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">??</span> <span class="k">null</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="nv">$url</span> <span class="o">=</span> <span class="nx">cutOutUrl</span><span class="p">(</span><span class="s2">&#34;background-image: url( https://xxxxx.png );&#34;</span><span class="p">);</span>
+<span class="nv">$url</span> <span class="o">=</span> <span class="nx">getUrl</span><span class="p">(</span><span class="s2">&#34;background-image: url( https://xxxxx.png );&#34;</span><span class="p">);</span>
 <span class="k">echo</span> <span class="nv">$url</span><span class="p">;</span>
 
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ php index.php 
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ php index.php 
 &#34;https://xxxxx.png&#34;
+
 </code></pre></div>
         
     </div>
@@ -384,73 +384,9 @@ if (!doNotTrack) {
     </p>
     <div class="post-entry">
         
-        <p>Rustの環境構築をする際に、VSCodeの拡張機能である<!-- raw HTML omitted -->Remote - Containers<!-- raw HTML omitted -->を使用しました。
-
-<link rel="stylesheet" href="https://kona4.com/css/hugo-easy-gallery.css" />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/12/04/101225/20201204100931.png" alt="/images/2020/12/04/101225/20201204100931.png"/>
-    </div>
-    <a href="https://kona4.com/images/2020/12/04/101225/20201204100931.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-</p>
-<p>ローカル上にフォルダを作成し、</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">mkdir ~/RustApp
-</code></pre></div><p>これ以降VSCode上で作業をします。</p>
-<p>コマンドパレットから <!-- raw HTML omitted -->Remote-Container: Open Folder in Container&hellip;<!-- raw HTML omitted --> を選択し、<!-- raw HTML omitted -->Rust<!-- raw HTML omitted -->を選択します。
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/12/04/101225/20201204100939.png" alt="/images/2020/12/04/101225/20201204100939.png"/>
-    </div>
-    <a href="https://kona4.com/images/2020/12/04/101225/20201204100939.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-</p>
-<p>Docker ImageのBuildの終了後、Terminalで確認。
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/12/04/101225/20201204100944.png" alt="/images/2020/12/04/101225/20201204100944.png"/>
-    </div>
-    <a href="https://kona4.com/images/2020/12/04/101225/20201204100944.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-</p>
-<p>以上でRustの環境構築が終了しました。</p>
-<h4 id="終了時">終了時</h4>
-<p>VSCode左下にある<!-- raw HTML omitted -->Dev Container: Rust<!-- raw HTML omitted -->から、リモート接続を終了する。
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/12/04/101225/20201204103038.png" alt="/images/2020/12/04/101225/20201204103038.png"/>
-    </div>
-    <a href="https://kona4.com/images/2020/12/04/101225/20201204103038.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-</p>
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/12/04/101225/20201204103041.png" alt="/images/2020/12/04/101225/20201204103041.png"/>
-    </div>
-    <a href="https://kona4.com/images/2020/12/04/101225/20201204103041.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<h4 id="参考">参考:</h4>
-<p><!-- raw HTML omitted -->Rust開発環境をVS Codeで簡単に構築する<!-- raw HTML omitted --></p>
-
+        <p>Rustの環境構築をする際に、VSCodeの拡張機能である<strong>Remote - Containers</strong>を使用しました。<br>
+<img src="https://kona4.com/img/2020-12/04-01.png" alt="img"></p>
+        <a href="https://kona4.com/post/2020/12/04/101225/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -490,23 +426,17 @@ if (!doNotTrack) {
     </p>
     <div class="post-entry">
         
-        この記事は、LINE Developersコンソールでチャネルを作成済み。GitHubでリポジトリを作成済み。herokuにアカウントを作成済み。であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！GitHubはlinebotという名前でリポジトリを作成しました。
-環境 macOS Catalina バージョン 10.15.7PHP 7.3.11Composer 2.0.7
-herokuでアプリを作成し、GitHubと連携する linebot-echoappという名前でアプリを作成しました。
-LINE Messaging API SDKをインストールする $touch index.php$composer require linecorp/line-bot-sdkとりあえずPHPファイルを編集しておきます。
-&lt;!--?php--&gt; echo &#34;hello&#34;; GitHubへpush。git add .git commit -m &ldquo;first commit&rdquo;git push origin mainここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。herokuページ上部のOpen appをクリックするとページが開きます。
-Webhook URLを設定する LINE Developersで作成したチャネル内で、
-botを友だちに追加 Messaging APIタブにあるQRコードから友だち追加しておきます。
-メッセージをオウム返しする 送信したメッセージをオウム返しするコードをLINE Messaging API SDKやQiitaの記事を参考に作成しました。
-&lt;!--?php--&gt; require(&amp;#39;vendor/autoload.php&amp;#39;);  use LINE\LINEBot\Constant\HTTPHeader; use LINE\LINEBot\HTTPClient\CurlHTTPClient; use LINE\LINEBot; // Channel access tokenとChannel secretを設定 $channel_access_token = &amp;#39;XXXXXXXXX&amp;#39;; $channel_secret = &amp;#39;XXXXXXXXX&amp;#39;;  $httpClient = new CurlHTTPClient($channel_access_token); $bot = new LINEBot($httpClient, [&amp;#39;channelSecret&amp;#39; =&gt; $channel_secret]);  $events = $bot-&gt;parseEventRequest(file_get_contents(&amp;#39;php://input&amp;#39;), $_SERVER[&amp;#39;HTTP_&amp;#39; .
+        <p>この記事は、</p>
+<h4 id="line-developersコンソールでチャネルを作成済み">LINE Developersコンソールでチャネルを作成済み。</h4>
+<h4 id="githubでリポジトリを作成済み">GitHubでリポジトリを作成済み。</h4>
+<h4 id="herokuにアカウントを作成済み">herokuにアカウントを作成済み。</h4>
+<p>であることが前提です。LINE Developersのチャネルは<a href="https://developers.line.biz/ja/docs/messaging-api/getting-started/">ここから</a>すぐに作成できます！</p>
         <a href="https://kona4.com/post/2020/11/18/004646/" class="post-read-more">[Read More]</a>
         
     </div>
 
     
     <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/it/">IT</a>&nbsp;
         
         <a href="https://kona4.com//tags/php/">PHP</a>&nbsp;
         

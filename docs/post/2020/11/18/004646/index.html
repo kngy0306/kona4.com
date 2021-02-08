@@ -8,15 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>PHPでLINE Messaging APIを使う - Kona4 Blog</title>
-  <meta name="description" content="この記事は、LINE Developersコンソールでチャネルを作成済み。GitHubでリポジトリを作成済み。herokuにアカウントを作成済み。であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！GitHubはlinebotという名前でリポジトリを作成しました。
-環境 macOS Catalina バージョン 10.15.7PHP 7.3.11Composer 2.0.7
-herokuでアプリを作成し、GitHubと連携する linebot-echoappという名前でアプリを作成しました。
-LINE Messaging API SDKをインストールする $touch index.php$composer require linecorp/line-bot-sdkとりあえずPHPファイルを編集しておきます。
-&lt;!--?php--&gt; echo &#34;hello&#34;; GitHubへpush。git add .git commit -m &ldquo;first commit&rdquo;git push origin mainここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。herokuページ上部のOpen appをクリックするとページが開きます。
-Webhook URLを設定する LINE Developersで作成したチャネル内で、
-botを友だちに追加 Messaging APIタブにあるQRコードから友だち追加しておきます。
-メッセージをオウム返しする 送信したメッセージをオウム返しするコードをLINE Messaging API SDKやQiitaの記事を参考に作成しました。
-&lt;!--?php--&gt; require(&amp;#39;vendor/autoload.php&amp;#39;);  use LINE\LINEBot\Constant\HTTPHeader; use LINE\LINEBot\HTTPClient\CurlHTTPClient; use LINE\LINEBot; // Channel access tokenとChannel secretを設定 $channel_access_token = &amp;#39;XXXXXXXXX&amp;#39;; $channel_secret = &amp;#39;XXXXXXXXX&amp;#39;;  $httpClient = new CurlHTTPClient($channel_access_token); $bot = new LINEBot($httpClient, [&amp;#39;channelSecret&amp;#39; =&gt; $channel_secret]);  $events = $bot-&gt;parseEventRequest(file_get_contents(&amp;#39;php://input&amp;#39;), $_SERVER[&amp;#39;HTTP_&amp;#39; .">
+  <meta name="description" content="この記事は、
+LINE Developersコンソールでチャネルを作成済み。
+GitHubでリポジトリを作成済み。
+herokuにアカウントを作成済み。
+であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！">
   <meta name="author" content="Kon4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -65,13 +61,13 @@ botを友だちに追加 Messaging APIタブにあるQRコードから友だち�
     "name" : "Kon4"
   },
   "headline": "PHPでLINE Messaging APIを使う",
-  "description" : "この記事は、LINE Developersコンソールでチャネルを作成済み。GitHubでリポジトリを作成済み。herokuにアカウントを作成済み。であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！GitHubはlinebotという名前でリポジトリを作成しました。\n環境 macOS Catalina バージョン 10.15.7PHP 7.3.11Composer 2.0.7\nherokuでアプリを作成し、GitHubと連携する linebot-echoappという名前でアプリを作成しました。\nLINE Messaging API SDKをインストールする $touch index.php$composer require linecorp\/line-bot-sdkとりあえずPHPファイルを編集しておきます。\n\u0026lt;!--?php--\u0026gt; echo \u0026#34;hello\u0026#34;; GitHubへpush。git add .git commit -m \u0026ldquo;first commit\u0026rdquo;git push origin mainここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。herokuページ上部のOpen appをクリックするとページが開きます。\nWebhook URLを設定する LINE Developersで作成したチャネル内で、\nbotを友だちに追加 Messaging APIタブにあるQRコードから友だち追加しておきます。\nメッセージをオウム返しする 送信したメッセージをオウム返しするコードをLINE Messaging API SDKやQiitaの記事を参考に作成しました。\n\u0026lt;!--?php--\u0026gt; require(\u0026amp;#39;vendor\/autoload.php\u0026amp;#39;);  use LINE\\LINEBot\\Constant\\HTTPHeader; use LINE\\LINEBot\\HTTPClient\\CurlHTTPClient; use LINE\\LINEBot; \/\/ Channel access tokenとChannel secretを設定 $channel_access_token = \u0026amp;#39;XXXXXXXXX\u0026amp;#39;; $channel_secret = \u0026amp;#39;XXXXXXXXX\u0026amp;#39;;  $httpClient = new CurlHTTPClient($channel_access_token); $bot = new LINEBot($httpClient, [\u0026amp;#39;channelSecret\u0026amp;#39; =\u0026gt; $channel_secret]);  $events = $bot-\u0026gt;parseEventRequest(file_get_contents(\u0026amp;#39;php:\/\/input\u0026amp;#39;), $_SERVER[\u0026amp;#39;HTTP_\u0026amp;#39; .",
+  "description" : "この記事は、\nLINE Developersコンソールでチャネルを作成済み。 GitHubでリポジトリを作成済み。 herokuにアカウントを作成済み。 であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！\n",
   "inLanguage" : "en",
-  "wordCount":  91 ,
+  "wordCount":  98 ,
   "datePublished" : "2020-11-18T00:46:46",
   "dateModified" : "2020-11-18T00:46:46",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
-  "keywords" : [ "IT, PHP" ],
+  "keywords" : [ "PHP" ],
   "mainEntityOfPage" : "https:\/\/kona4.com\/post\/2020\/11\/18\/004646\/",
   "publisher" : {
     "@type": "Organization",
@@ -87,23 +83,22 @@ botを友だちに追加 Messaging APIタブにあるQRコードから友だち�
 </script>
 
 <meta property="og:title" content="PHPでLINE Messaging APIを使う" />
-<meta property="og:description" content="この記事は、LINE Developersコンソールでチャネルを作成済み。GitHubでリポジトリを作成済み。herokuにアカウントを作成済み。であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！GitHubはlinebotという名前でリポジトリを作成しました。
-環境 macOS Catalina バージョン 10.15.7PHP 7.3.11Composer 2.0.7
-herokuでアプリを作成し、GitHubと連携する linebot-echoappという名前でアプリを作成しました。
-LINE Messaging API SDKをインストールする $touch index.php$composer require linecorp/line-bot-sdkとりあえずPHPファイルを編集しておきます。
-&lt;!--?php--&gt; echo &#34;hello&#34;; GitHubへpush。git add .git commit -m &ldquo;first commit&rdquo;git push origin mainここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。herokuページ上部のOpen appをクリックするとページが開きます。
-Webhook URLを設定する LINE Developersで作成したチャネル内で、
-botを友だちに追加 Messaging APIタブにあるQRコードから友だち追加しておきます。
-メッセージをオウム返しする 送信したメッセージをオウム返しするコードをLINE Messaging API SDKやQiitaの記事を参考に作成しました。
-&lt;!--?php--&gt; require(&amp;#39;vendor/autoload.php&amp;#39;);  use LINE\LINEBot\Constant\HTTPHeader; use LINE\LINEBot\HTTPClient\CurlHTTPClient; use LINE\LINEBot; // Channel access tokenとChannel secretを設定 $channel_access_token = &amp;#39;XXXXXXXXX&amp;#39;; $channel_secret = &amp;#39;XXXXXXXXX&amp;#39;;  $httpClient = new CurlHTTPClient($channel_access_token); $bot = new LINEBot($httpClient, [&amp;#39;channelSecret&amp;#39; =&gt; $channel_secret]);  $events = $bot-&gt;parseEventRequest(file_get_contents(&amp;#39;php://input&amp;#39;), $_SERVER[&amp;#39;HTTP_&amp;#39; .">
+<meta property="og:description" content="この記事は、
+LINE Developersコンソールでチャネルを作成済み。
+GitHubでリポジトリを作成済み。
+herokuにアカウントを作成済み。
+であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！">
 <meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
 <meta property="og:url" content="https://kona4.com/post/2020/11/18/004646/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kona4 Blog" />
 
   <meta name="twitter:title" content="PHPでLINE Messaging APIを使う" />
-  <meta name="twitter:description" content="この記事は、LINE Developersコンソールでチャネルを作成済み。GitHubでリポジトリを作成済み。herokuにアカウントを作成済み。であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！GitHubはlinebotという名前でリポジトリを作成しました。
-環境 macOS Catalina バージョン 10.15.7PHP …">
+  <meta name="twitter:description" content="この記事は、
+LINE Developersコンソールでチャネルを作成済み。
+GitHubでリポジトリを作成済み。
+herokuにアカウントを作成済み。
+であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！">
   <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -286,21 +281,20 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>この記事は、<!-- raw HTML omitted -->
-<strong>LINE Developersコンソールでチャネルを作成済み。</strong><!-- raw HTML omitted -->
-<strong>GitHubでリポジトリを作成済み。</strong><!-- raw HTML omitted -->
-<strong>herokuにアカウントを作成済み。</strong><!-- raw HTML omitted -->
-であることが前提です。LINE Developersのチャネルは<!-- raw HTML omitted -->ここから<!-- raw HTML omitted -->すぐに作成できます！<!-- raw HTML omitted -->
-GitHubは<strong>linebot</strong>という名前でリポジトリを作成しました。</p>
-<!-- raw HTML omitted -->
-<h3 id="環境">環境</h3>
-<p>macOS Catalina バージョン 10.15.7<!-- raw HTML omitted -->
-PHP 7.3.11<!-- raw HTML omitted -->
+        <p>この記事は、</p>
+<h4 id="line-developersコンソールでチャネルを作成済み">LINE Developersコンソールでチャネルを作成済み。</h4>
+<h4 id="githubでリポジトリを作成済み">GitHubでリポジトリを作成済み。</h4>
+<h4 id="herokuにアカウントを作成済み">herokuにアカウントを作成済み。</h4>
+<p>であることが前提です。LINE Developersのチャネルは<a href="https://developers.line.biz/ja/docs/messaging-api/getting-started/">ここから</a>すぐに作成できます！</p>
+<p>GitHubは<strong>linebot</strong>という名前でリポジトリを作成しました。</p>
+<h2 id="環境">環境</h2>
+<p>macOS Catalina バージョン 10.15.7<br>
+PHP 7.3.11<br>
 Composer 2.0.7</p>
-<h3 id="herokuでアプリを作成しgithubと連携する">herokuでアプリを作成し、GitHubと連携する</h3>
+<h2 id="herokuでアプリを作成しgithubと連携する">herokuでアプリを作成し、GitHubと連携する</h2>
 <p><strong>linebot-echoapp</strong>という名前でアプリを作成しました。</p>
 <!-- raw HTML omitted -->
-<h3 id="line-messaging-api-sdkをインストールする">LINE Messaging API SDKをインストールする</h3>
+<h2 id="line-messaging-api-sdkをインストールする">LINE Messaging API SDKをインストールする</h2>
 <!-- raw HTML omitted -->
 <p><!-- raw HTML omitted -->$touch index.php<!-- raw HTML omitted --><!-- raw HTML omitted -->
 <!-- raw HTML omitted -->$composer require linecorp/line-bot-sdk<!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -358,11 +352,8 @@ herokuページ上部の<strong>Open app</strong>をクリックするとペー�
 <p>日本語のドキュメントがあるのにも関わらずとても苦労しました。。。<!-- raw HTML omitted -->
 APIの知識も身につけていきたいです。</p>
 
-
         
           <div class="blog-tags">
-            
-              <a href="https://kona4.com//tags/it/">IT</a>&nbsp;
             
               <a href="https://kona4.com//tags/php/">PHP</a>&nbsp;
             
@@ -436,15 +427,11 @@ APIの知識も身につけていきたいです。</p>
                   <ul>
                 
                 
-                    <li><a href="https://kona4.com/post/2020/12/17/141316/">curlコマンドでnoteからデータを取得してみる</a></li>
-                
                     <li><a href="https://kona4.com/post/2020/12/16/122401/">PHPでテストを書く（PHPUnit）</a></li>
                 
                     <li><a href="https://kona4.com/post/2020/12/14/100351/">簡単なRESTful APIサーバーを作ってみる</a></li>
                 
                     <li><a href="https://kona4.com/post/2020/12/09/110055/">【PHP】正規表現メモ</a></li>
-                
-                    <li><a href="https://kona4.com/post/2020/12/04/101225/">Rust環境構築メモ</a></li>
                 
               </ul>
 

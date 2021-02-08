@@ -131,8 +131,9 @@ structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p
       <pubDate>Sun, 13 Dec 2020 19:01:40 +0000</pubDate>
       
       <guid>https://kona4.com/post/2020/12/13/190140/</guid>
-      <description>言葉の揺れをなくす たとえば or 例えば 一つ or １つ
-正確性と分かりやすさの関係 その他 括弧は半角()ではなく全角（）を使用する。（ベースラインが整う。）　</description>
+      <description>&lt;h2 id=&#34;言葉の揺れをなくす&#34;&gt;言葉の揺れをなくす&lt;/h2&gt;
+&lt;p&gt;たとえば or 例えば
+一つ or １つ&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -141,7 +142,8 @@ structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p
       <pubDate>Wed, 09 Dec 2020 11:00:55 +0000</pubDate>
       
       <guid>https://kona4.com/post/2020/12/09/110055/</guid>
-      <description>目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&amp;lt;!--?php--&amp;gt; function cutOutUrl($url) { preg_match(&amp;amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;amp;#39;, $url, $match);  return $match[0] ?? null; } $url = cutOutUrl(&amp;#34;background-image: url( https://xxxxx.png );&amp;#34;); echo $url; $ php index.php &amp;#34;https://xxxxx.png&amp;#34; </description>
+      <description>目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );
+function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&amp;#34;background-image: url( https://xxxxx.png );&amp;#34;); echo $url; $ php index.php &amp;#34;https://xxxxx.png&amp;#34; </description>
     </item>
     
     <item>
@@ -150,10 +152,8 @@ structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p
       <pubDate>Fri, 04 Dec 2020 10:12:25 +0000</pubDate>
       
       <guid>https://kona4.com/post/2020/12/04/101225/</guid>
-      <description>Rustの環境構築をする際に、VSCodeの拡張機能であるRemote - Containersを使用しました。     ローカル上にフォルダを作成し、
-mkdir ~/RustApp これ以降VSCode上で作業をします。
-コマンドパレットから Remote-Container: Open Folder in Container&amp;hellip;を選択し、Rustを選択します。     Docker ImageのBuildの終了後、Terminalで確認。     以上でRustの環境構築が終了しました。
-終了時 VSCode左下にあるDev Container: Rustから、リモート接続を終了する。         参考: Rust開発環境をVS Codeで簡単に構築する</description>
+      <description>&lt;p&gt;Rustの環境構築をする際に、VSCodeの拡張機能である&lt;strong&gt;Remote - Containers&lt;/strong&gt;を使用しました。&lt;br&gt;
+&lt;img src=&#34;https://kona4.com/img/2020-12/04-01.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -162,15 +162,11 @@ mkdir ~/RustApp これ以降VSCode上で作業をします。
       <pubDate>Wed, 18 Nov 2020 00:46:46 +0000</pubDate>
       
       <guid>https://kona4.com/post/2020/11/18/004646/</guid>
-      <description>この記事は、LINE Developersコンソールでチャネルを作成済み。GitHubでリポジトリを作成済み。herokuにアカウントを作成済み。であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！GitHubはlinebotという名前でリポジトリを作成しました。
-環境 macOS Catalina バージョン 10.15.7PHP 7.3.11Composer 2.0.7
-herokuでアプリを作成し、GitHubと連携する linebot-echoappという名前でアプリを作成しました。
-LINE Messaging API SDKをインストールする $touch index.php$composer require linecorp/line-bot-sdkとりあえずPHPファイルを編集しておきます。
-&amp;lt;!--?php--&amp;gt; echo &amp;#34;hello&amp;#34;; GitHubへpush。git add .git commit -m &amp;ldquo;first commit&amp;rdquo;git push origin mainここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。herokuページ上部のOpen appをクリックするとページが開きます。
-Webhook URLを設定する LINE Developersで作成したチャネル内で、
-botを友だちに追加 Messaging APIタブにあるQRコードから友だち追加しておきます。
-メッセージをオウム返しする 送信したメッセージをオウム返しするコードをLINE Messaging API SDKやQiitaの記事を参考に作成しました。
-&amp;lt;!--?php--&amp;gt; require(&amp;amp;#39;vendor/autoload.php&amp;amp;#39;);  use LINE\LINEBot\Constant\HTTPHeader; use LINE\LINEBot\HTTPClient\CurlHTTPClient; use LINE\LINEBot; // Channel access tokenとChannel secretを設定 $channel_access_token = &amp;amp;#39;XXXXXXXXX&amp;amp;#39;; $channel_secret = &amp;amp;#39;XXXXXXXXX&amp;amp;#39;;  $httpClient = new CurlHTTPClient($channel_access_token); $bot = new LINEBot($httpClient, [&amp;amp;#39;channelSecret&amp;amp;#39; =&amp;gt; $channel_secret]);  $events = $bot-&amp;gt;parseEventRequest(file_get_contents(&amp;amp;#39;php://input&amp;amp;#39;), $_SERVER[&amp;amp;#39;HTTP_&amp;amp;#39; .</description>
+      <description>&lt;p&gt;この記事は、&lt;/p&gt;
+&lt;h4 id=&#34;line-developersコンソールでチャネルを作成済み&#34;&gt;LINE Developersコンソールでチャネルを作成済み。&lt;/h4&gt;
+&lt;h4 id=&#34;githubでリポジトリを作成済み&#34;&gt;GitHubでリポジトリを作成済み。&lt;/h4&gt;
+&lt;h4 id=&#34;herokuにアカウントを作成済み&#34;&gt;herokuにアカウントを作成済み。&lt;/h4&gt;
+&lt;p&gt;であることが前提です。LINE Developersのチャネルは&lt;a href=&#34;https://developers.line.biz/ja/docs/messaging-api/getting-started/&#34;&gt;ここから&lt;/a&gt;すぐに作成できます！&lt;/p&gt;</description>
     </item>
     
     <item>
