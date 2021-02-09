@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on Kona4 Blog</title>
+    <link>https://kona4.com/tags/aws/</link>
+    <description>Recent content in AWS on Kona4 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 May 2020 11:13:32 +0000</lastBuildDate><atom:link href="https://kona4.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWSを学び始める</title>
+      <link>https://kona4.com/post/2020/05/26/111332/</link>
+      <pubDate>Tue, 26 May 2020 11:13:32 +0000</pubDate>
+      
+      <guid>https://kona4.com/post/2020/05/26/111332/</guid>
+      <description>&lt;h2 id=&#34;awsを始めたい理由&#34;&gt;AWSを始めたい理由&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;来年就職する予定の内定先の企業がAWSをインフラで使用している点&lt;/li&gt;
+&lt;li&gt;個人で開発したアプリ等をAWSを用いてデプロイしたい&lt;/li&gt;
+&lt;li&gt;これまではGitHub Pagesやherokuなどでしかページを公開したことがなかったので、一からシステムを構成することを学びたい&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

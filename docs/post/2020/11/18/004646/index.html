@@ -63,7 +63,7 @@ herokuにアカウントを作成済み。
   "headline": "PHPでLINE Messaging APIを使う",
   "description" : "この記事は、\nLINE Developersコンソールでチャネルを作成済み。 GitHubでリポジトリを作成済み。 herokuにアカウントを作成済み。 であることが前提です。LINE Developersのチャネルはここからすぐに作成できます！\n",
   "inLanguage" : "en",
-  "wordCount":  98 ,
+  "wordCount":  138 ,
   "datePublished" : "2020-11-18T00:46:46",
   "dateModified" : "2020-11-18T00:46:46",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
@@ -292,64 +292,69 @@ if (!doNotTrack) {
 PHP 7.3.11<br>
 Composer 2.0.7</p>
 <h2 id="herokuでアプリを作成しgithubと連携する">herokuでアプリを作成し、GitHubと連携する</h2>
-<p><strong>linebot-echoapp</strong>という名前でアプリを作成しました。</p>
-<!-- raw HTML omitted -->
+<p><strong>linebot-echoapp</strong>という名前でアプリを作成しました。
+<img src="https://kona4.com/img/2020-11/18-01.png" alt="img">herokuでアプリを新規作成
+<img src="https://kona4.com/img/2020-11/18-02.png" alt="img">GitHubと連携
+<img src="https://kona4.com/img/2020-11/18-03.png" alt="img">自動デプロイを有効にする</p>
 <h2 id="line-messaging-api-sdkをインストールする">LINE Messaging API SDKをインストールする</h2>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted -->$touch index.php<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->$composer require linecorp/line-bot-sdk<!-- raw HTML omitted --><!-- raw HTML omitted -->
-とりあえずPHPファイルを編集しておきます。</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
+<h5 id="phpファイルを作成しline-messaging-api-sdkをインストールする">PHPファイルを作成し、LINE Messaging API SDKをインストールする</h5>
+<p><code>$touch index.php</code></p>
+<p><code>$composer require linecorp/line-bot-sdk</code></p>
+<p>とりあえずPHPファイルを編集しておきます。</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
 <span class="k">echo</span> <span class="s2">&#34;hello&#34;</span><span class="p">;</span>
 
-</code></pre></div><p>GitHubへpush。<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->git add .<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->git commit -m &ldquo;first commit&rdquo;<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->git push origin main<!-- raw HTML omitted --></p>
-<p>ここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。<!-- raw HTML omitted -->
+</code></pre></div><p>GitHubへpush。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+$ git add .
+$ git commit -m &#34;first commit&#34;
+$ git push origin main
+
+</code></pre></div><p>ここまで終了したら、ページを開いて先程作ったPHPファイルが反映されているか確認します。<!-- raw HTML omitted -->
 herokuページ上部の<strong>Open app</strong>をクリックするとページが開きます。</p>
-<!-- raw HTML omitted -->
-<h3 id="webhook-urlを設定する">Webhook URLを設定する</h3>
-<p>LINE Developersで作成したチャネル内で、</p>
-<!-- raw HTML omitted -->
-<h3 id="botを友だちに追加">botを友だちに追加</h3>
+<img src="https://kona4.com/img/2020-11/18-04.png" alt="img">ページを確認
+<p>このページのURLをメモしておいてください。
+<img src="https://kona4.com/img/2020-11/18-05.png" alt="img">URL</p>
+<h2 id="webhook-urlを設定する">Webhook URLを設定する</h2>
+<p>LINE Developersで作成したチャネル内で、
+<img src="https://kona4.com/img/2020-11/18-06.png" alt="img">Webhook URLを設定する</p>
+<p><strong>Webhook URL</strong>に先程のURLを入力し、<strong>Use webhook</strong>をonにします。<br>
+同じページ内にある<strong>Channel access token</strong>を発行します。</p>
+<img src="https://kona4.com/img/2020-11/18-07.png" alt="img">Channel access token
+<p>次に、<strong>Basic settingsタブ</strong>の<strong>Channel secret</strong>を確認します。</p>
+<img src="https://kona4.com/img/2020-11/18-08.png" alt="img">自動デプロイを有効にする
+<p>上記の<br>
+<strong>Channel access token</strong>と<br>
+<strong>Channel secret</strong><br>
+をPHPファイル内で使用します。</p>
+<h2 id="botを友だちに追加">botを友だちに追加</h2>
 <p><strong>Messaging APIタブ</strong>にあるQRコードから友だち追加しておきます。</p>
-<h3 id="メッセージをオウム返しする">メッセージをオウム返しする</h3>
-<p>送信したメッセージをオウム返しするコードを<!-- raw HTML omitted -->LINE Messaging API SDK<!-- raw HTML omitted -->や<!-- raw HTML omitted -->Qiita<!-- raw HTML omitted -->の記事を参考に作成しました。</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!--?</span><span class="nx">php</span><span class="o">--&gt;</span>
-<span class="k">require</span><span class="p">(</span><span class="o">&amp;</span><span class="c1">#39;vendor/autoload.php&amp;#39;);
-</span><span class="c1"></span>
+<h2 id="メッセージをオウム返しする">メッセージをオウム返しする</h2>
+<p>送信したメッセージをオウム返しするコードを<a href="https://github.com/line/line-bot-sdk-php">LINE Messaging API SDK</a>や<a href="https://qiita.com/kuzira_vimmer/items/ad485a9365c2c23f0465">Qiita</a>の記事を参考に作成しました。</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
+<span class="k">require</span><span class="p">(</span><span class="s1">&#39;vendor/autoload.php&#39;</span><span class="p">);</span>
+
 <span class="k">use</span> <span class="nx">LINE\LINEBot\Constant\HTTPHeader</span><span class="p">;</span>
 <span class="k">use</span> <span class="nx">LINE\LINEBot\HTTPClient\CurlHTTPClient</span><span class="p">;</span>
 <span class="k">use</span> <span class="nx">LINE\LINEBot</span><span class="p">;</span>
 
 <span class="c1">// Channel access tokenとChannel secretを設定
-</span><span class="c1"></span><span class="nv">$channel_access_token</span> <span class="o">=</span> <span class="o">&amp;</span><span class="c1">#39;XXXXXXXXX&amp;#39;;
-</span><span class="c1"></span><span class="nv">$channel_secret</span> <span class="o">=</span> <span class="o">&amp;</span><span class="c1">#39;XXXXXXXXX&amp;#39;;
-</span><span class="c1"></span>
+</span><span class="c1"></span><span class="nv">$channel_access_token</span> <span class="o">=</span> <span class="s1">&#39;XXXXXXXXX&#39;</span><span class="p">;</span>
+<span class="nv">$channel_secret</span> <span class="o">=</span> <span class="s1">&#39;XXXXXXXXX&#39;</span><span class="p">;</span>
+
 <span class="nv">$httpClient</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CurlHTTPClient</span><span class="p">(</span><span class="nv">$channel_access_token</span><span class="p">);</span>
-<span class="nv">$bot</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">LINEBot</span><span class="p">(</span><span class="nv">$httpClient</span><span class="p">,</span> <span class="p">[</span><span class="o">&amp;</span><span class="c1">#39;channelSecret&amp;#39; =&gt; $channel_secret]);
-</span><span class="c1"></span>
-<span class="nv">$events</span> <span class="o">=</span> <span class="nv">$bot</span><span class="o">-&gt;</span><span class="na">parseEventRequest</span><span class="p">(</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="o">&amp;</span><span class="c1">#39;php://input&amp;#39;), $_SERVER[&amp;#39;HTTP_&amp;#39; . HTTPHeader::LINE_SIGNATURE]);
-</span><span class="c1"></span><span class="nv">$event</span> <span class="o">=</span> <span class="nv">$events</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+<span class="nv">$bot</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">LINEBot</span><span class="p">(</span><span class="nv">$httpClient</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;channelSecret&#39;</span> <span class="o">=&gt;</span> <span class="nv">$channel_secret</span><span class="p">]);</span>
+
+<span class="nv">$events</span> <span class="o">=</span> <span class="nv">$bot</span><span class="o">-&gt;</span><span class="na">parseEventRequest</span><span class="p">(</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="s1">&#39;php://input&#39;</span><span class="p">),</span> <span class="nv">$_SERVER</span><span class="p">[</span><span class="s1">&#39;HTTP_&#39;</span> <span class="o">.</span> <span class="nx">HTTPHeader</span><span class="o">::</span><span class="na">LINE_SIGNATURE</span><span class="p">]);</span>
+<span class="nv">$event</span> <span class="o">=</span> <span class="nv">$events</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
 
 <span class="nv">$bot</span><span class="o">-&gt;</span><span class="na">replyText</span><span class="p">(</span><span class="nv">$event</span><span class="o">-&gt;</span><span class="na">getReplyToken</span><span class="p">(),</span> <span class="nv">$event</span><span class="o">-&gt;</span><span class="na">getText</span><span class="p">());</span>
 
 </code></pre></div><p>GitHubへpushし、少ししてからLINEで確認してみてください。
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="https://kona4.com/images/2020/11/18/004646/20201118001505.jpg" alt="/images/2020/11/18/004646/20201118001505.jpg"/>
-    </div>
-    <a href="https://kona4.com/images/2020/11/18/004646/20201118001505.jpg" itemprop="contentUrl"></a>
-  </figure>
-</div>
-</p>
-<p><!-- raw HTML omitted -->公式ドキュメント<!-- raw HTML omitted -->で他様々なことが確認できます！</p>
-<h3 id="終わり">終わり</h3>
-<p>日本語のドキュメントがあるのにも関わらずとても苦労しました。。。<!-- raw HTML omitted -->
+<img src="https://kona4.com/img/2020-11/18-09.jpg" alt="img" width="50%"></p>
+<p><a href="https://developers.line.biz/ja/docs/messaging-api/building-sample-bot-with-heroku/#page-title">公式ドキュメント</a>で他様々なことが確認できます！</p>
+<h2 id="終わりに">終わりに</h2>
+<p>日本語のドキュメントがあるのにも関わらずとても苦労しました。。。<br>
 APIの知識も身につけていきたいです。</p>
 
         
