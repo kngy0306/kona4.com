@@ -5,7 +5,7 @@ date: 2021-02-02T23:23:43+09:00
 draft: false
 tags: ["振り返り"]
 bigimg: [{src: "/img/2021/02/02.png", desc: "BiSH / オーケストラ [And yet BiSH moves.]＠大阪城ホール より"}]
-images: ["/img/2021/02/02.png"]
+image: "/img/2021/02/02.png"
 ---
 
 こんにちは、[kona4](https://twitter.com/YoKaU2)です！
