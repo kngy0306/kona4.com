@@ -106,7 +106,16 @@ function getUrl($url) { preg_match(&#39;/(https).*\.(png|jpg|jpeg)/i&#39;, $url,
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
   
   <link rel="stylesheet" href="https://kona4.com/css/syntax.css" /><link rel="stylesheet" href="https://kona4.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><meta property="og:title" content="【PHP】正規表現メモ" />
+<meta property="og:description" content="目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );
+function getUrl($url) { preg_match(&#39;/(https).*\.(png|jpg|jpeg)/i&#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&#34;background-image: url( https://xxxxx.png );&#34;); echo $url; $ php index.php &#34;https://xxxxx.png&#34; " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kona4.com/post/2020/12/09/110055/" />
+<meta property="article:published_time" content="2020-12-09T11:00:55+00:00" />
+<meta property="article:modified_time" content="2020-12-09T11:00:55+00:00" />
+
+
+
 
 
 
