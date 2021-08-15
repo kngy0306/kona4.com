@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kona4 Blog</title>
+    <title>kona4 Blog</title>
     <link>https://kona4.com/</link>
-    <description>Recent content on Kona4 Blog</description>
+    <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 02 Feb 2021 23:23:43 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -250,10 +250,10 @@ function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39
     
     <item>
       <title>Yuto Konagaya</title>
-      <link>https://kona4.com/page/about/</link>
+      <link>https://kona4.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kona4.com/page/about/</guid>
+      <guid>https://kona4.com/about/</guid>
       <description>2021年4月からWebエンジニアになりました👍
 最近の興味  Python, Django PHP  趣味  ゲーム実況を見ること 乃木坂46, 日向坂46のライブに行くこと  </description>
     </item>

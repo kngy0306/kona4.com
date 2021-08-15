@@ -1,7 +1,7 @@
 baseurl = "https://kona4.com/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Kona4 Blog"
+title = "kona4 Blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -64,7 +64,7 @@ canonifyurls = true
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "about/"
     weight = 1
 
 #[[menu.main]]
