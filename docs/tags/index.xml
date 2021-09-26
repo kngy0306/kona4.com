@@ -5,7 +5,34 @@
     <link>https://kona4.com/tags/</link>
     <description>Recent content in Tags on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Feb 2021 23:23:43 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 13:57:28 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django</title>
+      <link>https://kona4.com/tags/django/</link>
+      <pubDate>Sun, 26 Sep 2021 13:57:28 +0900</pubDate>
+      
+      <guid>https://kona4.com/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://kona4.com/tags/docker/</link>
+      <pubDate>Sun, 26 Sep 2021 13:57:28 +0900</pubDate>
+      
+      <guid>https://kona4.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://kona4.com/tags/react/</link>
+      <pubDate>Sun, 26 Sep 2021 13:57:28 +0900</pubDate>
+      
+      <guid>https://kona4.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>振り返り</title>
       <link>https://kona4.com/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
@@ -30,15 +57,6 @@
       <pubDate>Tue, 12 Jan 2021 09:32:23 +0900</pubDate>
       
       <guid>https://kona4.com/tags/dns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://kona4.com/tags/blog/</link>
-      <pubDate>Sat, 09 Jan 2021 00:10:56 +0900</pubDate>
-      
-      <guid>https://kona4.com/tags/blog/</guid>
       <description></description>
     </item>
     
