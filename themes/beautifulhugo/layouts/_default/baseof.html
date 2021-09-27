@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
   <head>
+    {{ block "description" . }}
+      <meta name="description" content="{{ .Description }}">
+    {{ end }}
     {{ partial "head.html" . }}
   </head>
   <body>
