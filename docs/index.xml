@@ -5,7 +5,16 @@
     <link>https://kona4.com/</link>
     <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Sep 2021 13:57:28 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 22:16:24 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>プライバシーポリシー</title>
+      <link>https://kona4.com/information/privacy/</link>
+      <pubDate>Tue, 28 Sep 2021 22:16:24 +0900</pubDate>
+      
+      <guid>https://kona4.com/information/privacy/</guid>
+      <description>アクセス解析ツールについて 当ブログでは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています。このGoogleアナリティクスはトラフィックデータの収集のためにクッキー（Cookie）を使用しております。トラフィックデータは匿名で収集されており、個人を特定するものではありません。</description>
+    </item>
+    
     <item>
       <title>DjangoとReactの開発環境をDockerで構築</title>
       <link>https://kona4.com/post/2021/09/2021-09-26-docker/</link>
