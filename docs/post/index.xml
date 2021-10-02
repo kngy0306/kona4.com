@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Sep 2021 13:57:28 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Oct 2021 13:50:25 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>初めて4Kモニターを買いました！</title>
+      <link>https://kona4.com/post/2021/10/2021-10-02-gadget/</link>
+      <pubDate>Sat, 02 Oct 2021 13:50:25 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-02-gadget/</guid>
+      <description>&lt;p&gt;この記事は、私がモニターを購入する際に考えたことについて書いたものです！&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>DjangoとReactの開発環境をDockerで構築</title>
       <link>https://kona4.com/post/2021/09/2021-09-26-docker/</link>
