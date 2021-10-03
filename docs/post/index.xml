@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Oct 2021 13:50:25 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 13:12:29 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>オブジェクト指向プログラミングについて学んだことメモ</title>
+      <link>https://kona4.com/post/2021/10/2021-10-03-oop/</link>
+      <pubDate>Sun, 03 Oct 2021 13:12:29 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-03-oop/</guid>
+      <description>&lt;p&gt;この記事は、PHP本格入門 下 を読んでオブジェクト指向についての学習をメモしたものです。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>初めて4Kモニターを買いました！</title>
       <link>https://kona4.com/post/2021/10/2021-10-02-gadget/</link>

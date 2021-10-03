@@ -5,7 +5,16 @@
     <link>https://kona4.com/tags/it/</link>
     <description>Recent content in IT on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Dec 2020 14:13:16 +0000</lastBuildDate><atom:link href="https://kona4.com/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 13:12:29 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>オブジェクト指向プログラミングについて学んだことメモ</title>
+      <link>https://kona4.com/post/2021/10/2021-10-03-oop/</link>
+      <pubDate>Sun, 03 Oct 2021 13:12:29 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-03-oop/</guid>
+      <description>&lt;p&gt;この記事は、PHP本格入門 下 を読んでオブジェクト指向についての学習をメモしたものです。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>curlコマンドでnoteからデータを取得してみる</title>
       <link>https://kona4.com/post/2020/12/17/141316/</link>

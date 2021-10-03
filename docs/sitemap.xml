@@ -4,18 +4,28 @@
   
   <url>
     <loc>https://kona4.com/</loc>
-    <lastmod>2021-10-02T13:50:25+09:00</lastmod>
+    <lastmod>2021-10-03T13:12:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://kona4.com/tags/it/</loc>
+    <lastmod>2021-10-03T13:12:29+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kona4.com/post/</loc>
-    <lastmod>2021-10-02T13:50:25+09:00</lastmod>
+    <lastmod>2021-10-03T13:12:29+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kona4.com/tags/</loc>
-    <lastmod>2021-10-02T13:50:25+09:00</lastmod>
+    <lastmod>2021-10-03T13:12:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kona4.com/post/2021/10/2021-10-03-oop/</loc>
+    <lastmod>2021-10-03T13:12:29+09:00</lastmod>
   </url>
   
   <url>
@@ -115,11 +125,6 @@
   
   <url>
     <loc>https://kona4.com/post/2020/12/17/141316/</loc>
-    <lastmod>2020-12-17T14:13:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kona4.com/tags/it/</loc>
     <lastmod>2020-12-17T14:13:16+00:00</lastmod>
   </url>
   
