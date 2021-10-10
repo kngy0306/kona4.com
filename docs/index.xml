@@ -5,7 +5,16 @@
     <link>https://kona4.com/</link>
     <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Oct 2021 13:12:29 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Oct 2021 19:43:12 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DjangoとReactで写真投稿アプリを作る</title>
+      <link>https://kona4.com/post/2021/10/2021-10-10-photoapp/</link>
+      <pubDate>Sun, 10 Oct 2021 19:43:12 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-10-photoapp/</guid>
+      <description>&lt;p&gt;Django(Django REST framework)と、Reactを使用して写真投稿アプリを作成しました！機能や使用した技術の紹介記事です。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>オブジェクト指向プログラミングについて学んだことメモ</title>
       <link>https://kona4.com/post/2021/10/2021-10-03-oop/</link>
@@ -292,7 +301,7 @@ function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39
       
       <guid>https://kona4.com/about/</guid>
       <description>2021年4月からWebエンジニアになりました👍
-最近の興味  Python, Django PHP  趣味  ゲーム実況を見ること 乃木坂46, 日向坂46のライブに行くこと  </description>
+最近の興味  Python React Flutter  趣味  ゲーム実況を見ること 乃木坂46, 日向坂46のライブに行くこと  </description>
     </item>
     
   </channel>

@@ -7,8 +7,9 @@ comments: false
 2021年4月からWebエンジニアになりました👍
 
 ### 最近の興味
-- Python, Django
-- PHP
+- Python
+- React
+- Flutter
 
 ### 趣味
 - ゲーム実況を見ること
