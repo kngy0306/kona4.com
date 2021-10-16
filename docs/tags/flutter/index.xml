@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flutter on kona4 Blog</title>
+    <link>https://kona4.com/tags/flutter/</link>
+    <description>Recent content in Flutter on kona4 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 16 Oct 2021 12:31:37 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter公式 最初のチュートリアルをやってみた</title>
+      <link>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</link>
+      <pubDate>Sat, 16 Oct 2021 12:31:37 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</guid>
+      <description>&lt;p&gt;この記事は、Flutter公式サイトにある4つあるTutorialの中の &lt;a href=&#34;https://flutter.dev/docs/development/ui/layout/tutorial&#34;&gt;Building layouts&lt;/a&gt; を行った際に学んだことをメモしたものです。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Oct 2021 19:43:12 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 12:31:37 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter公式 最初のチュートリアルをやってみた</title>
+      <link>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</link>
+      <pubDate>Sat, 16 Oct 2021 12:31:37 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</guid>
+      <description>&lt;p&gt;この記事は、Flutter公式サイトにある4つあるTutorialの中の &lt;a href=&#34;https://flutter.dev/docs/development/ui/layout/tutorial&#34;&gt;Building layouts&lt;/a&gt; を行った際に学んだことをメモしたものです。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>DjangoとReactで写真投稿アプリを作る</title>
       <link>https://kona4.com/post/2021/10/2021-10-10-photoapp/</link>
