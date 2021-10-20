@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Oct 2021 12:31:37 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 22:30:21 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【MySQL】クエリの結果をcsv形式でファイルに保存する</title>
+      <link>https://kona4.com/post/2021/10/2021-10-20-sqltocsv/</link>
+      <pubDate>Wed, 20 Oct 2021 22:30:21 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-20-sqltocsv/</guid>
+      <description>&lt;p&gt;MySQLでクエリを実行し、その結果をそのままcsv形式でファイルに保存するコマンドの紹介記事です！&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Flutter公式 最初のチュートリアルをやってみた</title>
       <link>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</link>
