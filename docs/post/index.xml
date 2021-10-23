@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Oct 2021 22:30:21 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Oct 2021 11:17:14 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>package.jsonに記載されていないパッケージをアップグレードする方法メモ</title>
+      <link>https://kona4.com/post/2021/10/2021-10-23-package_json/</link>
+      <pubDate>Sat, 23 Oct 2021 11:17:14 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/10/2021-10-23-package_json/</guid>
+      <description>&lt;p&gt;この記事は、package.jsonに記載されていないパッケージをアップグレードする方法について調べたときのメモになります。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【MySQL】クエリの結果をcsv形式でファイルに保存する</title>
       <link>https://kona4.com/post/2021/10/2021-10-20-sqltocsv/</link>
