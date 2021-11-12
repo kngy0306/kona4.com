@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Oct 2021 11:17:14 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 20:45:56 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebサーバーとPHPの関係</title>
+      <link>https://kona4.com/post/2021/11/2021-11-12-php/</link>
+      <pubDate>Fri, 12 Nov 2021 20:45:56 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/11/2021-11-12-php/</guid>
+      <description>&lt;p&gt;この記事は、PHP本格入門上のChapter1に書かれているWebサーバーとPHPについてのメモです。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>package.jsonに記載されていないパッケージをアップグレードする方法メモ</title>
       <link>https://kona4.com/post/2021/10/2021-10-23-package_json/</link>
