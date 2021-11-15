@@ -347,7 +347,7 @@ function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39
       
       <guid>https://kona4.com/about/</guid>
       <description>2021年4月からWebエンジニアになりました👍
-最近の興味  Python React Flutter  趣味  ゲーム実況を見ること 乃木坂46, 日向坂46のライブに行くこと  </description>
+最近の興味  PHP TypeScript (&amp;amp; React) Unity  趣味  ゲーム実況を見ること 乃木坂46, 日向坂46のライブに行くこと  </description>
     </item>
     
   </channel>
