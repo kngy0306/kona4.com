@@ -5,7 +5,17 @@
     <link>https://kona4.com/</link>
     <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Nov 2021 20:45:56 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Nov 2021 22:10:09 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScript環境構築メモ</title>
+      <link>https://kona4.com/post/2021/11/2021-11-15-ts/</link>
+      <pubDate>Mon, 15 Nov 2021 22:10:09 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/11/2021-11-15-ts/</guid>
+      <description>自分用のTypeScript環境構築メモです。
+環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(&amp;#39;path&amp;#39;); module.exports = { entry: &amp;#39;./src/index.ts&amp;#39;, output: { path: path.join(__dirname, &amp;#39;dist&amp;#39;), filename: &amp;#39;bundle.js&amp;#39;, }, resolve: { extensions: [&amp;#39;.ts&amp;#39;, &amp;#39;.js&amp;#39;] }, devServer: { contentBase: path.join(__dirname, &amp;#39;dist&amp;#39;), open: true, }, module: { rules: [ { loader: &amp;#39;ts-loader&amp;#39;, test: /\.ts$/, exclude: /node_modules/, } ] } } package.jsonのscriptsを追加 { ... &amp;#34;scripts&amp;#34;: { &amp;#34;build&amp;#34;: &amp;#34;webpack --mode=production&amp;#34;, &amp;#34;start&amp;#34;: &amp;#34;webpack-cli serve --mode development&amp;#34; }, .</description>
+    </item>
+    
     <item>
       <title>WebサーバーとPHPの関係</title>
       <link>https://kona4.com/post/2021/11/2021-11-12-php/</link>

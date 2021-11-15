@@ -1,3 +1,4 @@
 *.DS_Store
 config.toml
 manual.md
+*.sh

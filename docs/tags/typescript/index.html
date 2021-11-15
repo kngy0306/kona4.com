@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>kona4 Blog - kona4 Blog</title>
+  <title>TypeScript - kona4 Blog</title>
   <meta name="author" content="kona4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -32,13 +32,13 @@
 }
 </script>
 
-<meta property="og:title" content="kona4 Blog" />
+<meta property="og:title" content="TypeScript" />
 <meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
-<meta property="og:url" content="https://kona4.com/" />
+<meta property="og:url" content="https://kona4.com/tags/typescript/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="kona4 Blog" />
 
-  <meta name="twitter:title" content="kona4 Blog" />
+  <meta name="twitter:title" content="TypeScript" />
   <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -57,10 +57,10 @@
   <link rel="stylesheet" href="https://kona4.com/css/syntax.css" /><link rel="stylesheet" href="https://kona4.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
   
-  <script data-ad-client="ca-pub-9289818838819497" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta property="og:title" content="" />
+  <script data-ad-client="ca-pub-9289818838819497" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta property="og:title" content="TypeScript" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://kona4.com/" />
+<meta property="og:url" content="https://kona4.com/tags/typescript/" />
 <meta property="og:updated_time" content="2021-11-15T22:10:09+09:00" />
 
 
@@ -203,9 +203,9 @@ if (!doNotTrack) {
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
+            <div class="tags-heading">
               
-                <h1>kona4 Blog</h1>
+                <h1>TypeScript</h1>
               
               
                 <hr class="small">
@@ -221,18 +221,18 @@ if (!doNotTrack) {
 
 
     
-  <div role="main" class="container">
+  <div class="container" role="main">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
-
         <div class="posts-list">
           
-          
             <article class="post-preview">
-    <a href="https://kona4.com/post/2021/01/2021-01-25-retrospective/">
-        <h2 class="post-title">2021年1月  3週目振り返り</h2>
+    <a href="https://kona4.com/post/2021/11/2021-11-15-ts/">
+        <h2 class="post-title">TypeScript環境構築メモ</h2>
         
+        
+        <img src="https://kona4.com/img/2021/11-15-ts.jpg" alt="TypeScript環境構築メモ" class="img-title" />
         
         
     </a>
@@ -241,7 +241,7 @@ if (!doNotTrack) {
         <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/1/25
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/11/15
   
   
   
@@ -253,389 +253,16 @@ if (!doNotTrack) {
     </p>
     <div class="post-entry">
         
-        <p>こんにちは、<a href="https://twitter.com/YoKaU2">kona4</a>です！</p>
-<p>1月も残り1週間となりました。<br>
-1月の3周目が終わったので今週の振り返りをします！</p>
-<p>振り返りには、前回と同じく<strong>KPT法</strong>を使います。</p>
-        <a href="https://kona4.com/post/2021/01/2021-01-25-retrospective/" class="post-read-more">[Read More]</a>
+        自分用のTypeScript環境構築メモです。
+環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.ts&#39;, output: { path: path.join(__dirname, &#39;dist&#39;), filename: &#39;bundle.js&#39;, }, resolve: { extensions: [&#39;.ts&#39;, &#39;.js&#39;] }, devServer: { contentBase: path.join(__dirname, &#39;dist&#39;), open: true, }, module: { rules: [ { loader: &#39;ts-loader&#39;, test: /\.ts$/, exclude: /node_modules/, } ] } } package.jsonのscriptsを追加 { ... &#34;scripts&#34;: { &#34;build&#34;: &#34;webpack --mode=production&#34;, &#34;start&#34;: &#34;webpack-cli serve --mode development&#34; }, .
+        <a href="https://kona4.com/post/2021/11/2021-11-15-ts/" class="post-read-more">[Read More]</a>
         
     </div>
 
     
     <div class="blog-tags">
         
-        <a href="https://kona4.com//tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/">振り返り</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2021/01/2021-01-18-retrospective/">
-        <h2 class="post-title">2021年1月  2週目振り返り</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/1/18
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>こんにちは、<a href="https://twitter.com/YoKaU2">kona4</a>です！</p>
-<p>1月の2周目が終わったので今週の振り返りをします！</p>
-        <a href="https://kona4.com/post/2021/01/2021-01-18-retrospective/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/">振り返り</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2021/01/2021-01-16-gooutput/">
-        <h2 class="post-title">【Go】structの埋め込みについて</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/1/16
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>structについてまとめたものです。<br>
-structのことを<strong>構造体</strong>といいます。</p>
-        <a href="https://kona4.com/post/2021/01/2021-01-16-gooutput/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/go/">Go</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2021/01/2021-01-13-gooutput/">
-        <h2 class="post-title">入門Goプログラミングのアウトプット</h2>
-        
-        <h3 class="post-subtitle">
-            2021-01-15 更新
-        </h3>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/1/13
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>書籍: <a href="https://www.amazon.co.jp/%E5%85%A5%E9%96%80Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Nathan-Youngman/dp/4798158658/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;qid=&amp;sr=">入門Goプログラミング</a>の中にある、チャレンジのアウトプット。</p>
-        <a href="https://kona4.com/post/2021/01/2021-01-13-gooutput/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/go/">Go</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2021/01/2021-01-12-dns/">
-        <h2 class="post-title">Aレコードについて</h2>
-        
-        <h3 class="post-subtitle">
-            GitHub Pages サイトのデフォルトドメインをカスタムドメインに変更したときの備忘録
-        </h3>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/1/12
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>本ブログのURLを、GitHub Pagesのデフォルトのドメインから、お名前.comで購入したドメインに変更しました。</p>
-<p>この記事は、ドメインを変更したときに知った用語についてまとめたものです。</p>
-        <a href="https://kona4.com/post/2021/01/2021-01-12-dns/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/dns/">DNS</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2021/01/2021-01-11-retrospective/">
-        <h2 class="post-title">2021年1月  1週目振り返り</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/1/11
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>こんにちは、<a href="https://twitter.com/YoKaU2">kona4</a>です！</p>
-<p>今年も1週間が終わりました！<br>
-1月に入って私が取り組んだことについてまとめです。</p>
-        <a href="https://kona4.com/post/2021/01/2021-01-11-retrospective/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/">振り返り</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2021/01/2021-01-08-first/">
-        <h2 class="post-title">Hugoにブログを作りました！</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2021/1/9
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>こんにちは、<a href="https://twitter.com/YoKaU2">Kona4</a>です。
-2021年から、ブログを<a href="https://gohugo.io/">Hugo</a>で作成し、公開することにしました。</p>
-<p>軽いアウトプットはこれまで<a href="https://konakomoti.hatenablog.com/">はてなブログ</a>に投稿していましたが、もっとページをカスタマイズしたいと思い、Hugoでサイトを構築しました。</p>
-        <a href="https://kona4.com/post/2021/01/2021-01-08-first/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2020/12/17/141316/">
-        <h2 class="post-title">curlコマンドでnoteからデータを取得してみる</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2020/12/17
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="はじめに">はじめに</h2>
-<p>使い方を公式で説明しているわけではないが、<a href="https://note.com/">note</a>にはAPIがあるみたい。</p>
-<p><a href="https://note.com/hagure_melon/n/n964ff6f7ad0e">【2020年度】noteのAPI一覧【完全版】</a></p>
-<p>curlコマンドの使い方を学ぶついでに、noteに投稿されている記事のタイトルを取得してみる。</p>
-        <a href="https://kona4.com/post/2020/12/17/141316/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/it/">IT</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2020/12/16/122401/">
-        <h2 class="post-title">PHPでテストを書く（PHPUnit）</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2020/12/16
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="自動テストの重要性">自動テストの重要性</h2>
-<p>コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; <!-- raw HTML omitted -->自動テスト<!-- raw HTML omitted -->という仕組みが役に立つ。</p>
-<p>参考書籍に則り、<!-- raw HTML omitted -->PHPUnit<!-- raw HTML omitted -->という自動テストツールを使用する。</p>
-        <a href="https://kona4.com/post/2020/12/16/122401/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/it/">IT</a>&nbsp;
-        
-        <a href="https://kona4.com//tags/php/">PHP</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2020/12/14/100351/">
-        <h2 class="post-title">簡単なRESTful APIサーバーを作ってみる</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2020/12/14
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="restful-apiって">RESTful APIって？</h2>
-<p>標準的なWebAPIの設計方式。<br>
-リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。</p>
-        <a href="https://kona4.com/post/2020/12/14/100351/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/it/">IT</a>&nbsp;
-        
-        <a href="https://kona4.com//tags/php/">PHP</a>&nbsp;
+        <a href="https://kona4.com//tags/typescript/">TypeScript</a>&nbsp;
         
     </div>
     
@@ -643,34 +270,12 @@ structのことを<strong>構造体</strong>といいます。</p>
 </article>
           
         </div>
-
-        
-          <ul class="pager main-pager">
-            
-              <li class="previous">
-                <a href="https://kona4.com/page/1/">&larr; Newer Posts</a>
-              </li>
-            
-            
-              <li class="next">
-                <a href="https://kona4.com/page/3/">Older Posts &rarr;</a>
-              </li>
-            
-          </ul>
         
       </div>
     </div>
   </div>
 
       
-    <div class="page-meta">
-  
-  
-  
-</div>
-
-
-  
 <footer>
   <div class="container">
     <div class="row">
@@ -695,7 +300,7 @@ structのことを<strong>構造体</strong>といいます。</p>
               </li>
           
           <li>
-            <a href="https://kona4.com/index.xml" title="RSS">
+            <a href="https://kona4.com/tags/typescript/index.xml" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
