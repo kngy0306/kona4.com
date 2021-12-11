@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API on kona4 Blog</title>
+    <link>https://kona4.com/tags/api/</link>
+    <description>Recent content in API on kona4 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Dec 2021 22:03:06 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TwitterAPIを使って乃木坂46公式アカウントの投稿を取得する【JavaScript】</title>
+      <link>https://kona4.com/post/2021/12/2021-12-10-twitterapi/</link>
+      <pubDate>Fri, 10 Dec 2021 22:03:06 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2021/12/2021-12-10-twitterapi/</guid>
+      <description>&lt;p&gt;JavaScriptでTwitterAPIを使ってツイートを取得しました。&lt;br&gt;
+取得する条件がたくさん指定できるのですが、自分が取得した例（&lt;strong&gt;乃木坂46の公式アカウントの投稿を取得&lt;/strong&gt;）を紹介しようと思います！&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
