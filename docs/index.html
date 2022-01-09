@@ -339,8 +339,7 @@ if (!doNotTrack) {
     </p>
     <div class="post-entry">
         
-        自分用のTypeScript環境構築メモです。
-環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.ts&#39;, output: { path: path.join(__dirname, &#39;dist&#39;), filename: &#39;bundle.js&#39;, }, resolve: { extensions: [&#39;.ts&#39;, &#39;.js&#39;] }, devServer: { contentBase: path.join(__dirname, &#39;dist&#39;), open: true, }, module: { rules: [ { loader: &#39;ts-loader&#39;, test: /\.ts$/, exclude: /node_modules/, } ] } } package.jsonのscriptsを追加 { ... &#34;scripts&#34;: { &#34;build&#34;: &#34;webpack --mode=production&#34;, &#34;start&#34;: &#34;webpack-cli serve --mode development&#34; }, .
+        <p>自分用のTypeScript環境構築メモです。</p>
         <a href="https://kona4.com/post/2021/11/2021-11-15-ts/" class="post-read-more">[Read More]</a>
         
     </div>

@@ -11,8 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>TypeScript環境構築メモ - kona4 Blog</title>
-  <meta name="description" content="自分用のTypeScript環境構築メモです。
-環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.ts&#39;, output: { path: path.join(__dirname, &#39;dist&#39;), filename: &#39;bundle.js&#39;, }, resolve: { extensions: [&#39;.ts&#39;, &#39;.js&#39;] }, devServer: { contentBase: path.join(__dirname, &#39;dist&#39;), open: true, }, module: { rules: [ { loader: &#39;ts-loader&#39;, test: /\.ts$/, exclude: /node_modules/, } ] } } package.jsonのscriptsを追加 { ... &#34;scripts&#34;: { &#34;build&#34;: &#34;webpack --mode=production&#34;, &#34;start&#34;: &#34;webpack-cli serve --mode development&#34; }, .">
+  <meta name="description" content="自分用のTypeScript環境構築メモです。">
   <meta name="author" content="kona4"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -61,7 +60,7 @@
     "name" : "kona4"
   },
   "headline": "TypeScript環境構築メモ",
-  "description" : "自分用のTypeScript環境構築メモです。\n環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(\u0026#39;path\u0026#39;); module.exports = { entry: \u0026#39;.\/src\/index.ts\u0026#39;, output: { path: path.join(__dirname, \u0026#39;dist\u0026#39;), filename: \u0026#39;bundle.js\u0026#39;, }, resolve: { extensions: [\u0026#39;.ts\u0026#39;, \u0026#39;.js\u0026#39;] }, devServer: { contentBase: path.join(__dirname, \u0026#39;dist\u0026#39;), open: true, }, module: { rules: [ { loader: \u0026#39;ts-loader\u0026#39;, test: \/\\.ts$\/, exclude: \/node_modules\/, } ] } } package.jsonのscriptsを追加 { ... \u0026#34;scripts\u0026#34;: { \u0026#34;build\u0026#34;: \u0026#34;webpack --mode=production\u0026#34;, \u0026#34;start\u0026#34;: \u0026#34;webpack-cli serve --mode development\u0026#34; }, .",
+  "description" : "自分用のTypeScript環境構築メモです。\n",
   "inLanguage" : "en",
   "wordCount":  166 ,
   "datePublished" : "2021-11-15T22:10:09",
@@ -83,16 +82,14 @@
 </script>
 
 <meta property="og:title" content="TypeScript環境構築メモ" />
-<meta property="og:description" content="自分用のTypeScript環境構築メモです。
-環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.ts&#39;, output: { path: path.join(__dirname, &#39;dist&#39;), filename: &#39;bundle.js&#39;, }, resolve: { extensions: [&#39;.ts&#39;, &#39;.js&#39;] }, devServer: { contentBase: path.join(__dirname, &#39;dist&#39;), open: true, }, module: { rules: [ { loader: &#39;ts-loader&#39;, test: /\.ts$/, exclude: /node_modules/, } ] } } package.jsonのscriptsを追加 { ... &#34;scripts&#34;: { &#34;build&#34;: &#34;webpack --mode=production&#34;, &#34;start&#34;: &#34;webpack-cli serve --mode development&#34; }, .">
+<meta property="og:description" content="自分用のTypeScript環境構築メモです。">
 <meta property="og:image" content="https://kona4.com/img/2021/11-15-ts.jpg" />
 <meta property="og:url" content="https://kona4.com/post/2021/11/2021-11-15-ts/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="kona4 Blog" />
 
   <meta name="twitter:title" content="TypeScript環境構築メモ" />
-  <meta name="twitter:description" content="自分用のTypeScript環境構築メモです。
-環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(&#39;path&#39;); module.exports = { …">
+  <meta name="twitter:description" content="自分用のTypeScript環境構築メモです。">
   <meta name="twitter:image" content="https://kona4.com/img/2021/11-15-ts.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@YoKaU2" />
@@ -112,8 +109,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
   
   <script data-ad-client="ca-pub-9289818838819497" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta property="og:title" content="TypeScript環境構築メモ" />
-<meta property="og:description" content="自分用のTypeScript環境構築メモです。
-環境構築 インストール yarn add -D typescript ts-loader webpack webpack-cli webpack-dev-server プロジェクトを始める yarn init -y webpackの設定 const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.ts&#39;, output: { path: path.join(__dirname, &#39;dist&#39;), filename: &#39;bundle.js&#39;, }, resolve: { extensions: [&#39;.ts&#39;, &#39;.js&#39;] }, devServer: { contentBase: path.join(__dirname, &#39;dist&#39;), open: true, }, module: { rules: [ { loader: &#39;ts-loader&#39;, test: /\.ts$/, exclude: /node_modules/, } ] } } package.jsonのscriptsを追加 { ... &#34;scripts&#34;: { &#34;build&#34;: &#34;webpack --mode=production&#34;, &#34;start&#34;: &#34;webpack-cli serve --mode development&#34; }, ." />
+<meta property="og:description" content="自分用のTypeScript環境構築メモです。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kona4.com/post/2021/11/2021-11-15-ts/" />
 <meta property="article:published_time" content="2021-11-15T22:10:09+09:00" />
@@ -438,7 +434,6 @@ dist
 
 </code></pre></div><h2 id="実行">実行</h2>
 <p>srcフォルダ内のTypeScriptファイルにコードを記述し、<code>yarn start</code>でブラウザが自動で立ち上がる。</p>
-
 
         
           <div class="blog-tags">
