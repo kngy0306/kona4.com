@@ -44,7 +44,7 @@
   <meta name="twitter:site" content="@YoKaU2" />
   <meta name="twitter:creator" content="@YoKaU2" />
   <link href='https://kona4.com/img/logo.jpeg' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.79.1" />
+  <meta name="generator" content="Hugo 0.92.0" />
   <link rel="alternate" href="https://kona4.com/index.xml" type="application/rss+xml" title="kona4 Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://kona4.com/css/main.css" /><link rel="preconnect" href="https://fonts.gstatic.com">
@@ -61,7 +61,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kona4.com/" />
-<meta property="og:updated_time" content="2021-12-26T13:40:14+09:00" />
+
 
 
 
@@ -230,6 +230,48 @@ if (!doNotTrack) {
           
           
             <article class="post-preview">
+    <a href="https://kona4.com/post/2020/12/17/141316/">
+        <h2 class="post-title">curlコマンドでnoteからデータを取得してみる</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2020/12/17
+  
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="はじめに">はじめに</h2>
+<p>使い方を公式で説明しているわけではないが、<a href="https://note.com/">note</a>にはAPIがあるみたい。</p>
+<p><a href="https://note.com/hagure_melon/n/n964ff6f7ad0e">【2020年度】noteのAPI一覧【完全版】</a></p>
+<p>curlコマンドの使い方を学ぶついでに、noteに投稿されている記事のタイトルを取得してみる。</p>
+        <a href="https://kona4.com/post/2020/12/17/141316/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+        <a href="https://kona4.com//tags/it/">IT</a>&nbsp;
+        
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://kona4.com/post/2020/12/16/122401/">
         <h2 class="post-title">PHPでテストを書く（PHPUnit）</h2>
         
@@ -382,7 +424,7 @@ if (!doNotTrack) {
         
         <h3 id="目的-cssプロパティで指定された画像urlを取り出したい">目的: CSSプロパティで指定された画像URLを取り出したい</h3>
 <p><code>background-image: url( https://xxxxx.png );</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">
 <span class="k">function</span> <span class="nf">getUrl</span><span class="p">(</span><span class="nv">$url</span><span class="p">)</span>
 <span class="p">{</span>
   <span class="nx">preg_match</span><span class="p">(</span><span class="s1">&#39;/(https).*\.(png|jpg|jpeg)/i&#39;</span><span class="p">,</span> <span class="nv">$url</span><span class="p">,</span> <span class="nv">$match</span><span class="p">);</span>
@@ -392,7 +434,7 @@ if (!doNotTrack) {
 <span class="nv">$url</span> <span class="o">=</span> <span class="nx">getUrl</span><span class="p">(</span><span class="s2">&#34;background-image: url( https://xxxxx.png );&#34;</span><span class="p">);</span>
 <span class="k">echo</span> <span class="nv">$url</span><span class="p">;</span>
 
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">
 $ php index.php 
 &#34;https://xxxxx.png&#34;
 
@@ -617,42 +659,6 @@ $ php index.php
 
 </article>
           
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2019/09/25/010040/">
-        <h2 class="post-title">UNI&#39;S ON AIR（ユニゾンエアー ）欅坂46と日向坂46の音ゲーがかっこいい</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2019/9/25
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>9月24日、欅坂46と日向坂46の音楽アプリがリリースされた。
- 
-<img src="https://kona4.com/img/2019-09/25-01.png" alt="img">
-<a href="https://keyahina-unisonair.com/">UNI&rsquo;S ON AIR（ユニゾンエアー ）｜欅坂46・日向坂46 応援 [公式] 音楽アプリ</a></p>
-        <a href="https://kona4.com/post/2019/09/25/010040/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
         </div>
 
         
@@ -724,7 +730,7 @@ $ php index.php
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2021
+            2022
           
 
           
@@ -738,7 +744,7 @@ $ php index.php
         <p></p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.79.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.92.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

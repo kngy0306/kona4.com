@@ -50,7 +50,7 @@
         "position": 3,
         "item": {
           "@id": "https:\/\/kona4.com\/post\/2020\/12\/16\/122401\/",
-          "name": "P h pでテストを書く（ p h p unit）"
+          "name": "Phpでテストを書く（ phpunit）"
         }
     }]
 }
@@ -101,7 +101,7 @@
   <meta name="twitter:site" content="@YoKaU2" />
   <meta name="twitter:creator" content="@YoKaU2" />
   <link href='https://kona4.com/img/logo.jpeg' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.79.1" />
+  <meta name="generator" content="Hugo 0.92.0" />
   <link rel="alternate" href="https://kona4.com/index.xml" type="application/rss+xml" title="kona4 Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://kona4.com/css/main.css" /><link rel="preconnect" href="https://fonts.gstatic.com">
@@ -119,9 +119,10 @@
 コードを書き換えた後、再テストには大きな労力がかかる。 =&gt; 自動テストという仕組みが役に立つ。
 参考書籍に則り、PHPUnitという自動テストツールを使用する。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://kona4.com/post/2020/12/16/122401/" />
+<meta property="og:url" content="https://kona4.com/post/2020/12/16/122401/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-12-16T12:24:01+00:00" />
 <meta property="article:modified_time" content="2020-12-16T12:24:01+00:00" />
+
 
 
 
@@ -303,7 +304,7 @@ if (!doNotTrack) {
 <p><a href="https://qiita.com/geckothic/items/adeb3eddb4131ebff2cf">PHPの自動テストフレームワークってどんなんがあるん？</a></p>
 <h2 id="phpunitのインストール">PHPUnitのインストール</h2>
 <p>PHPUnitのインストール</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">composer require --dev phpunit/phpunit
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">composer require --dev phpunit/phpunit
 </code></pre></div><h2 id="テストの書き方">テストの書き方</h2>
 <ul>
 <li>PHPUnitに用意されてる TestCaseを継承したクラスを作成する必要がある。</li>
@@ -312,7 +313,7 @@ if (!doNotTrack) {
 </ul>
 <h2 id="実行">実行</h2>
 <p>ファイル名: MyTest.php</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">
 <span class="k">require_once</span> <span class="nx">dirname</span><span class="p">(</span><span class="no">__FILE__</span><span class="p">)</span> <span class="o">.</span> <span class="s1">&#39;/vendor/autoload.php&#39;</span><span class="p">;</span>
 
 <span class="k">use</span> <span class="nx">PHPUnit\Framework\TestCase</span><span class="p">;</span>
@@ -347,9 +348,9 @@ if (!doNotTrack) {
 <span class="p">}</span>
 
 </code></pre></div><p><!-- raw HTML omitted -->実行<!-- raw HTML omitted --></p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">./vendor/phpunit/phpunit/phpunit MyTest.php
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">./vendor/phpunit/phpunit/phpunit MyTest.php
 </code></pre></div><p><!-- raw HTML omitted -->実行結果<!-- raw HTML omitted --></p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">
 PHPUnit 9.5.0 by Sebastian Bergmann and contributors.
 
 ..F                                                                 3 / 3 (100%)
@@ -378,11 +379,11 @@ Tests: 3, Assertions: 3, Failures: 1.
 </ul>
 <h2 id="おまけエイリアスの作成">おまけ（エイリアスの作成）</h2>
 <p>エイリアスを作成して楽しよう</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">
 alias phpunit=&#34;./vendor/phpunit/phpunit/phpunit&#34;
 
 </code></pre></div><p>以降、</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">
 phpunit MyTest.php
 
 </code></pre></div><p>で実行可能。</p>
@@ -550,7 +551,7 @@ phpunit MyTest.php
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2021
+            2022
           
 
           
@@ -564,7 +565,7 @@ phpunit MyTest.php
         <p></p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.79.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.92.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

@@ -1,289 +1,181 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://kona4.com/</loc>
-    <lastmod>2021-12-26T13:40:14+09:00</lastmod>
+    <lastmod>2022-01-22T13:44:21+09:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/</loc>
-    <lastmod>2021-12-26T13:40:14+09:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-22T13:44:21+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/tags/shell/</loc>
+    <lastmod>2022-01-22T13:44:21+09:00</lastmod>
+  </url><url>
     <loc>https://kona4.com/tags/</loc>
-    <lastmod>2021-12-26T13:40:14+09:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-22T13:44:21+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/post/2022/01/2022-01-22-fish/</loc>
+    <lastmod>2022-01-22T13:44:21+09:00</lastmod>
+  </url><url>
     <loc>https://kona4.com/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/</loc>
     <lastmod>2021-12-26T13:40:14+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/12/2021-12-26-hurusato/</loc>
     <lastmod>2021-12-26T13:40:14+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/api/</loc>
     <lastmod>2021-12-10T22:03:06+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/12/2021-12-10-twitterapi/</loc>
     <lastmod>2021-12-10T22:03:06+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/typescript/</loc>
     <lastmod>2021-11-15T22:10:09+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/11/2021-11-15-ts/</loc>
     <lastmod>2021-11-15T22:10:09+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/php/</loc>
     <lastmod>2021-11-12T20:45:56+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/11/2021-11-12-php/</loc>
     <lastmod>2021-11-12T20:45:56+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/10/2021-10-23-package_json/</loc>
     <lastmod>2021-10-23T11:17:14+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/react/</loc>
     <lastmod>2021-10-23T11:17:14+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/mysql/</loc>
     <lastmod>2021-10-20T22:30:21+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/10/2021-10-20-sqltocsv/</loc>
     <lastmod>2021-10-20T22:30:21+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/flutter/</loc>
     <lastmod>2021-10-16T12:31:37+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</loc>
     <lastmod>2021-10-16T12:31:37+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/django/</loc>
     <lastmod>2021-10-10T19:43:12+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/10/2021-10-10-photoapp/</loc>
     <lastmod>2021-10-10T19:43:12+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/it/</loc>
     <lastmod>2021-10-03T13:12:29+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/10/2021-10-03-oop/</loc>
     <lastmod>2021-10-03T13:12:29+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</loc>
     <lastmod>2021-10-02T13:50:25+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/10/2021-10-02-gadget/</loc>
     <lastmod>2021-10-02T13:50:25+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/information/</loc>
     <lastmod>2021-09-28T22:16:24+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/information/privacy/</loc>
     <lastmod>2021-09-28T22:16:24+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/09/2021-09-26-docker/</loc>
     <lastmod>2021-09-26T13:57:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/docker/</loc>
     <lastmod>2021-09-26T13:57:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/02/2021-02-02-retrospective/</loc>
     <lastmod>2021-02-02T23:23:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</loc>
     <lastmod>2021-02-02T23:23:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/01/2021-01-25-retrospective/</loc>
     <lastmod>2021-01-25T11:45:14+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/01/2021-01-18-retrospective/</loc>
     <lastmod>2021-01-18T18:54:54+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/go/</loc>
     <lastmod>2021-01-16T20:50:17+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/01/2021-01-16-gooutput/</loc>
     <lastmod>2021-01-16T20:50:17+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/01/2021-01-13-gooutput/</loc>
     <lastmod>2021-01-13T14:44:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/01/2021-01-12-dns/</loc>
     <lastmod>2021-01-12T09:32:23+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/dns/</loc>
     <lastmod>2021-01-12T09:32:23+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/01/2021-01-11-retrospective/</loc>
     <lastmod>2021-01-11T15:47:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2021/01/2021-01-08-first/</loc>
     <lastmod>2021-01-09T00:10:56+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/12/17/141316/</loc>
     <lastmod>2020-12-17T14:13:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/12/16/122401/</loc>
     <lastmod>2020-12-16T12:24:01+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/12/14/100351/</loc>
     <lastmod>2020-12-14T10:03:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/12/13/190140/</loc>
     <lastmod>2020-12-13T19:01:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/%E3%83%A1%E3%83%A2/</loc>
     <lastmod>2020-12-13T19:01:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/12/09/110055/</loc>
     <lastmod>2020-12-09T11:00:55+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/rust/</loc>
     <lastmod>2020-12-04T10:12:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/12/04/101225/</loc>
     <lastmod>2020-12-04T10:12:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/11/18/004646/</loc>
     <lastmod>2020-11-18T00:46:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/11/15/102143/</loc>
     <lastmod>2020-11-15T10:21:43+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/05/28/105348/</loc>
     <lastmod>2020-05-28T10:53:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/tags/aws/</loc>
     <lastmod>2020-05-26T11:13:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2020/05/26/111332/</loc>
     <lastmod>2020-05-26T11:13:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2019/09/25/010040/</loc>
     <lastmod>2019-09-25T01:00:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2019/09/20/002217/</loc>
     <lastmod>2019-09-20T00:22:17+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2019/08/25/222933/</loc>
     <lastmod>2019-08-25T22:29:33+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/post/2019/08/25/171017/</loc>
     <lastmod>2019-08-25T17:10:17+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kona4.com/about/</loc>
   </url>
-  
 </urlset>
