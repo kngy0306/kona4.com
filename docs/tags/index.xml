@@ -5,7 +5,16 @@
     <link>https://kona4.com/tags/</link>
     <description>Recent content in Tags on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jan 2022 13:44:21 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 09:26:16 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://kona4.com/tags/docker/</link>
+      <pubDate>Sat, 12 Feb 2022 09:26:16 +0900</pubDate>
+      
+      <guid>https://kona4.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>shell</title>
       <link>https://kona4.com/tags/shell/</link>
@@ -102,15 +111,6 @@
       <pubDate>Sat, 02 Oct 2021 13:50:25 +0900</pubDate>
       
       <guid>https://kona4.com/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://kona4.com/tags/docker/</link>
-      <pubDate>Sun, 26 Sep 2021 13:57:28 +0900</pubDate>
-      
-      <guid>https://kona4.com/tags/docker/</guid>
       <description></description>
     </item>
     

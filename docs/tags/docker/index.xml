@@ -5,7 +5,16 @@
     <link>https://kona4.com/tags/docker/</link>
     <description>Recent content in Docker on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Sep 2021 13:57:28 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 09:26:16 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravelで使用するMySQLをDockerで用意する【M1 Mac】</title>
+      <link>https://kona4.com/post/2022/02/docker-mysql/</link>
+      <pubDate>Sat, 12 Feb 2022 09:26:16 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/02/docker-mysql/</guid>
+      <description>&lt;p&gt;ローカルでLaravelのプロジェクトを作成し、データベースだけをDockerで用意する方法をまとめました。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>DjangoとReactの開発環境をDockerで構築</title>
       <link>https://kona4.com/post/2021/09/2021-09-26-docker/</link>

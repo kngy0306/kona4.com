@@ -5,7 +5,16 @@
     <link>https://kona4.com/</link>
     <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jan 2022 13:44:21 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 09:26:16 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravelで使用するMySQLをDockerで用意する【M1 Mac】</title>
+      <link>https://kona4.com/post/2022/02/docker-mysql/</link>
+      <pubDate>Sat, 12 Feb 2022 09:26:16 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/02/docker-mysql/</guid>
+      <description>&lt;p&gt;ローカルでLaravelのプロジェクトを作成し、データベースだけをDockerで用意する方法をまとめました。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【M1 Mac】シェルをfish shellにした</title>
       <link>https://kona4.com/post/2022/01/2022-01-22-fish/</link>
