@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+      <meta name="description" content="TypeScript &#43; Reactの環境でuseContextの使い方について自分用のメモを記事にしました。">
+    
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>（自分用メモ）useContextの使い方 - kona4 Blog</title>
+  <meta name="description" content="TypeScript &#43; Reactの環境でuseContextの使い方について自分用のメモを記事にしました。">
+  <meta name="author" content="kona4"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "kona4 Blog",
+    
+    "url": "https:\/\/kona4.com\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/kona4.com\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/kona4.com\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/kona4.com\/post\/2022\/05\/usecontext\/",
+          "name": "（自分用メモ）use contextの使い方"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "kona4"
+  },
+  "headline": "（自分用メモ）useContextの使い方",
+  "description" : "TypeScript \u002b Reactの環境でuseContextの使い方について自分用のメモを記事にしました。",
+  "inLanguage" : "en",
+  "wordCount":  184 ,
+  "datePublished" : "2022-05-09T08:41:10",
+  "dateModified" : "2022-05-09T08:41:10",
+  "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
+  "keywords" : [ "typescript, react" ],
+  "mainEntityOfPage" : "https:\/\/kona4.com\/post\/2022\/05\/usecontext\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/kona4.com\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/kona4.com\/img\/logo.jpeg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="（自分用メモ）useContextの使い方" />
+<meta property="og:description" content="TypeScript &#43; Reactの環境でuseContextの使い方について自分用のメモを記事にしました。">
+<meta property="og:image" content="https://kona4.com/img/2022/05-09-useContext.jpg" />
+<meta property="og:url" content="https://kona4.com/post/2022/05/usecontext/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="kona4 Blog" />
+
+  <meta name="twitter:title" content="（自分用メモ）useContextの使い方" />
+  <meta name="twitter:description" content="TypeScript &#43; Reactの環境でuseContextの使い方について自分用のメモを記事にしました。">
+  <meta name="twitter:image" content="https://kona4.com/img/2022/05-09-useContext.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@YoKaU2" />
+  <meta name="twitter:creator" content="@YoKaU2" />
+  <link href='https://kona4.com/img/logo.jpeg' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.92.0" />
+  <link rel="alternate" href="https://kona4.com/index.xml" type="application/rss+xml" title="kona4 Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://kona4.com/css/main.css" /><link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  
+  <link rel="stylesheet" href="https://kona4.com/css/syntax.css" /><link rel="stylesheet" href="https://kona4.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+  
+  <script data-ad-client="ca-pub-9289818838819497" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta property="og:title" content="（自分用メモ）useContextの使い方" />
+<meta property="og:description" content="TypeScript &#43; Reactの環境でuseContextの使い方について自分用のメモを記事にしました。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kona4.com/post/2022/05/usecontext/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-09T08:41:10+09:00" />
+<meta property="article:modified_time" content="2022-05-09T08:41:10+09:00" />
+
+
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-187343396-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://kona4.com/">kona4 Blog</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About" href="https://kona4.com/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Blog" href="https://kona4.com/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="https://kona4.com/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="kona4 Blog" href="https://kona4.com/">
+            <img class="avatar-img" src="https://kona4.com/img/logo.jpeg" alt="kona4 Blog" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+    <div id="header-big-imgs" data-num-img=1 
+      
+         
+          data-img-src-1="/img/2022/05-09-code.jpg" 
+         
+         
+      ></div>
+  
+
+  <header class="header-section has-img">
+    
+      <div class="intro-header big-img">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>（自分用メモ）useContextの使い方</h1>
+                  
+                  
+                    <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2022/5/9
+  
+  
+  
+  
+  
+</span>
+
+
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="img-desc" style="display: inline;"></span>
+      </div>
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>（自分用メモ）useContextの使い方</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2022/5/9
+  
+  
+  
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>React16.8から加わったHooksの1つである、<code>useContext</code>の使い方を自分用のメモとして記事を書きました。</p>
+<p>CodeSandboxでサンプルコードをかきました。下記URLからコードを確認していただくと、分かりやすいと思います。</p>
+<p><a href="https://codesandbox.io/embed/wispy-voice-1uwjo7?fontsize=14&amp;hidenavigation=1&amp;theme=dark">https://codesandbox.io/embed/wispy-voice-1uwjo7?fontsize=14&amp;hidenavigation=1&amp;theme=dark</a></p>
+<h2 id="ソースコード">ソースコード</h2>
+<p>App.tsx</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts">
+<span class="kr">import</span> <span class="s2">&#34;./styles.css&#34;</span><span class="p">;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">Page1</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./Page1&#34;</span><span class="p">;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">useState</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+<span class="kr">import</span> <span class="nx">React</span> <span class="kr">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+
+<span class="kr">type</span> <span class="nx">messageType</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">message</span>: <span class="kt">string</span><span class="p">;</span>
+  <span class="nx">setMessage</span>: <span class="kt">React.Dispatch</span><span class="p">&lt;</span><span class="nt">React.SetStateAction</span><span class="err">&lt;</span><span class="na">string</span><span class="p">&gt;</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="kr">export</span> <span class="kr">const</span> <span class="nx">MessageContext</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createContext</span><span class="p">({}</span> <span class="kr">as</span> <span class="nx">messageType</span><span class="p">);</span>
+
+<span class="kr">export</span> <span class="k">default</span> <span class="kd">function</span> <span class="nx">App() {</span>
+  <span class="kr">const</span> <span class="p">[</span><span class="nx">message</span><span class="p">,</span> <span class="nx">setMessage</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="s2">&#34;Appページのメッセージ&#34;</span><span class="p">);</span>
+
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">MessageContext.Provider</span> <span class="na">value</span><span class="o">=</span><span class="p">{{</span> <span class="nx">message</span><span class="p">,</span> <span class="nx">setMessage</span> <span class="p">}}&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="o">=</span><span class="s">&#34;App&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="nx">App</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;{</span><span class="nx">message</span><span class="p">}&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">Page1</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">MessageContext.Provider</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+
+</code></pre></div><p>Page1.tsx</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts">
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">Page2</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./Page2&#34;</span><span class="p">;</span>
+
+<span class="kr">export</span> <span class="kr">const</span> <span class="nx">Page1</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="o">=</span><span class="s">&#34;Page1&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="nx">Page1</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">Page2</span> <span class="p">/&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+</code></pre></div><p>Page2.tsx</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts">
+<span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useContext</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">MessageContext</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./App&#34;</span><span class="p">;</span>
+
+<span class="kr">export</span> <span class="kr">const</span> <span class="nx">Page2</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="p">{</span> <span class="nx">message</span><span class="p">,</span> <span class="nx">setMessage</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">useContext</span><span class="p">(</span><span class="nx">MessageContext</span><span class="p">);</span>
+
+  <span class="kr">const</span> <span class="nx">changeHandle</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span>: <span class="kt">React.ChangeEvent</span><span class="p">&lt;</span><span class="nt">HTMLInputElement</span><span class="p">&gt;)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">setMessage</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+  <span class="p">};</span>
+
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="o">=</span><span class="s">&#34;Page2&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="nx">Page2</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span>
+        <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">message</span><span class="p">}</span>
+        <span class="na">id</span><span class="o">=</span><span class="s">&#34;message&#34;</span>
+        <span class="na">onChange</span><span class="o">=</span><span class="p">{(</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="nx">changeHandle</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+        <span class="p">}}</span>
+      <span class="p">/&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+</code></pre></div><h2 id="解説">解説</h2>
+<img src="https://kona4.com/img/2022/05-09-com.jpg" alt="comp" width=100%>
+<p><strong>App.tsx</strong>が上位に位置するコンポーネントであり、その中に<strong>Page1.tsx</strong>を配置し、さらに<strong>Page1.tsx</strong>の中に<strong>Page2.tsx</strong>が配置されています。</p>
+<p>サンプルコードを操作していただくとわかりますが、<strong>Page2.tsx</strong>コンポーネントにあるinput要素へ文字を入力すると、<strong>App.tsx</strong>のテキストが同時に変化します。</p>
+<h3 id="apptsx">App.tsx</h3>
+<p><strong>App.tsx</strong>では<code>export const MessageContext = React.createContext({} as messageType);</code>でコンテクストオブジェクトを作成&amp;エクスポートしています。<br>
+また<code>&lt;MessageContext.Provider value={{ message, setMessage }}&gt;</code>で下位のコンポーネントを囲っています。これにより下位のコンポーネントが<strong>value</strong>で渡した値を使用することができ、その操作によって値が変化します。<br>
+サンプルコードでは<strong>useState</strong>で作成した値をオブジェクトとして、valueで渡しています。</p>
+<h3 id="page2tsx">Page2.tsx</h3>
+<p><strong>Page2.tsx</strong>では、<code>import { MessageContext } from &quot;./App&quot;;</code>と<code>export const Page2 = () =&gt; { const { message, setMessage } = useContext(MessageContext);</code>によって<strong>App.tsx</strong>で定義したvalueの値を受け取っています。</p>
+<p>上記のようにすることで複数コンポーネントをまたいだ値の受け渡しを行うことができます。</p>
+<h2 id="参考">参考</h2>
+<p><a href="https://ja.reactjs.org/docs/hooks-reference.html#usecontext">https://ja.reactjs.org/docs/hooks-reference.html#usecontext</a></p>
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://kona4.com//tags/typescript/">typescript</a>&nbsp;
+            
+              <a href="https://kona4.com//tags/react/">react</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fkona4.com%2fpost%2f2022%2f05%2fusecontext%2f&amp;text=%ef%bc%88%e8%87%aa%e5%88%86%e7%94%a8%e3%83%a1%e3%83%a2%ef%bc%89useContext%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9&amp;via=YoKaU2" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkona4.com%2fpost%2f2022%2f05%2fusecontext%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2022%2f05%2fusecontext%2f&amp;title=%ef%bc%88%e8%87%aa%e5%88%86%e7%94%a8%e3%83%a1%e3%83%a2%ef%bc%89useContext%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkona4.com%2fpost%2f2022%2f05%2fusecontext%2f&amp;title=%ef%bc%88%e8%87%aa%e5%88%86%e7%94%a8%e3%83%a1%e3%83%a2%ef%bc%89useContext%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2022%2f05%2fusecontext%2f&amp;title=%ef%bc%88%e8%87%aa%e5%88%86%e7%94%a8%e3%83%a1%e3%83%a2%ef%bc%89useContext%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkona4.com%2fpost%2f2022%2f05%2fusecontext%2f&amp;description=%ef%bc%88%e8%87%aa%e5%88%86%e7%94%a8%e3%83%a1%e3%83%a2%ef%bc%89useContext%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://kona4.com/post/2022/02/docker-mysql/" data-toggle="tooltip" data-placement="top" title="Laravelで使用するMySQLをDockerで用意する【M1 Mac】">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="https://github.com/kngy0306" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/YoKaU2" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              kona4
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2022
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://kona4.com/">kona4 Blog</a>
+          
+
+          ・<a href="https://kona4.com/information/">プライバシーポリシー</a>
+          ・<a href="https://forms.gle/A5Bw34akZ6feDaUt6">お問い合わせ</a>
+        </p>
+        <p></p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.92.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://kona4.com/js/main.js"></script>
+<script src="https://kona4.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://kona4.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

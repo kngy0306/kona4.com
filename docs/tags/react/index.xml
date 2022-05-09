@@ -5,7 +5,18 @@
     <link>https://kona4.com/tags/react/</link>
     <description>Recent content in React on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Oct 2021 11:17:14 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 08:41:10 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>（自分用メモ）useContextの使い方</title>
+      <link>https://kona4.com/post/2022/05/usecontext/</link>
+      <pubDate>Mon, 09 May 2022 08:41:10 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/05/usecontext/</guid>
+      <description>&lt;p&gt;React16.8から加わったHooksの1つである、&lt;code&gt;useContext&lt;/code&gt;の使い方を自分用のメモとして記事を書きました。&lt;/p&gt;
+&lt;p&gt;CodeSandboxでサンプルコードをかきました。下記URLからコードを確認していただくと、分かりやすいと思います。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://codesandbox.io/embed/wispy-voice-1uwjo7?fontsize=14&amp;amp;hidenavigation=1&amp;amp;theme=dark&#34;&gt;https://codesandbox.io/embed/wispy-voice-1uwjo7?fontsize=14&amp;amp;hidenavigation=1&amp;amp;theme=dark&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>package.jsonに記載されていないパッケージをアップグレードする方法メモ</title>
       <link>https://kona4.com/post/2021/10/2021-10-23-package_json/</link>
