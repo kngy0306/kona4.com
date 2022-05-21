@@ -3,19 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kona4.com/</loc>
-    <lastmod>2022-05-09T08:41:10+09:00</lastmod>
+    <lastmod>2022-05-21T10:37:47+09:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://kona4.com/post/</loc>
-    <lastmod>2022-05-09T08:41:10+09:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/tags/react/</loc>
-    <lastmod>2022-05-09T08:41:10+09:00</lastmod>
+    <lastmod>2022-05-21T10:37:47+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/</loc>
-    <lastmod>2022-05-09T08:41:10+09:00</lastmod>
+    <lastmod>2022-05-21T10:37:47+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/typescript/</loc>
+    <lastmod>2022-05-21T10:37:47+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/post/2022/05/type-object/</loc>
+    <lastmod>2022-05-21T10:37:47+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/tags/react/</loc>
     <lastmod>2022-05-09T08:41:10+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/post/2022/05/usecontext/</loc>

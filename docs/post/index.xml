@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 09 May 2022 08:41:10 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 May 2022 10:37:47 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScriptにおける、部分型について</title>
+      <link>https://kona4.com/post/2022/05/type-object/</link>
+      <pubDate>Sat, 21 May 2022 10:37:47 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/05/type-object/</guid>
+      <description>&lt;p&gt;TypeScriptのオブジェクトにおいて、オブジェクトと関数型の部分型についてのアウトプット記事です。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>（自分用メモ）useContextの使い方</title>
       <link>https://kona4.com/post/2022/05/usecontext/</link>
