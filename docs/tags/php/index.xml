@@ -5,7 +5,16 @@
     <link>https://kona4.com/tags/php/</link>
     <description>Recent content in PHP on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Nov 2021 20:45:56 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 08:23:17 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHPで理解するDI</title>
+      <link>https://kona4.com/post/2022/06/di/</link>
+      <pubDate>Sat, 11 Jun 2022 08:23:17 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/06/di/</guid>
+      <description>&lt;p&gt;DIについて学習したことを記事にしました。例で用いるコードにはPHPを使用しています。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>WebサーバーとPHPの関係</title>
       <link>https://kona4.com/post/2021/11/2021-11-12-php/</link>

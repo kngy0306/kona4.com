@@ -5,7 +5,16 @@
     <link>https://kona4.com/</link>
     <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Jun 2022 08:58:58 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 08:23:17 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHPで理解するDI</title>
+      <link>https://kona4.com/post/2022/06/di/</link>
+      <pubDate>Sat, 11 Jun 2022 08:23:17 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/06/di/</guid>
+      <description>&lt;p&gt;DIについて学習したことを記事にしました。例で用いるコードにはPHPを使用しています。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>DBの正規化について</title>
       <link>https://kona4.com/post/2022/06/regularization/</link>

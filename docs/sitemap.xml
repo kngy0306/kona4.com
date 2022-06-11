@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kona4.com/</loc>
-    <lastmod>2022-06-04T08:58:58+09:00</lastmod>
+    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://kona4.com/tags/php/</loc>
+    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/post/2022/06/di/</loc>
+    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/post/</loc>
+    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/tags/</loc>
+    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/db/</loc>
     <lastmod>2022-06-04T08:58:58+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/post/2022/06/regularization/</loc>
-    <lastmod>2022-06-04T08:58:58+09:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/post/</loc>
-    <lastmod>2022-06-04T08:58:58+09:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/tags/</loc>
     <lastmod>2022-06-04T08:58:58+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/typescript/</loc>
@@ -56,9 +62,6 @@
   </url><url>
     <loc>https://kona4.com/post/2021/11/2021-11-15-ts/</loc>
     <lastmod>2021-11-15T22:10:09+09:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/tags/php/</loc>
-    <lastmod>2021-11-12T20:45:56+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/post/2021/11/2021-11-12-php/</loc>
     <lastmod>2021-11-12T20:45:56+09:00</lastmod>
