@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ruby on kona4 Blog</title>
+    <link>https://kona4.com/tags/ruby/</link>
+    <description>Recent content in ruby on kona4 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Jul 2022 09:20:44 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M1 ProチップのMacにRubyをインストールする</title>
+      <link>https://kona4.com/post/2022/07/ruby-install/</link>
+      <pubDate>Sat, 23 Jul 2022 09:20:44 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/07/ruby-install/</guid>
+      <description>&lt;p&gt;インストールを行った環境&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;macOS Monterey 12.4&lt;/li&gt;
+&lt;li&gt;Apple M1 Pro&lt;/li&gt;
+&lt;li&gt;fish shell&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

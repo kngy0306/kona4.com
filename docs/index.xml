@@ -5,7 +5,21 @@
     <link>https://kona4.com/</link>
     <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jun 2022 08:23:17 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jul 2022 09:20:44 +0900</lastBuildDate><atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M1 ProチップのMacにRubyをインストールする</title>
+      <link>https://kona4.com/post/2022/07/ruby-install/</link>
+      <pubDate>Sat, 23 Jul 2022 09:20:44 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/07/ruby-install/</guid>
+      <description>&lt;p&gt;インストールを行った環境&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;macOS Monterey 12.4&lt;/li&gt;
+&lt;li&gt;Apple M1 Pro&lt;/li&gt;
+&lt;li&gt;fish shell&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     <item>
       <title>PHPで理解するDI</title>
       <link>https://kona4.com/post/2022/06/di/</link>

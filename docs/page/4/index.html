@@ -230,6 +230,62 @@ if (!doNotTrack) {
           
           
             <article class="post-preview">
+    <a href="https://kona4.com/post/2020/12/09/110055/">
+        <h2 class="post-title">【PHP】正規表現メモ</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2020/12/9
+  
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h3 id="目的-cssプロパティで指定された画像urlを取り出したい">目的: CSSプロパティで指定された画像URLを取り出したい</h3>
+<p><code>background-image: url( https://xxxxx.png );</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">
+<span class="k">function</span> <span class="nf">getUrl</span><span class="p">(</span><span class="nv">$url</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="nx">preg_match</span><span class="p">(</span><span class="s1">&#39;/(https).*\.(png|jpg|jpeg)/i&#39;</span><span class="p">,</span> <span class="nv">$url</span><span class="p">,</span> <span class="nv">$match</span><span class="p">);</span>
+  <span class="k">return</span> <span class="nv">$match</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">??</span> <span class="k">null</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nv">$url</span> <span class="o">=</span> <span class="nx">getUrl</span><span class="p">(</span><span class="s2">&#34;background-image: url( https://xxxxx.png );&#34;</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$url</span><span class="p">;</span>
+
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">
+$ php index.php 
+&#34;https://xxxxx.png&#34;
+
+</code></pre></div>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+        <a href="https://kona4.com//tags/php/">PHP</a>&nbsp;
+        
+        <a href="https://kona4.com//tags/it/">IT</a>&nbsp;
+        
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://kona4.com/post/2020/12/04/101225/">
         <h2 class="post-title">Rust環境構築メモ</h2>
         

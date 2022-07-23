@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kona4.com/</loc>
-    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
+    <lastmod>2022-07-23T09:20:44+09:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://kona4.com/post/2022/07/ruby-install/</loc>
+    <lastmod>2022-07-23T09:20:44+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/post/</loc>
+    <lastmod>2022-07-23T09:20:44+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/tags/ruby/</loc>
+    <lastmod>2022-07-23T09:20:44+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/tags/</loc>
+    <lastmod>2022-07-23T09:20:44+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/php/</loc>
     <lastmod>2022-06-11T08:23:17+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/post/2022/06/di/</loc>
-    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/post/</loc>
-    <lastmod>2022-06-11T08:23:17+09:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/tags/</loc>
     <lastmod>2022-06-11T08:23:17+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/db/</loc>
