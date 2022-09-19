@@ -5,7 +5,24 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Jul 2022 09:20:44 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 11:50:28 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rubyのさまざまな変数についてまとめました</title>
+      <link>https://kona4.com/post/2022/09/ruby_method/</link>
+      <pubDate>Fri, 16 Sep 2022 11:50:28 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/09/ruby_method/</guid>
+      <description>&lt;p&gt;Rubyには以下のようにさまざまな&lt;strong&gt;変数&lt;/strong&gt;が存在します。それぞれの記述方法、特徴をまとめました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ローカル変数&lt;/li&gt;
+&lt;li&gt;インスタンス変数&lt;/li&gt;
+&lt;li&gt;クラスインスタンス変数&lt;/li&gt;
+&lt;li&gt;クラス変数&lt;/li&gt;
+&lt;li&gt;グローバル変数&lt;/li&gt;
+&lt;li&gt;組み込み変数&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     <item>
       <title>M1 ProチップのMacにRubyをインストールする</title>
       <link>https://kona4.com/post/2022/07/ruby-install/</link>
