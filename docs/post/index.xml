@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Sep 2022 11:50:28 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Sep 2022 13:25:40 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>putsメソッドはなぜどこでも使用することができるのか</title>
+      <link>https://kona4.com/post/2022/09/ruby_module/</link>
+      <pubDate>Tue, 20 Sep 2022 13:25:40 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/09/ruby_module/</guid>
+      <description>&lt;p&gt;Rubyにおいて、プログラムのどこでも使用できる&lt;code&gt;puts&lt;/code&gt;メソッド、&lt;code&gt;pp&lt;/code&gt;メソッドなどは、どこで定義されており、なぜ使用することができるのか。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Rubyのさまざまな変数についてまとめました</title>
       <link>https://kona4.com/post/2022/09/ruby_method/</link>
