@@ -461,13 +461,16 @@ function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39
     </item>
     
     <item>
-      <title>Yuto Konagaya</title>
+      <title>Kona4</title>
       <link>https://kona4.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kona4.com/about/</guid>
-      <description>2021年4月からWebエンジニアになりました👍
-最近の興味  Go TypeScript (&amp;amp; React) Unity PHP  趣味  乃木坂46, 日向坂46のライブに行くこと ゲーム実況を見ること  </description>
+      <description>東京でWebエンジニアをやっています👍
+このブログは学習のアウトプットとして使用しています。
+I am a Web Engineer in Japan👍
+I use this blog as an output of my learning.
+最近の興味 / interested  Ruby Go TypeScript (&amp;amp; React) Unity  趣味 / hobby  乃木坂46, 日向坂46のライブに行くこと ゲーム実況を見ること 散歩   Going to a live concert of Nogizaka46 and Hinatazaka46. Watching video games on YouTube. Walking around the neighborhood.  </description>
     </item>
     
   </channel>
