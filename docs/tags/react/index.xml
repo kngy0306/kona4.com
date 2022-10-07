@@ -5,7 +5,28 @@
     <link>https://kona4.com/tags/react/</link>
     <description>Recent content in React on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 09 May 2022 08:41:10 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Oct 2022 16:15:14 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React &#43; Rails プロジェクトをDockerで構築する</title>
+      <link>https://kona4.com/post/2022/10/react-rails-project/</link>
+      <pubDate>Fri, 07 Oct 2022 16:15:14 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/10/react-rails-project/</guid>
+      <description>&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;
+&lt;p&gt;フロントエンド&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React (18.x)&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Vite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;バックエンド&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ruby on Rails (6.x)&lt;/li&gt;
+&lt;li&gt;Ruby (2.7)&lt;/li&gt;
+&lt;li&gt;Postgres&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     <item>
       <title>（自分用メモ）useContextの使い方</title>
       <link>https://kona4.com/post/2022/05/usecontext/</link>
