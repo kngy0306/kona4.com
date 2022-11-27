@@ -152,10 +152,11 @@ div.panel-body a.list-group-item.view-all {
   background: linear-gradient(to right, rgba(129, 41, 144, 0.7) 0%, rgba(124,199,232,0.7) 100%);
 }
 ::selection {
-  color: white;
+  /* color: white; */
   text-shadow: none;
+  background-color: #f19db5;
   /* background: #0085a1; */
-  background: linear-gradient(to right, rgba(129, 41, 144, 0.7) 0%, rgba(124,199,232,0.7) 100%);
+  /* background: linear-gradient(to right, rgba(129, 41, 144, 0.7) 0%, rgba(124,199,232,0.7) 100%); */
 }
 img::selection {
   color: white;
