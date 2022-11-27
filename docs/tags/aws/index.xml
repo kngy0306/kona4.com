@@ -5,7 +5,16 @@
     <link>https://kona4.com/tags/aws/</link>
     <description>Recent content in AWS on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 May 2020 11:13:32 +0000</lastBuildDate><atom:link href="https://kona4.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Nov 2022 16:16:59 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EC2からPlanetScaleへ接続したときのエラー解消</title>
+      <link>https://kona4.com/post/2022/11/ec2-planetscale/</link>
+      <pubDate>Sun, 27 Nov 2022 16:16:59 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/11/ec2-planetscale/</guid>
+      <description>&lt;p&gt;EC2上でLaravelを使用してアプリケーションを作成したさい、DBに&lt;a href=&#34;https://planetscale.com/&#34;&gt;PlaceScale&lt;/a&gt;を使用し、Laravelから接続を行いました。そのときに&lt;code&gt;SQLSTATE[HY000] [2002] No such file or directory&lt;/code&gt;というエラーが出たため、その解消手順を記載しました。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>AWSを学び始める</title>
       <link>https://kona4.com/post/2020/05/26/111332/</link>

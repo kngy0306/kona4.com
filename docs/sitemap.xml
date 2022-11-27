@@ -3,11 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kona4.com/</loc>
-    <lastmod>2022-10-07T16:15:14+09:00</lastmod>
+    <lastmod>2022-11-27T16:16:59+09:00</lastmod>
     <priority>0</priority>
   </url><url>
+    <loc>https://kona4.com/tags/aws/</loc>
+    <lastmod>2022-11-27T16:16:59+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/post/2022/11/ec2-planetscale/</loc>
+    <lastmod>2022-11-27T16:16:59+09:00</lastmod>
+  </url><url>
     <loc>https://kona4.com/post/</loc>
-    <lastmod>2022-10-07T16:15:14+09:00</lastmod>
+    <lastmod>2022-11-27T16:16:59+09:00</lastmod>
+  </url><url>
+    <loc>https://kona4.com/tags/</loc>
+    <lastmod>2022-11-27T16:16:59+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/react/</loc>
     <lastmod>2022-10-07T16:15:14+09:00</lastmod>
@@ -16,9 +25,6 @@
     <lastmod>2022-10-07T16:15:14+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/tags/ruby/</loc>
-    <lastmod>2022-10-07T16:15:14+09:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/tags/</loc>
     <lastmod>2022-10-07T16:15:14+09:00</lastmod>
   </url><url>
     <loc>https://kona4.com/post/2022/09/ruby_module/</loc>
@@ -188,9 +194,6 @@
   </url><url>
     <loc>https://kona4.com/post/2020/05/28/105348/</loc>
     <lastmod>2020-05-28T10:53:48+00:00</lastmod>
-  </url><url>
-    <loc>https://kona4.com/tags/aws/</loc>
-    <lastmod>2020-05-26T11:13:32+00:00</lastmod>
   </url><url>
     <loc>https://kona4.com/post/2020/05/26/111332/</loc>
     <lastmod>2020-05-26T11:13:32+00:00</lastmod>
