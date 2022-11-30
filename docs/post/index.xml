@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 Nov 2022 16:16:59 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 22:50:33 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Railsでクッキーを扱う</title>
+      <link>https://kona4.com/post/2022/11/rails_cookies/</link>
+      <pubDate>Tue, 29 Nov 2022 22:50:33 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/11/rails_cookies/</guid>
+      <description>&lt;p&gt;先日 &lt;a href=&#34;https://zenn.dev/powder/articles/session_rails_20221124&#34;&gt;セキュリティ上重要なクッキー属性を読んでみる&lt;/a&gt; という記事を投稿しました。そこで取り上げたクッキーについて、Railsでの保存、削除、オプションの付与などを試してみました。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>EC2からPlanetScaleへ接続したときのエラー解消</title>
       <link>https://kona4.com/post/2022/11/ec2-planetscale/</link>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rails on kona4 Blog</title>
+    <link>https://kona4.com/tags/rails/</link>
+    <description>Recent content in rails on kona4 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Nov 2022 22:50:33 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Railsでクッキーを扱う</title>
+      <link>https://kona4.com/post/2022/11/rails_cookies/</link>
+      <pubDate>Tue, 29 Nov 2022 22:50:33 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/11/rails_cookies/</guid>
+      <description>&lt;p&gt;先日 &lt;a href=&#34;https://zenn.dev/powder/articles/session_rails_20221124&#34;&gt;セキュリティ上重要なクッキー属性を読んでみる&lt;/a&gt; という記事を投稿しました。そこで取り上げたクッキーについて、Railsでの保存、削除、オプションの付与などを試してみました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
