@@ -5,7 +5,16 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Dec 2022 17:52:19 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Dec 2022 08:02:56 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAPTCHAの概要とreCAPTCHAについて</title>
+      <link>https://kona4.com/post/2022/12/recaptcha/</link>
+      <pubDate>Mon, 26 Dec 2022 08:02:56 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2022/12/recaptcha/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;reCAPTCHA&lt;/strong&gt;は、アクセスがコンピュータによる自動応答ではないことを確認する、チャレンジ/レスポンス認証と呼ばれるセキュリティ方式の一種であり、CAPTCHAシステムの1つです。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>2022年の振り返り</title>
       <link>https://kona4.com/post/2022/12/retrospective/</link>

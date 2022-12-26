@@ -41,4 +41,11 @@ description: "CORSの概要を背景を含めてまとめた記事です"
 - リクエストヘッダ
   - Accept
   - Accept-Language
-  - 
+  - Content-Language
+  - Content-Type
+- Content-Type
+  - application/x-www-form-urlencoded
+  - multipart/form-data
+  - text/plain
+
+上記のリクエスト以外は**プリフライトリクエスト**というHTTPリクエストを送ります。
