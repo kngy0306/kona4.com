@@ -62,7 +62,7 @@
   "headline": "CORSについて",
   "description" : "CORSの概要を背景を含めてまとめた記事です",
   "inLanguage" : "en",
-  "wordCount":  39 ,
+  "wordCount":  38 ,
   "datePublished" : "2022-12-26T15:08:09",
   "dateModified" : "2022-12-26T15:08:09",
   "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
@@ -299,10 +299,9 @@ if (!doNotTrack) {
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
         <p>ウェブアプリケーションが発展し、同一オリジンポリシーの制限を超えてデータのやり取りを行いたいというニーズが増えてきました。
-そのさい、サイトを超えたデータのやり取りに関する仕様として策定されたのが<strong>CORS</strong>です。</p>
+その際サイトを超えたデータのやり取りに関する仕様として策定されたのが<strong>CORS</strong>です。</p>
 <h2 id="同一オリジンポリシー">同一オリジンポリシー</h2>
-<p>同一オリジンではない、他のサイトへのアクセスをせいげんするもの。
-同一オリジンである条件は以下を満たすもの。</p>
+<p>同一オリジンではない、他のサイトへのアクセスを制限するもので、同一オリジンである条件は以下を満たすもの。</p>
 <ul>
 <li>ホストが一致している</li>
 <li>スキームが一致している</li>
@@ -313,7 +312,7 @@ if (!doNotTrack) {
 <h2 id="プリフライトリクエスト">プリフライトリクエスト</h2>
 <p>読み出し（GETメソッド）などの<strong>シンプルなリクエスト</strong>の場合には上記のように<code>Access-Control-Allow-Origin</code>を付与すれば問題ありませんでした。
 しかし<strong>シンプルなリクエスト</strong>ではない場合には、ブラウザは異なるオリジンに対し、プリフライトリクエストを送信します。</p>
-<p>シンプルなリクエストである条件は以下を満たすもの</p>
+<p><strong>シンプルなリクエスト</strong>である条件は以下を満たすもの</p>
 <p><strong>メソッド</strong></p>
 <ul>
 <li>GET</li>

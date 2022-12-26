@@ -13,7 +13,7 @@
       
       <guid>https://kona4.com/post/2022/12/cors/</guid>
       <description>&lt;p&gt;ウェブアプリケーションが発展し、同一オリジンポリシーの制限を超えてデータのやり取りを行いたいというニーズが増えてきました。
-そのさい、サイトを超えたデータのやり取りに関する仕様として策定されたのが&lt;strong&gt;CORS&lt;/strong&gt;です。&lt;/p&gt;</description>
+その際サイトを超えたデータのやり取りに関する仕様として策定されたのが&lt;strong&gt;CORS&lt;/strong&gt;です。&lt;/p&gt;</description>
     </item>
     
     <item>
