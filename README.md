@@ -1,4 +1,17 @@
-## kona4のブログ
+## kona4 Blog
 **URL: https://kona4.com/**
 
-<img src="https://user-images.githubusercontent.com/57553474/137604685-e2889419-81c0-4af6-a2a1-c6aa1f5b2ab3.jpg" width=45%>　<img src="https://user-images.githubusercontent.com/57553474/137604686-baab9307-3c05-4aaa-b9b7-9d49acc1165c.jpg" width=45%>
+<img width="50%" alt="スクリーンショット 2023-01-04 23 51 23" src="https://user-images.githubusercontent.com/57553474/210581706-60984e09-a5bb-4ced-8c44-0d2eaec2dfb7.png">
+
+### Color
+
+- `::selection`  
+#F19DB5
+- `a (link)`
+#5BBEE5
+- `a (:hover)`  
+#812990
+
+### Font
+
+Noto Sans JP
