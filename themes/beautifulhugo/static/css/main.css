@@ -71,7 +71,7 @@ strong {
 pre {
   font-size: 14.5px;
   line-height: 1.5;
-  padding: 0 15px!important;
+  padding: 15px 10px!important;
   overflow: auto;
   margin: 25px 0;
   border-radius: 10px;
@@ -756,6 +756,7 @@ h4.panel-title > span.badge {
 
 table {
   padding: 0;
+  margin: 70px auto;
 }
 table tr {
   border-top: 1px solid #cccccc;
@@ -844,7 +845,7 @@ div.splitbox div.right {
     padding: 15px 25px;
   }
 }
-.disqus-comments button:hover, 
+.disqus-comments button:hover,
 .disqus-comments button:focus {
   color: #FFF;
   background: #0085a1;
