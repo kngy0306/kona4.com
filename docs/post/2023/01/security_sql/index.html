@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+      <meta name="description" content="IPAが公開している「安全なSQLの呼び出し方」からSQLを使用する際のセキュリティについて学び、実務に活かすためにまとめた記事">
+    
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ - kona4 Blog</title>
+  <meta name="description" content="IPAが公開している「安全なSQLの呼び出し方」からSQLを使用する際のセキュリティについて学び、実務に活かすためにまとめた記事">
+  <meta name="author" content="kona4"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "kona4 Blog",
+    
+    "url": "https:\/\/kona4.com\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/kona4.com\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/kona4.com\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/kona4.com\/post\/2023\/01\/security_sql\/",
+          "name": "「安全な sqlの呼び出し方」で学ぶ sqlのセキュリティ"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "kona4"
+  },
+  "headline": "「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ",
+  "description" : "IPAが公開している「安全なSQLの呼び出し方」からSQLを使用する際のセキュリティについて学び、実務に活かすためにまとめた記事",
+  "inLanguage" : "en",
+  "wordCount":  91 ,
+  "datePublished" : "2023-01-26T16:54:54",
+  "dateModified" : "2023-01-26T16:54:54",
+  "image" : "https:\/\/kona4.com\/img\/logo.jpeg",
+  "keywords" : [ "sql" ],
+  "mainEntityOfPage" : "https:\/\/kona4.com\/post\/2023\/01\/security_sql\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/kona4.com\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/kona4.com\/img\/logo.jpeg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ" />
+<meta property="og:description" content="IPAが公開している「安全なSQLの呼び出し方」からSQLを使用する際のセキュリティについて学び、実務に活かすためにまとめた記事">
+<meta property="og:image" content="https://kona4.com/img/logo.jpeg" />
+<meta property="og:url" content="https://kona4.com/post/2023/01/security_sql/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="kona4 Blog" />
+
+  <meta name="twitter:title" content="「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ" />
+  <meta name="twitter:description" content="IPAが公開している「安全なSQLの呼び出し方」からSQLを使用する際のセキュリティについて学び、実務に活かすためにまとめた記事">
+  <meta name="twitter:image" content="https://kona4.com/img/logo.jpeg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@YoKaU2" />
+  <meta name="twitter:creator" content="@YoKaU2" />
+  <link href='https://kona4.com/img/logo.jpeg' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.92.0" />
+  <link rel="alternate" href="https://kona4.com/index.xml" type="application/rss+xml" title="kona4 Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://kona4.com/css/main.css" /><link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  
+  <link rel="stylesheet" href="https://kona4.com/css/syntax.css" /><link rel="stylesheet" href="https://kona4.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+  
+  <script data-ad-client="ca-pub-9289818838819497" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta property="og:title" content="「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ" />
+<meta property="og:description" content="IPAが公開している「安全なSQLの呼び出し方」からSQLを使用する際のセキュリティについて学び、実務に活かすためにまとめた記事" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kona4.com/post/2023/01/security_sql/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-01-26T16:54:54+09:00" />
+<meta property="article:modified_time" content="2023-01-26T16:54:54+09:00" />
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ3Z1PVXC3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PQ3Z1PVXC3');
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-187343396-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://kona4.com/">kona4 Blog</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About" href="https://kona4.com/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Blog" href="https://kona4.com/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="https://kona4.com/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="kona4 Blog" href="https://kona4.com/">
+            <img class="avatar-img" src="https://kona4.com/img/logo.jpeg" alt="kona4 Blog" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2023/1/26
+  
+  
+  
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>IPAは過去に届出を受けた脆弱性関連情報を基に、適切なセキュリティを考慮したウェブサイトを作成するための資料を公開しています。</p>
+<p><a href="https://www.ipa.go.jp/security/vuln/websecurity.html">https://www.ipa.go.jp/security/vuln/websecurity.html</a></p>
+<p>その資料の中にある「安全なSQLの呼び出し方」を読み、SQL使用時のセキュリティ対策をまとめました。</p>
+<h2 id="sqlの構文">SQLの構文</h2>
+<p>SQL文を構成する要素には、キーワード、演算子、識別子、リテラルなどがある。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">user</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;kona&#39;</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">age</span><span class="o">&gt;=</span><span class="mi">20</span><span class="p">;</span><span class="w">
+</span></code></pre></div><table>
+<thead>
+<tr>
+<th>キーワード</th>
+<th>演算子など</th>
+<th>識別子</th>
+<th>リテラル</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SELECT</td>
+<td>= &gt;= ,</td>
+<td>name age</td>
+<td>&lsquo;kona&rsquo; 20</td>
+</tr>
+</tbody>
+</table>
+<h3 id="リテラル">リテラル</h3>
+<p>上記のSQL文に出てきた、&lsquo;kona&rsquo;や20などの定数をリテラルと呼び、'<strong>kona</strong>&lsquo;は文字列リテラル、<strong>20</strong>は数値リテラルと呼ぶ。</p>
+<h2 id="sqlインジェクション">SQLインジェクション</h2>
+<p>データベースを利用するアプリケーションの多くは、利用者からの入力をもとにSQL文を組み立てる。この組み立て方に問題があった場合、SQLインジェクションの脆弱性となる。その問題を悪用した攻撃を<strong>SQLインジェクション</strong>と呼ぶ。</p>
+<p>以下はPerlによるSQL文作成の例</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-perl" data-lang="perl"><span class="nv">$q</span> <span class="o">=</span> <span class="s">&#34;SELECT * FROM user WHERE id=&#39;$id&#39;&#34;</span><span class="p">;</span>
+</code></pre></div><p><code>$id</code>は外部から値を入力できるものとし、以下の値を入力した場合</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="s1">&#39;;DELETE FROM user--
+</span></code></pre></div><p>パラメータを展開したSQL文は以下のようになる。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">user</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">id</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">;</span><span class="k">DELETE</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">user</span><span class="c1">--&#39;
+</span></code></pre></div><p><code>;</code>で区切られ、<code>DELETE FROM user</code>が実行され、<code>--</code>以降はコメントとして無視される。これはSQLインジェクションの脆弱性といえる。</p>
+<h2 id="sqlの呼び出し方">SQLの呼び出し方</h2>
+<h3 id="文字列連結によるsql文の組み立て">文字列連結によるSQL文の組み立て</h3>
+<p>以下はPHPの例</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="nv">$name</span> <span class="o">=</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">];</span>
+<span class="c1">//...
+</span><span class="c1"></span><span class="nv">$sql</span> <span class="o">=</span> <span class="s2">&#34;SELECT * FROM employee WHERE name=&#39;&#34;</span> <span class="o">.</span> <span class="nv">$name</span> <span class="o">.</span> <span class="s2">&#34;&#39;&#34;</span><span class="p">;</span>
+</code></pre></div><p>POSTメソッドで送信された<code>name</code>を変数に入れている。<code>$name</code>が「kona」の場合以下のSQL文が生成される。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">employee</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;kona&#39;</span><span class="p">;</span><span class="w">
+</span></code></pre></div><p>上記SQLの脆弱性をなくすためには<code>$name</code>に対し、エスケープ処理を行う必要がある。</p>
+<h3 id="プレースホルダによるsql文の組み立て">プレースホルダによるSQL文の組み立て</h3>
+<p>プレースホルダによる組み立ては、パラメータ部分を<code>?</code>などの記号で示しておき、後に値を割り当てる方法。
+以下はJavaの例。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="n">PreparedStatement</span> <span class="n">prep</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="na">prepareStatement</span><span class="o">(</span><span class="s">&#34;SELECT * FROM employee WHERE name=?&#34;</span><span class="o">);</span>
+<span class="n">prep</span><span class="o">.</span><span class="na">setString</span><span class="o">(</span><span class="n">1</span><span class="o">,</span> <span class="s">&#34;kona&#34;</span><span class="o">);</span>
+</code></pre></div><p>記号、<code>?</code>のことをプレースホルダと呼び、そこへ値を割り当てることをバインドするという。
+バインドを行うタイミングによって2種類の組み立て方がある。</p>
+<p>資料ではこの2種類を、<strong>静的プレースホルダ</strong>と<strong>動的プレースホルダ</strong>と呼んでいる。</p>
+<h3 id="静的プレースホルダ">静的プレースホルダ</h3>
+<p>プレースホルダのままのSQL文をデータベースに送信し、実行前にSQL文の構文解析などを準備しておく方式。
+プレースホルダ前後のSQL文がすでに組み立てられているので、バインド時のエスケープも必要なく、原理上脆弱性が発生しない。</p>
+<h3 id="動的プレースホルダ">動的プレースホルダ</h3>
+<p>プレースホルダへ値をバインドする処理をアプリケーション側で行い、完成したSQL文をデータベースへ送信する方式。
+静的プレースホルダに比べると、バインド処理を行うライブラリなどによって脆弱性が入り込む可能性もある。</p>
+<h2 id="まとめ">まとめ</h2>
+<p>これまでのSQL文を組み立てる方法をまとめると、以下のように静的プレースホルダがもっとも安全性高くなる。</p>
+<p><code>静的プレースホルダ &gt; 動的プレースホルダ &gt; 文字列連結による組み立て</code></p>
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://kona4.com//tags/sql/">sql</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fkona4.com%2fpost%2f2023%2f01%2fsecurity_sql%2f&amp;text=%e3%80%8c%e5%ae%89%e5%85%a8%e3%81%aaSQL%e3%81%ae%e5%91%bc%e3%81%b3%e5%87%ba%e3%81%97%e6%96%b9%e3%80%8d%e3%81%a7%e5%ad%a6%e3%81%b6SQL%e3%81%ae%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3&amp;via=YoKaU2" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkona4.com%2fpost%2f2023%2f01%2fsecurity_sql%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2023%2f01%2fsecurity_sql%2f&amp;title=%e3%80%8c%e5%ae%89%e5%85%a8%e3%81%aaSQL%e3%81%ae%e5%91%bc%e3%81%b3%e5%87%ba%e3%81%97%e6%96%b9%e3%80%8d%e3%81%a7%e5%ad%a6%e3%81%b6SQL%e3%81%ae%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkona4.com%2fpost%2f2023%2f01%2fsecurity_sql%2f&amp;title=%e3%80%8c%e5%ae%89%e5%85%a8%e3%81%aaSQL%e3%81%ae%e5%91%bc%e3%81%b3%e5%87%ba%e3%81%97%e6%96%b9%e3%80%8d%e3%81%a7%e5%ad%a6%e3%81%b6SQL%e3%81%ae%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkona4.com%2fpost%2f2023%2f01%2fsecurity_sql%2f&amp;title=%e3%80%8c%e5%ae%89%e5%85%a8%e3%81%aaSQL%e3%81%ae%e5%91%bc%e3%81%b3%e5%87%ba%e3%81%97%e6%96%b9%e3%80%8d%e3%81%a7%e5%ad%a6%e3%81%b6SQL%e3%81%ae%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkona4.com%2fpost%2f2023%2f01%2fsecurity_sql%2f&amp;description=%e3%80%8c%e5%ae%89%e5%85%a8%e3%81%aaSQL%e3%81%ae%e5%91%bc%e3%81%b3%e5%87%ba%e3%81%97%e6%96%b9%e3%80%8d%e3%81%a7%e5%ad%a6%e3%81%b6SQL%e3%81%ae%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://kona4.com/post/2022/12/cors/" data-toggle="tooltip" data-placement="top" title="CORSについて">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="https://github.com/kngy0306" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/YoKaU2" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              kona4
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2023
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://kona4.com/">kona4 Blog</a>
+          
+
+          ・<a href="https://kona4.com/information/">プライバシーポリシー</a>
+          ・<a href="https://forms.gle/A5Bw34akZ6feDaUt6">お問い合わせ</a>
+        </p>
+        <p></p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.92.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://kona4.com/js/main.js"></script>
+<script src="https://kona4.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://kona4.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
