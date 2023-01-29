@@ -5,7 +5,18 @@
     <link>https://kona4.com/post/</link>
     <description>Recent content in Posts on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Jan 2023 16:54:54 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 19:37:28 +0900</lastBuildDate><atom:link href="https://kona4.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Rails】セキュリティに関わりが大きそうなバリデーションヘルパーを試す</title>
+      <link>https://kona4.com/post/2023/01/rails_validates_method/</link>
+      <pubDate>Sat, 28 Jan 2023 19:37:28 +0900</pubDate>
+      
+      <guid>https://kona4.com/post/2023/01/rails_validates_method/</guid>
+      <description>&lt;p&gt;Ruby on Railsのモデルで使用できるバリデーションヘルパーには多くの種類が存在します。その中でセキュリティに関わりが大きそうなヘルパーを抜粋し、実際の挙動を試してみました。&lt;/p&gt;
+&lt;p&gt;以下ページ内にある「バリデーションヘルパー」を参考にしています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://railsguides.jp/active_record_validations.html&#34;&gt;https://railsguides.jp/active_record_validations.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ</title>
       <link>https://kona4.com/post/2023/01/security_sql/</link>
