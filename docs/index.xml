@@ -561,7 +561,7 @@ function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39
 このブログは学習のアウトプットとして使用しています。
 I am a Web Engineer in Japan👍
 I use this blog as an output of my learning.
-最近の興味 / interested  Ruby（Rails） Golang TypeScript Unity  趣味 / hobby  乃木坂46, 日向坂46のライブに行くこと ボルダリング ゲーム実況を見ること 散歩   Going to a live concert of Nogizaka46 and Hinatazaka46. Bouldering Watching video games on YouTube. Walking around the neighborhood.  </description>
+最近の興味 / interested  Ruby（Rails） Unity（C#） Golang TypeScript  趣味 / hobby  ライブに行くこと 読書 ボルダリング ゲーム実況を見ること 散歩   Going to a live concert ( of Nogizaka46 ). Books Bouldering Watching video games on YouTube. Walking around the neighborhood.  </description>
     </item>
     
   </channel>
