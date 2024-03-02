@@ -297,20 +297,18 @@ if (!doNotTrack) {
       <article role="main" class="blog-post">
         <p>Rubyにおいて、プログラムのどこでも使用できる<code>puts</code>メソッド、<code>pp</code>メソッドなどは、どこで定義されており、なぜ使用することができるのか。</p>
 <h1 id="結論">結論</h1>
-<p><code>puts</code>メソッド、<code>pp</code>メソッドなどは、<strong>Kernelモジュール</strong>で定義されている。<br>
-<strong>Kernelモジュール</strong>は、<strong>Objectクラス</strong>でincludeされている。<br>
+<p><code>puts</code>メソッド、<code>pp</code>メソッドなどは、<strong>Kernelモジュール</strong>で定義されている。
+<strong>Kernelモジュール</strong>は、<strong>Objectクラス</strong>でincludeされている。
 Rubyのクラスはすべて、<strong>Objectクラス</strong>を継承しているので、すべてのクラスで<code>puts</code>メソッドが使用できる。</p>
 <h1 id="karnelモジュール">Karnelモジュール</h1>
-<p>↓Kernelモジュールの、リファレンスマニュアル<br>
+<p>↓Kernelモジュールの、リファレンスマニュアル
 <a href="https://docs.ruby-lang.org/ja/latest/class/Kernel.html">https://docs.ruby-lang.org/ja/latest/class/Kernel.html</a></p>
 <h1 id="objectクラス">Objectクラス</h1>
 <p><strong>Objectクラス</strong>は、<strong>Kernelモジュール</strong>をincludeしている。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="no">Object</span><span class="o">.</span><span class="n">include?</span><span class="p">(</span><span class="no">Kernel</span><span class="p">)</span> <span class="c1"># true</span>
-</span></span></code></pre></div><p>すべてのクラスは、<strong>Objectクラス</strong>を継承している。<br>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl"><span class="nb">puts</span> <span class="no">Object</span><span class="o">.</span><span class="n">include?</span><span class="p">(</span><span class="no">Kernel</span><span class="p">)</span> <span class="c1"># true</span>
+</span></span></code></pre></div><p>すべてのクラスは、<strong>Objectクラス</strong>を継承している。
 詳細に言うと、<strong>Stringクラス</strong>や<strong>Integerクラス</strong>は、<strong>Moduleクラス</strong>を継承しており、<strong>Moduleクラス</strong>は<strong>Objectクラス</strong>を継承しています。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="s2">&#34;== Stringクラス ==&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl"><span class="s2">&#34;== Stringクラス ==&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="nb">String</span><span class="o">.</span><span class="n">class</span> <span class="c1"># Class</span>
 </span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="nb">String</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">superclass</span> <span class="c1"># Module</span>
 </span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="nb">String</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">superclass</span><span class="o">.</span><span class="n">superclass</span> <span class="c1"># Object</span>
@@ -320,11 +318,10 @@ Rubyのクラスはすべて、<strong>Objectクラス</strong>を継承して�
 </span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="nb">Integer</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">superclass</span> <span class="c1"># Module</span>
 </span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="nb">Integer</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">superclass</span><span class="o">.</span><span class="n">superclass</span> <span class="c1"># Object</span>
 </span></span></code></pre></div><p>またRubyにおいて、クラス構文に囲まれていない一番外側の部分をトップレベルといい、<strong>Objectクラス</strong>のインスタンスになっています。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="nb">self</span><span class="o">.</span><span class="n">class</span> <span class="c1"># Object</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl"><span class="nb">puts</span> <span class="nb">self</span><span class="o">.</span><span class="n">class</span> <span class="c1"># Object</span>
 </span></span></code></pre></div><p>以上のことから、Rubyのプログラム内では<code>puts</code>メソッドが使用できます。</p>
 <h1 id="参考文献">参考文献</h1>
-<p>プロを目指す人のためのRuby入門［改訂2版］<br>
+<p>プロを目指す人のためのRuby入門［改訂2版］
 <a href="https://gihyo.jp/book/2021/978-4-297-12437-3">https://gihyo.jp/book/2021/978-4-297-12437-3</a></p>
 
         
@@ -337,25 +334,6 @@ Rubyのクラスはすべて、<strong>Objectクラス</strong>を継承して�
 
         
 
-        
-          
-            
-          
-
-          
-                  <h4 class="see-also">See also</h4>
-                  <ul>
-                
-                
-                    <li><a href="http://localhost:1313/post/2022/10/react-rails-project/">React &#43; Rails プロジェクトをDockerで構築する</a></li>
-                
-                    <li><a href="http://localhost:1313/post/2022/09/ruby_method/">Rubyのさまざまな変数についてまとめました</a></li>
-                
-                    <li><a href="http://localhost:1313/post/2022/07/ruby-install/">M1 ProチップのMacにRubyをインストールする</a></li>
-                
-              </ul>
-
-          
         
       </article>
 
@@ -388,15 +366,6 @@ Rubyのクラスはすべて、<strong>Objectクラス</strong>を継承して�
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
           
-          
-          <li>
-            <a href="" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
           
         </ul>
         <p class="credits copyright text-muted">

@@ -40,9 +40,15 @@ p a {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  line-height: 1.5;
+  line-height: 1.75em;
   margin-top: 2.2em;
   margin-bottom: 2.4rem;
+  border-bottom: 0.02em solid #bfbfbf;
+}
+
+h1 {
+  font-size: 30px;
+  /* text-decoration-line: underline; */
 }
 
 h2::after {
@@ -601,6 +607,7 @@ footer .theme-by {
   margin-top: 0;
   font-size: 30px;
   text-align: center;
+  border-bottom: none;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
@@ -652,12 +659,13 @@ footer .theme-by {
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1,
   .intro-header .categories-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
   .intro-header .post-heading h1 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
+    border-bottom: none;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
