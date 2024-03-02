@@ -2,28 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Django on kona4 Blog</title>
-    <link>https://kona4.com/tags/django/</link>
+    <link>http://localhost:1313/tags/django/</link>
     <description>Recent content in Django on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Oct 2021 19:43:12 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Oct 2021 19:43:12 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DjangoとReactで写真投稿アプリを作る</title>
-      <link>https://kona4.com/post/2021/10/2021-10-10-photoapp/</link>
+      <link>http://localhost:1313/post/2021/10/2021-10-10-photoapp/</link>
       <pubDate>Sun, 10 Oct 2021 19:43:12 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2021/10/2021-10-10-photoapp/</guid>
+      <guid>http://localhost:1313/post/2021/10/2021-10-10-photoapp/</guid>
       <description>&lt;p&gt;Django(Django REST framework)と、Reactを使用して写真投稿アプリを作成しました！機能や使用した技術の紹介記事です。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DjangoとReactの開発環境をDockerで構築</title>
-      <link>https://kona4.com/post/2021/09/2021-09-26-docker/</link>
+      <link>http://localhost:1313/post/2021/09/2021-09-26-docker/</link>
       <pubDate>Sun, 26 Sep 2021 13:57:28 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2021/09/2021-09-26-docker/</guid>
-      <description>&lt;p&gt;DjangoとReactの開発環境をDockerを用いて構築しました！
-フォルダ構成、docker-compose.ymlの中身を紹介しようと思います。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/09/2021-09-26-docker/</guid>
+      <description>&lt;p&gt;DjangoとReactの開発環境をDockerを用いて構築しました！&#xA;フォルダ構成、docker-compose.ymlの中身を紹介しようと思います。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

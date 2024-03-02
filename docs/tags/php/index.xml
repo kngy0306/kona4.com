@@ -1,73 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PHP on kona4 Blog</title>
-    <link>https://kona4.com/tags/php/</link>
-    <description>Recent content in PHP on kona4 Blog</description>
+    <title>Php on kona4 Blog</title>
+    <link>http://localhost:1313/tags/php/</link>
+    <description>Recent content in Php on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jun 2022 08:23:17 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jun 2022 08:23:17 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PHPで理解するDI</title>
-      <link>https://kona4.com/post/2022/06/di/</link>
+      <link>http://localhost:1313/post/2022/06/di/</link>
       <pubDate>Sat, 11 Jun 2022 08:23:17 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2022/06/di/</guid>
+      <guid>http://localhost:1313/post/2022/06/di/</guid>
       <description>&lt;p&gt;DIについて学習したことを記事にしました。例で用いるコードにはPHPを使用しています。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WebサーバーとPHPの関係</title>
-      <link>https://kona4.com/post/2021/11/2021-11-12-php/</link>
+      <link>http://localhost:1313/post/2021/11/2021-11-12-php/</link>
       <pubDate>Fri, 12 Nov 2021 20:45:56 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2021/11/2021-11-12-php/</guid>
+      <guid>http://localhost:1313/post/2021/11/2021-11-12-php/</guid>
       <description>&lt;p&gt;この記事は、PHP本格入門上のChapter1に書かれているWebサーバーとPHPについてのメモです。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>PHPでテストを書く（PHPUnit）</title>
-      <link>https://kona4.com/post/2020/12/16/122401/</link>
+      <link>http://localhost:1313/post/2020/12/16/122401/</link>
       <pubDate>Wed, 16 Dec 2020 12:24:01 +0000</pubDate>
-      
-      <guid>https://kona4.com/post/2020/12/16/122401/</guid>
-      <description>&lt;h2 id=&#34;自動テストの重要性&#34;&gt;自動テストの重要性&lt;/h2&gt;
-&lt;p&gt;コードを書き換えた後、再テストには大きな労力がかかる。 =&amp;gt; &lt;!-- raw HTML omitted --&gt;自動テスト&lt;!-- raw HTML omitted --&gt;という仕組みが役に立つ。&lt;/p&gt;
-&lt;p&gt;参考書籍に則り、&lt;!-- raw HTML omitted --&gt;PHPUnit&lt;!-- raw HTML omitted --&gt;という自動テストツールを使用する。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2020/12/16/122401/</guid>
+      <description>&lt;h2 id=&#34;自動テストの重要性&#34;&gt;自動テストの重要性&lt;/h2&gt;&#xA;&lt;p&gt;コードを書き換えた後、再テストには大きな労力がかかる。 =&amp;gt; &lt;!-- raw HTML omitted --&gt;自動テスト&lt;!-- raw HTML omitted --&gt;という仕組みが役に立つ。&lt;/p&gt;&#xA;&lt;p&gt;参考書籍に則り、&lt;!-- raw HTML omitted --&gt;PHPUnit&lt;!-- raw HTML omitted --&gt;という自動テストツールを使用する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>簡単なRESTful APIサーバーを作ってみる</title>
-      <link>https://kona4.com/post/2020/12/14/100351/</link>
+      <link>http://localhost:1313/post/2020/12/14/100351/</link>
       <pubDate>Mon, 14 Dec 2020 10:03:51 +0000</pubDate>
-      
-      <guid>https://kona4.com/post/2020/12/14/100351/</guid>
-      <description>&lt;h2 id=&#34;restful-apiって&#34;&gt;RESTful APIって？&lt;/h2&gt;
-&lt;p&gt;標準的なWebAPIの設計方式。&lt;br&gt;
-リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2020/12/14/100351/</guid>
+      <description>&lt;h2 id=&#34;restful-apiって&#34;&gt;RESTful APIって？&lt;/h2&gt;&#xA;&lt;p&gt;標準的なWebAPIの設計方式。&lt;br&gt;&#xA;リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【PHP】正規表現メモ</title>
-      <link>https://kona4.com/post/2020/12/09/110055/</link>
+      <link>http://localhost:1313/post/2020/12/09/110055/</link>
       <pubDate>Wed, 09 Dec 2020 11:00:55 +0000</pubDate>
-      
-      <guid>https://kona4.com/post/2020/12/09/110055/</guid>
-      <description>目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );
-function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&amp;#34;background-image: url( https://xxxxx.png );&amp;#34;); echo $url; $ php index.php &amp;#34;https://xxxxx.png&amp;#34; </description>
+      <guid>http://localhost:1313/post/2020/12/09/110055/</guid>
+      <description>目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&#xA;function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&amp;#34;background-image: url( https://xxxxx.png );&amp;#34;); echo $url; $ php index.php &amp;#34;https://xxxxx.png&amp;#34; </description>
     </item>
-    
     <item>
       <title>PHPでLINE Messaging APIを使う</title>
-      <link>https://kona4.com/post/2020/11/18/004646/</link>
+      <link>http://localhost:1313/post/2020/11/18/004646/</link>
       <pubDate>Wed, 18 Nov 2020 00:46:46 +0000</pubDate>
-      
-      <guid>https://kona4.com/post/2020/11/18/004646/</guid>
-      <description>&lt;p&gt;この記事は、&lt;/p&gt;
-&lt;h4 id=&#34;line-developersコンソールでチャネルを作成済み&#34;&gt;LINE Developersコンソールでチャネルを作成済み。&lt;/h4&gt;
-&lt;h4 id=&#34;githubでリポジトリを作成済み&#34;&gt;GitHubでリポジトリを作成済み。&lt;/h4&gt;
-&lt;h4 id=&#34;herokuにアカウントを作成済み&#34;&gt;herokuにアカウントを作成済み。&lt;/h4&gt;
-&lt;p&gt;であることが前提です。LINE Developersのチャネルは&lt;a href=&#34;https://developers.line.biz/ja/docs/messaging-api/getting-started/&#34;&gt;ここから&lt;/a&gt;すぐに作成できます！&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2020/11/18/004646/</guid>
+      <description>&lt;p&gt;この記事は、&lt;/p&gt;&#xA;&lt;h4 id=&#34;line-developersコンソールでチャネルを作成済み&#34;&gt;LINE Developersコンソールでチャネルを作成済み。&lt;/h4&gt;&#xA;&lt;h4 id=&#34;githubでリポジトリを作成済み&#34;&gt;GitHubでリポジトリを作成済み。&lt;/h4&gt;&#xA;&lt;h4 id=&#34;herokuにアカウントを作成済み&#34;&gt;herokuにアカウントを作成済み。&lt;/h4&gt;&#xA;&lt;p&gt;であることが前提です。LINE Developersのチャネルは&lt;a href=&#34;https://developers.line.biz/ja/docs/messaging-api/getting-started/&#34;&gt;ここから&lt;/a&gt;すぐに作成できます！&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

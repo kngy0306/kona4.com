@@ -2,75 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>振り返り on kona4 Blog</title>
-    <link>https://kona4.com/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+    <link>http://localhost:1313/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
     <description>Recent content in 振り返り on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Dec 2023 16:27:41 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Dec 2023 16:27:41 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023年振り返り</title>
-      <link>https://kona4.com/post/2023/12/retrospective/</link>
+      <link>http://localhost:1313/post/2023/12/retrospective/</link>
       <pubDate>Sun, 31 Dec 2023 16:27:41 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2023/12/retrospective/</guid>
-      <description>&lt;h1 id=&#34;仕事&#34;&gt;仕事&lt;/h1&gt;
-&lt;p&gt;2022年10月に転職をした。もう1年と少し立つのが驚き。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2023/12/retrospective/</guid>
+      <description>&lt;h1 id=&#34;仕事&#34;&gt;仕事&lt;/h1&gt;&#xA;&lt;p&gt;2022年10月に転職をした。もう1年と少し立つのが驚き。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2022年の振り返り</title>
-      <link>https://kona4.com/post/2022/12/retrospective/</link>
+      <link>http://localhost:1313/post/2022/12/retrospective/</link>
       <pubDate>Sat, 24 Dec 2022 17:52:19 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2022/12/retrospective/</guid>
-      <description>&lt;p&gt;2022年の振り返り！
-仕事と趣味（仕事以外のこと）それぞれ出来事などを書きました。&lt;/p&gt;
-&lt;p&gt;ほとんど趣味全開の自己満足記事です。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2022/12/retrospective/</guid>
+      <description>&lt;p&gt;2022年の振り返り！&#xA;仕事と趣味（仕事以外のこと）それぞれ出来事などを書きました。&lt;/p&gt;&#xA;&lt;p&gt;ほとんど趣味全開の自己満足記事です。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2021年1月  4週目振り返り</title>
-      <link>https://kona4.com/post/2021/02/2021-02-02-retrospective/</link>
+      <link>http://localhost:1313/post/2021/02/2021-02-02-retrospective/</link>
       <pubDate>Tue, 02 Feb 2021 23:23:43 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2021/02/2021-02-02-retrospective/</guid>
-      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;
-&lt;p&gt;1月が終わりました！（早い）
-最終週の振り返りをします！&lt;/p&gt;
-&lt;p&gt;振り返りには、&lt;a href=&#34;https://kona4.com/post/2021/01/2021-01-18-retrospective/&#34;&gt;前前回&lt;/a&gt;と同じく&lt;strong&gt;KPT法&lt;/strong&gt;を使います。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/02/2021-02-02-retrospective/</guid>
+      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;1月が終わりました！（早い）&#xA;最終週の振り返りをします！&lt;/p&gt;&#xA;&lt;p&gt;振り返りには、&lt;a href=&#34;https://kona4.com/post/2021/01/2021-01-18-retrospective/&#34;&gt;前前回&lt;/a&gt;と同じく&lt;strong&gt;KPT法&lt;/strong&gt;を使います。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2021年1月  3週目振り返り</title>
-      <link>https://kona4.com/post/2021/01/2021-01-25-retrospective/</link>
+      <link>http://localhost:1313/post/2021/01/2021-01-25-retrospective/</link>
       <pubDate>Mon, 25 Jan 2021 11:45:14 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2021/01/2021-01-25-retrospective/</guid>
-      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;
-&lt;p&gt;1月も残り1週間となりました。&lt;br&gt;
-1月の3周目が終わったので今週の振り返りをします！&lt;/p&gt;
-&lt;p&gt;振り返りには、前回と同じく&lt;strong&gt;KPT法&lt;/strong&gt;を使います。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/01/2021-01-25-retrospective/</guid>
+      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;1月も残り1週間となりました。&lt;br&gt;&#xA;1月の3周目が終わったので今週の振り返りをします！&lt;/p&gt;&#xA;&lt;p&gt;振り返りには、前回と同じく&lt;strong&gt;KPT法&lt;/strong&gt;を使います。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2021年1月  2週目振り返り</title>
-      <link>https://kona4.com/post/2021/01/2021-01-18-retrospective/</link>
+      <link>http://localhost:1313/post/2021/01/2021-01-18-retrospective/</link>
       <pubDate>Mon, 18 Jan 2021 18:54:54 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2021/01/2021-01-18-retrospective/</guid>
-      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;
-&lt;p&gt;1月の2周目が終わったので今週の振り返りをします！&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/01/2021-01-18-retrospective/</guid>
+      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;1月の2周目が終わったので今週の振り返りをします！&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2021年1月  1週目振り返り</title>
-      <link>https://kona4.com/post/2021/01/2021-01-11-retrospective/</link>
+      <link>http://localhost:1313/post/2021/01/2021-01-11-retrospective/</link>
       <pubDate>Mon, 11 Jan 2021 15:47:43 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2021/01/2021-01-11-retrospective/</guid>
-      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;
-&lt;p&gt;今年も1週間が終わりました！&lt;br&gt;
-1月に入って私が取り組んだことについてまとめです。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/01/2021-01-11-retrospective/</guid>
+      <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;今年も1週間が終わりました！&lt;br&gt;&#xA;1月に入って私が取り組んだことについてまとめです。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

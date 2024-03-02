@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sql on kona4 Blog</title>
-    <link>https://kona4.com/tags/sql/</link>
-    <description>Recent content in sql on kona4 Blog</description>
+    <title>Sql on kona4 Blog</title>
+    <link>http://localhost:1313/tags/sql/</link>
+    <description>Recent content in Sql on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Jan 2023 16:54:54 +0900</lastBuildDate><atom:link href="https://kona4.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Jan 2023 16:54:54 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ</title>
-      <link>https://kona4.com/post/2023/01/security_sql/</link>
+      <link>http://localhost:1313/post/2023/01/security_sql/</link>
       <pubDate>Thu, 26 Jan 2023 16:54:54 +0900</pubDate>
-      
-      <guid>https://kona4.com/post/2023/01/security_sql/</guid>
-      <description>&lt;p&gt;IPAは過去に届出を受けた脆弱性関連情報を基に、適切なセキュリティを考慮したウェブサイトを作成するための資料を公開しています。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ipa.go.jp/security/vuln/websecurity.html&#34;&gt;https://www.ipa.go.jp/security/vuln/websecurity.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;その資料の中にある「安全なSQLの呼び出し方」を読み、SQL使用時のセキュリティ対策をまとめました。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2023/01/security_sql/</guid>
+      <description>&lt;p&gt;IPAは過去に届出を受けた脆弱性関連情報を基に、適切なセキュリティを考慮したウェブサイトを作成するための資料を公開しています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.ipa.go.jp/security/vuln/websecurity.html&#34;&gt;https://www.ipa.go.jp/security/vuln/websecurity.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;その資料の中にある「安全なSQLの呼び出し方」を読み、SQL使用時のセキュリティ対策をまとめました。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
