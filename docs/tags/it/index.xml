@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IT on kona4 Blog</title>
-    <link>http://localhost:1313/tags/it/</link>
+    <link>https://kona4.com/tags/it/</link>
     <description>Recent content in IT on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 03 Oct 2021 13:12:29 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/tags/it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>オブジェクト指向プログラミングについて学んだことメモ</title>
-      <link>http://localhost:1313/post/2021/10/2021-10-03-oop/</link>
+      <link>https://kona4.com/post/2021/10/2021-10-03-oop/</link>
       <pubDate>Sun, 03 Oct 2021 13:12:29 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/10/2021-10-03-oop/</guid>
+      <guid>https://kona4.com/post/2021/10/2021-10-03-oop/</guid>
       <description>&lt;p&gt;この記事は、PHP本格入門 下 を読んでオブジェクト指向についての学習をメモしたものです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>curlコマンドでnoteからデータを取得してみる</title>
-      <link>http://localhost:1313/post/2020/12/17/141316/</link>
+      <link>https://kona4.com/post/2020/12/17/141316/</link>
       <pubDate>Thu, 17 Dec 2020 14:13:16 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/17/141316/</guid>
+      <guid>https://kona4.com/post/2020/12/17/141316/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;使い方を公式で説明しているわけではないが、&lt;a href=&#34;https://note.com/&#34;&gt;note&lt;/a&gt;にはAPIがあるみたい。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://note.com/hagure_melon/n/n964ff6f7ad0e&#34;&gt;【2020年度】noteのAPI一覧【完全版】&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;curlコマンドの使い方を学ぶついでに、noteに投稿されている記事のタイトルを取得してみる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PHPでテストを書く（PHPUnit）</title>
-      <link>http://localhost:1313/post/2020/12/16/122401/</link>
+      <link>https://kona4.com/post/2020/12/16/122401/</link>
       <pubDate>Wed, 16 Dec 2020 12:24:01 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/16/122401/</guid>
+      <guid>https://kona4.com/post/2020/12/16/122401/</guid>
       <description>&lt;h2 id=&#34;自動テストの重要性&#34;&gt;自動テストの重要性&lt;/h2&gt;&#xA;&lt;p&gt;コードを書き換えた後、再テストには大きな労力がかかる。 =&amp;gt; &lt;!-- raw HTML omitted --&gt;自動テスト&lt;!-- raw HTML omitted --&gt;という仕組みが役に立つ。&lt;/p&gt;&#xA;&lt;p&gt;参考書籍に則り、&lt;!-- raw HTML omitted --&gt;PHPUnit&lt;!-- raw HTML omitted --&gt;という自動テストツールを使用する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>簡単なRESTful APIサーバーを作ってみる</title>
-      <link>http://localhost:1313/post/2020/12/14/100351/</link>
+      <link>https://kona4.com/post/2020/12/14/100351/</link>
       <pubDate>Mon, 14 Dec 2020 10:03:51 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/14/100351/</guid>
+      <guid>https://kona4.com/post/2020/12/14/100351/</guid>
       <description>&lt;h2 id=&#34;restful-apiって&#34;&gt;RESTful APIって？&lt;/h2&gt;&#xA;&lt;p&gt;標準的なWebAPIの設計方式。&lt;br&gt;&#xA;リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【PHP】正規表現メモ</title>
-      <link>http://localhost:1313/post/2020/12/09/110055/</link>
+      <link>https://kona4.com/post/2020/12/09/110055/</link>
       <pubDate>Wed, 09 Dec 2020 11:00:55 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/09/110055/</guid>
+      <guid>https://kona4.com/post/2020/12/09/110055/</guid>
       <description>目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&#xA;function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&amp;#34;background-image: url( https://xxxxx.png );&amp;#34;); echo $url; $ php index.php &amp;#34;https://xxxxx.png&amp;#34; </description>
     </item>
     <item>
       <title>Rust環境構築メモ</title>
-      <link>http://localhost:1313/post/2020/12/04/101225/</link>
+      <link>https://kona4.com/post/2020/12/04/101225/</link>
       <pubDate>Fri, 04 Dec 2020 10:12:25 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/04/101225/</guid>
-      <description>&lt;p&gt;Rustの環境構築をする際に、VSCodeの拡張機能である&lt;strong&gt;Remote - Containers&lt;/strong&gt;を使用しました。&lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:1313/img/2020-12/04-01.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://kona4.com/post/2020/12/04/101225/</guid>
+      <description>&lt;p&gt;Rustの環境構築をする際に、VSCodeの拡張機能である&lt;strong&gt;Remote - Containers&lt;/strong&gt;を使用しました。&lt;br&gt;&#xA;&lt;img src=&#34;https://kona4.com/img/2020-12/04-01.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

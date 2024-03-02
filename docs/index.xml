@@ -2,381 +2,381 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kona4 Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kona4.com/</link>
     <description>Recent content on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 Dec 2023 16:27:41 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023年振り返り</title>
-      <link>http://localhost:1313/post/2023/12/retrospective/</link>
+      <link>https://kona4.com/post/2023/12/retrospective/</link>
       <pubDate>Sun, 31 Dec 2023 16:27:41 +0900</pubDate>
-      <guid>http://localhost:1313/post/2023/12/retrospective/</guid>
+      <guid>https://kona4.com/post/2023/12/retrospective/</guid>
       <description>&lt;h1 id=&#34;仕事&#34;&gt;仕事&lt;/h1&gt;&#xA;&lt;p&gt;2022年10月に転職をした。もう1年と少し立つのが驚き。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Rails】セキュリティに関わりが大きそうなバリデーションヘルパーを試す</title>
-      <link>http://localhost:1313/post/2023/01/rails_validates_method/</link>
+      <link>https://kona4.com/post/2023/01/rails_validates_method/</link>
       <pubDate>Sat, 28 Jan 2023 19:37:28 +0900</pubDate>
-      <guid>http://localhost:1313/post/2023/01/rails_validates_method/</guid>
+      <guid>https://kona4.com/post/2023/01/rails_validates_method/</guid>
       <description>&lt;p&gt;Ruby on Railsのモデルで使用できるバリデーションヘルパーには多くの種類が存在します。その中でセキュリティに関わりが大きそうなヘルパーを抜粋し、実際の挙動を試してみました。&lt;/p&gt;&#xA;&lt;p&gt;以下ページ内にある「バリデーションヘルパー」を参考にしています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://railsguides.jp/active_record_validations.html&#34;&gt;https://railsguides.jp/active_record_validations.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>「安全なSQLの呼び出し方」で学ぶSQLのセキュリティ</title>
-      <link>http://localhost:1313/post/2023/01/security_sql/</link>
+      <link>https://kona4.com/post/2023/01/security_sql/</link>
       <pubDate>Thu, 26 Jan 2023 16:54:54 +0900</pubDate>
-      <guid>http://localhost:1313/post/2023/01/security_sql/</guid>
+      <guid>https://kona4.com/post/2023/01/security_sql/</guid>
       <description>&lt;p&gt;IPAは過去に届出を受けた脆弱性関連情報を基に、適切なセキュリティを考慮したウェブサイトを作成するための資料を公開しています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.ipa.go.jp/security/vuln/websecurity.html&#34;&gt;https://www.ipa.go.jp/security/vuln/websecurity.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;その資料の中にある「安全なSQLの呼び出し方」を読み、SQL使用時のセキュリティ対策をまとめました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>CORSについて</title>
-      <link>http://localhost:1313/post/2022/12/cors/</link>
+      <link>https://kona4.com/post/2022/12/cors/</link>
       <pubDate>Mon, 26 Dec 2022 15:08:09 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/12/cors/</guid>
+      <guid>https://kona4.com/post/2022/12/cors/</guid>
       <description>&lt;p&gt;ウェブアプリケーションが発展し、同一オリジンポリシーの制限を超えてデータのやり取りを行いたいというニーズが増えてきました。&#xA;その際サイトを超えたデータのやり取りに関する仕様として策定されたのが&lt;strong&gt;CORS&lt;/strong&gt;です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>CAPTCHAの概要とreCAPTCHAについて</title>
-      <link>http://localhost:1313/post/2022/12/recaptcha/</link>
+      <link>https://kona4.com/post/2022/12/recaptcha/</link>
       <pubDate>Mon, 26 Dec 2022 08:02:56 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/12/recaptcha/</guid>
+      <guid>https://kona4.com/post/2022/12/recaptcha/</guid>
       <description>&lt;p&gt;&lt;strong&gt;reCAPTCHA&lt;/strong&gt;は、アクセスがコンピュータによる自動応答ではないことを確認する、チャレンジ/レスポンス認証と呼ばれるセキュリティ方式の一種であり、CAPTCHAシステムの1つです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022年の振り返り</title>
-      <link>http://localhost:1313/post/2022/12/retrospective/</link>
+      <link>https://kona4.com/post/2022/12/retrospective/</link>
       <pubDate>Sat, 24 Dec 2022 17:52:19 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/12/retrospective/</guid>
+      <guid>https://kona4.com/post/2022/12/retrospective/</guid>
       <description>&lt;p&gt;2022年の振り返り！&#xA;仕事と趣味（仕事以外のこと）それぞれ出来事などを書きました。&lt;/p&gt;&#xA;&lt;p&gt;ほとんど趣味全開の自己満足記事です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Railsでクッキーを扱う</title>
-      <link>http://localhost:1313/post/2022/11/rails_cookies/</link>
+      <link>https://kona4.com/post/2022/11/rails_cookies/</link>
       <pubDate>Tue, 29 Nov 2022 22:50:33 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/11/rails_cookies/</guid>
+      <guid>https://kona4.com/post/2022/11/rails_cookies/</guid>
       <description>&lt;p&gt;先日 &lt;a href=&#34;https://zenn.dev/powder/articles/session_rails_20221124&#34;&gt;セキュリティ上重要なクッキー属性を読んでみる&lt;/a&gt; という記事を投稿しました。そこで取り上げたクッキーについて、Railsでの保存、削除、オプションの付与などを試してみました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>EC2からPlanetScaleへ接続したときのエラー解消</title>
-      <link>http://localhost:1313/post/2022/11/ec2-planetscale/</link>
+      <link>https://kona4.com/post/2022/11/ec2-planetscale/</link>
       <pubDate>Sun, 27 Nov 2022 16:16:59 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/11/ec2-planetscale/</guid>
+      <guid>https://kona4.com/post/2022/11/ec2-planetscale/</guid>
       <description>&lt;p&gt;EC2上でLaravelを使用してアプリケーションを作成したさい、DBに&lt;a href=&#34;https://planetscale.com/&#34;&gt;PlaceScale&lt;/a&gt;を使用し、Laravelから接続を行いました。そのときに&lt;code&gt;SQLSTATE[HY000] [2002] No such file or directory&lt;/code&gt;というエラーが出たため、その解消手順を記載しました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>React &#43; Rails プロジェクトをDockerで構築する</title>
-      <link>http://localhost:1313/post/2022/10/react-rails-project/</link>
+      <link>https://kona4.com/post/2022/10/react-rails-project/</link>
       <pubDate>Fri, 07 Oct 2022 16:15:14 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/10/react-rails-project/</guid>
+      <guid>https://kona4.com/post/2022/10/react-rails-project/</guid>
       <description>&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;&#xA;&lt;p&gt;フロントエンド&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;React (18.x)&lt;/li&gt;&#xA;&lt;li&gt;TypeScript&lt;/li&gt;&#xA;&lt;li&gt;Vite&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;バックエンド&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ruby on Rails (6.x)&lt;/li&gt;&#xA;&lt;li&gt;Ruby (2.7)&lt;/li&gt;&#xA;&lt;li&gt;Postgres&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>putsメソッドはなぜどこでも使用することができるのか</title>
-      <link>http://localhost:1313/post/2022/09/ruby_module/</link>
+      <link>https://kona4.com/post/2022/09/ruby_module/</link>
       <pubDate>Tue, 20 Sep 2022 13:25:40 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/09/ruby_module/</guid>
+      <guid>https://kona4.com/post/2022/09/ruby_module/</guid>
       <description>&lt;p&gt;Rubyにおいて、プログラムのどこでも使用できる&lt;code&gt;puts&lt;/code&gt;メソッド、&lt;code&gt;pp&lt;/code&gt;メソッドなどは、どこで定義されており、なぜ使用することができるのか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rubyのさまざまな変数についてまとめました</title>
-      <link>http://localhost:1313/post/2022/09/ruby_method/</link>
+      <link>https://kona4.com/post/2022/09/ruby_method/</link>
       <pubDate>Fri, 16 Sep 2022 11:50:28 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/09/ruby_method/</guid>
+      <guid>https://kona4.com/post/2022/09/ruby_method/</guid>
       <description>&lt;p&gt;Rubyには以下のようにさまざまな&lt;strong&gt;変数&lt;/strong&gt;が存在します。それぞれの記述方法、特徴をまとめました。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ローカル変数&lt;/li&gt;&#xA;&lt;li&gt;インスタンス変数&lt;/li&gt;&#xA;&lt;li&gt;クラスインスタンス変数&lt;/li&gt;&#xA;&lt;li&gt;クラス変数&lt;/li&gt;&#xA;&lt;li&gt;グローバル変数&lt;/li&gt;&#xA;&lt;li&gt;組み込み変数&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>M1 ProチップのMacにRubyをインストールする</title>
-      <link>http://localhost:1313/post/2022/07/ruby-install/</link>
+      <link>https://kona4.com/post/2022/07/ruby-install/</link>
       <pubDate>Sat, 23 Jul 2022 09:20:44 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/07/ruby-install/</guid>
+      <guid>https://kona4.com/post/2022/07/ruby-install/</guid>
       <description>&lt;p&gt;インストールを行った環境&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;macOS Monterey 12.4&lt;/li&gt;&#xA;&lt;li&gt;Apple M1 Pro&lt;/li&gt;&#xA;&lt;li&gt;fish shell&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>PHPで理解するDI</title>
-      <link>http://localhost:1313/post/2022/06/di/</link>
+      <link>https://kona4.com/post/2022/06/di/</link>
       <pubDate>Sat, 11 Jun 2022 08:23:17 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/06/di/</guid>
+      <guid>https://kona4.com/post/2022/06/di/</guid>
       <description>&lt;p&gt;DIについて学習したことを記事にしました。例で用いるコードにはPHPを使用しています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>DBの正規化について</title>
-      <link>http://localhost:1313/post/2022/06/regularization/</link>
+      <link>https://kona4.com/post/2022/06/regularization/</link>
       <pubDate>Sat, 04 Jun 2022 08:58:58 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/06/regularization/</guid>
+      <guid>https://kona4.com/post/2022/06/regularization/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E9%81%94%E4%BA%BA%E3%81%AB%E5%AD%A6%E3%81%B6DB%E8%A8%AD%E8%A8%88-%E5%BE%B9%E5%BA%95%E6%8C%87%E5%8D%97%E6%9B%B8-%E5%88%9D%E7%B4%9A%E8%80%85%E3%81%A7%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84%E3%81%82%E3%81%AA%E3%81%9F%E3%81%B8-%E3%83%9F%E3%83%83%E3%82%AF/dp/4798124702&#34;&gt;達人に学ぶDB設計徹底指南書&lt;/a&gt;を読み、第3章〜第5章に書かれている、DBの正規化、そのメリットデメリットについてまとめました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>TypeScriptにおける、部分型について</title>
-      <link>http://localhost:1313/post/2022/05/type-object/</link>
+      <link>https://kona4.com/post/2022/05/type-object/</link>
       <pubDate>Sat, 21 May 2022 10:37:47 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/05/type-object/</guid>
+      <guid>https://kona4.com/post/2022/05/type-object/</guid>
       <description>&lt;p&gt;TypeScriptのオブジェクトにおいて、オブジェクトと関数型の部分型についてのアウトプット記事です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>（自分用メモ）useContextの使い方</title>
-      <link>http://localhost:1313/post/2022/05/usecontext/</link>
+      <link>https://kona4.com/post/2022/05/usecontext/</link>
       <pubDate>Mon, 09 May 2022 08:41:10 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/05/usecontext/</guid>
+      <guid>https://kona4.com/post/2022/05/usecontext/</guid>
       <description>&lt;p&gt;React16.8から加わったHooksの1つである、&lt;code&gt;useContext&lt;/code&gt;の使い方を自分用のメモとして記事を書きました。&lt;/p&gt;&#xA;&lt;p&gt;CodeSandboxでサンプルコードをかきました。下記URLからコードを確認していただくと、分かりやすいと思います。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://codesandbox.io/embed/wispy-voice-1uwjo7?fontsize=14&amp;amp;hidenavigation=1&amp;amp;theme=dark&#34;&gt;https://codesandbox.io/embed/wispy-voice-1uwjo7?fontsize=14&amp;amp;hidenavigation=1&amp;amp;theme=dark&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Laravelで使用するMySQLをDockerで用意する【M1 Mac】</title>
-      <link>http://localhost:1313/post/2022/02/docker-mysql/</link>
+      <link>https://kona4.com/post/2022/02/docker-mysql/</link>
       <pubDate>Sat, 12 Feb 2022 09:26:16 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/02/docker-mysql/</guid>
+      <guid>https://kona4.com/post/2022/02/docker-mysql/</guid>
       <description>&lt;p&gt;ローカルでLaravelのプロジェクトを作成し、データベースだけをDockerで用意する方法をまとめました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【M1 Mac】シェルをfish shellにした</title>
-      <link>http://localhost:1313/post/2022/01/2022-01-22-fish/</link>
+      <link>https://kona4.com/post/2022/01/2022-01-22-fish/</link>
       <pubDate>Sat, 22 Jan 2022 13:44:21 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/01/2022-01-22-fish/</guid>
+      <guid>https://kona4.com/post/2022/01/2022-01-22-fish/</guid>
       <description>&lt;p&gt;新たなPC(M1 Mac)を購入したのでターミナルも一新しました！これまではmacにデフォルトで入っていたzshを利用していましたが、他の方が使ってるfishの見た目がカッコよく、真似をしたいと思いfishへ乗り換えました。&lt;br&gt;&#xA;fishのインストールからテーマを設定するまでを書いていきます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>新卒1年目がふるさと納税をやるときに意識したこと</title>
-      <link>http://localhost:1313/post/2021/12/2021-12-26-hurusato/</link>
+      <link>https://kona4.com/post/2021/12/2021-12-26-hurusato/</link>
       <pubDate>Sun, 26 Dec 2021 13:40:14 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/12/2021-12-26-hurusato/</guid>
+      <guid>https://kona4.com/post/2021/12/2021-12-26-hurusato/</guid>
       <description>&lt;p&gt;今年(2021年)に社会人として働き始め、12月に滑り込みでふるさと納税をしてみました！&lt;br&gt;&#xA;これは、ふるさと納税をするにあたって気をつけたこと、意識したことをまとめた記事になります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>TwitterAPIを使って乃木坂46公式アカウントの投稿を取得する【JavaScript】</title>
-      <link>http://localhost:1313/post/2021/12/2021-12-10-twitterapi/</link>
+      <link>https://kona4.com/post/2021/12/2021-12-10-twitterapi/</link>
       <pubDate>Fri, 10 Dec 2021 22:03:06 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/12/2021-12-10-twitterapi/</guid>
+      <guid>https://kona4.com/post/2021/12/2021-12-10-twitterapi/</guid>
       <description>&lt;p&gt;JavaScriptでTwitterAPIを使ってツイートを取得しました。&lt;br&gt;&#xA;取得する条件がたくさん指定できるのですが、自分が取得した例（&lt;strong&gt;乃木坂46の公式アカウントの投稿を取得&lt;/strong&gt;）を紹介しようと思います！&lt;/p&gt;</description>
     </item>
     <item>
       <title>TypeScript環境構築メモ</title>
-      <link>http://localhost:1313/post/2021/11/2021-11-15-ts/</link>
+      <link>https://kona4.com/post/2021/11/2021-11-15-ts/</link>
       <pubDate>Mon, 15 Nov 2021 22:10:09 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/11/2021-11-15-ts/</guid>
+      <guid>https://kona4.com/post/2021/11/2021-11-15-ts/</guid>
       <description>&lt;p&gt;自分用のTypeScript環境構築メモです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebサーバーとPHPの関係</title>
-      <link>http://localhost:1313/post/2021/11/2021-11-12-php/</link>
+      <link>https://kona4.com/post/2021/11/2021-11-12-php/</link>
       <pubDate>Fri, 12 Nov 2021 20:45:56 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/11/2021-11-12-php/</guid>
+      <guid>https://kona4.com/post/2021/11/2021-11-12-php/</guid>
       <description>&lt;p&gt;この記事は、PHP本格入門上のChapter1に書かれているWebサーバーとPHPについてのメモです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>package.jsonに記載されていないパッケージをアップグレードする方法メモ</title>
-      <link>http://localhost:1313/post/2021/10/2021-10-23-package_json/</link>
+      <link>https://kona4.com/post/2021/10/2021-10-23-package_json/</link>
       <pubDate>Sat, 23 Oct 2021 11:17:14 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/10/2021-10-23-package_json/</guid>
+      <guid>https://kona4.com/post/2021/10/2021-10-23-package_json/</guid>
       <description>&lt;p&gt;この記事は、package.jsonに記載されていないパッケージをアップグレードする方法について調べたときのメモになります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【MySQL】クエリの結果をcsv形式でファイルに保存する</title>
-      <link>http://localhost:1313/post/2021/10/2021-10-20-sqltocsv/</link>
+      <link>https://kona4.com/post/2021/10/2021-10-20-sqltocsv/</link>
       <pubDate>Wed, 20 Oct 2021 22:30:21 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/10/2021-10-20-sqltocsv/</guid>
+      <guid>https://kona4.com/post/2021/10/2021-10-20-sqltocsv/</guid>
       <description>&lt;p&gt;MySQLでクエリを実行し、その結果をそのままcsv形式でファイルに保存するコマンドの紹介記事です！&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flutter公式 最初のチュートリアルをやってみた</title>
-      <link>http://localhost:1313/post/2021/10/2021-10-16-flutter-turorial/</link>
+      <link>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</link>
       <pubDate>Sat, 16 Oct 2021 12:31:37 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/10/2021-10-16-flutter-turorial/</guid>
+      <guid>https://kona4.com/post/2021/10/2021-10-16-flutter-turorial/</guid>
       <description>&lt;p&gt;この記事は、Flutter公式サイトにある4つあるTutorialの中の &lt;a href=&#34;https://flutter.dev/docs/development/ui/layout/tutorial&#34;&gt;Building layouts&lt;/a&gt; を行った際に学んだことをメモしたものです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>DjangoとReactで写真投稿アプリを作る</title>
-      <link>http://localhost:1313/post/2021/10/2021-10-10-photoapp/</link>
+      <link>https://kona4.com/post/2021/10/2021-10-10-photoapp/</link>
       <pubDate>Sun, 10 Oct 2021 19:43:12 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/10/2021-10-10-photoapp/</guid>
+      <guid>https://kona4.com/post/2021/10/2021-10-10-photoapp/</guid>
       <description>&lt;p&gt;Django(Django REST framework)と、Reactを使用して写真投稿アプリを作成しました！機能や使用した技術の紹介記事です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>オブジェクト指向プログラミングについて学んだことメモ</title>
-      <link>http://localhost:1313/post/2021/10/2021-10-03-oop/</link>
+      <link>https://kona4.com/post/2021/10/2021-10-03-oop/</link>
       <pubDate>Sun, 03 Oct 2021 13:12:29 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/10/2021-10-03-oop/</guid>
+      <guid>https://kona4.com/post/2021/10/2021-10-03-oop/</guid>
       <description>&lt;p&gt;この記事は、PHP本格入門 下 を読んでオブジェクト指向についての学習をメモしたものです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>初めて4Kモニターを買いました！</title>
-      <link>http://localhost:1313/post/2021/10/2021-10-02-gadget/</link>
+      <link>https://kona4.com/post/2021/10/2021-10-02-gadget/</link>
       <pubDate>Sat, 02 Oct 2021 13:50:25 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/10/2021-10-02-gadget/</guid>
+      <guid>https://kona4.com/post/2021/10/2021-10-02-gadget/</guid>
       <description>&lt;p&gt;この記事は、私がモニターを購入する際に考えたことについて書いたものです！&lt;/p&gt;</description>
     </item>
     <item>
       <title>プライバシーポリシー</title>
-      <link>http://localhost:1313/information/privacy/</link>
+      <link>https://kona4.com/information/privacy/</link>
       <pubDate>Tue, 28 Sep 2021 22:16:24 +0900</pubDate>
-      <guid>http://localhost:1313/information/privacy/</guid>
+      <guid>https://kona4.com/information/privacy/</guid>
       <description>アクセス解析ツールについて 当ブログでは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています。このGoogleアナリティクスはトラフィックデータの収集のためにクッキー（Cookie）を使用しております。トラフィックデータは匿名で収集されており、個人を特定するものではありません。&#xA;Google Analytics でデータが収集・処理される仕組み、Google Analyticsの利用規約及びGoogle社のプライバシーポリシーについては以下のサイトをご覧ください。&#xA;Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用： https://policies.google.com/technologies/partner-sites?hl=ja Google Analyticsの利用規約：&#xA;https://marketingplatform.google.com/about/analytics/terms/jp/ Google社のプライバシーポリシー：&#xA;https://policies.google.com/privacy?hl=ja </description>
     </item>
     <item>
       <title>DjangoとReactの開発環境をDockerで構築</title>
-      <link>http://localhost:1313/post/2021/09/2021-09-26-docker/</link>
+      <link>https://kona4.com/post/2021/09/2021-09-26-docker/</link>
       <pubDate>Sun, 26 Sep 2021 13:57:28 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/09/2021-09-26-docker/</guid>
+      <guid>https://kona4.com/post/2021/09/2021-09-26-docker/</guid>
       <description>&lt;p&gt;DjangoとReactの開発環境をDockerを用いて構築しました！&#xA;フォルダ構成、docker-compose.ymlの中身を紹介しようと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2021年1月  4週目振り返り</title>
-      <link>http://localhost:1313/post/2021/02/2021-02-02-retrospective/</link>
+      <link>https://kona4.com/post/2021/02/2021-02-02-retrospective/</link>
       <pubDate>Tue, 02 Feb 2021 23:23:43 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/02/2021-02-02-retrospective/</guid>
+      <guid>https://kona4.com/post/2021/02/2021-02-02-retrospective/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;1月が終わりました！（早い）&#xA;最終週の振り返りをします！&lt;/p&gt;&#xA;&lt;p&gt;振り返りには、&lt;a href=&#34;https://kona4.com/post/2021/01/2021-01-18-retrospective/&#34;&gt;前前回&lt;/a&gt;と同じく&lt;strong&gt;KPT法&lt;/strong&gt;を使います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2021年1月  3週目振り返り</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-25-retrospective/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-25-retrospective/</link>
       <pubDate>Mon, 25 Jan 2021 11:45:14 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-25-retrospective/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-25-retrospective/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;1月も残り1週間となりました。&lt;br&gt;&#xA;1月の3周目が終わったので今週の振り返りをします！&lt;/p&gt;&#xA;&lt;p&gt;振り返りには、前回と同じく&lt;strong&gt;KPT法&lt;/strong&gt;を使います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2021年1月  2週目振り返り</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-18-retrospective/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-18-retrospective/</link>
       <pubDate>Mon, 18 Jan 2021 18:54:54 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-18-retrospective/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-18-retrospective/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;1月の2周目が終わったので今週の振り返りをします！&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Go】structの埋め込みについて</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-16-gooutput/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-16-gooutput/</link>
       <pubDate>Sat, 16 Jan 2021 20:50:17 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-16-gooutput/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-16-gooutput/</guid>
       <description>&lt;p&gt;structについてまとめたものです。&lt;br&gt;&#xA;structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>入門Goプログラミングのアウトプット</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-13-gooutput/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-13-gooutput/</link>
       <pubDate>Wed, 13 Jan 2021 14:44:15 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-13-gooutput/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-13-gooutput/</guid>
       <description>&lt;p&gt;書籍: &lt;a href=&#34;https://www.amazon.co.jp/%E5%85%A5%E9%96%80Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Nathan-Youngman/dp/4798158658/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&#34;&gt;入門Goプログラミング&lt;/a&gt;の中にある、チャレンジのアウトプット。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aレコードについて</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-12-dns/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-12-dns/</link>
       <pubDate>Tue, 12 Jan 2021 09:32:23 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-12-dns/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-12-dns/</guid>
       <description>&lt;p&gt;本ブログのURLを、GitHub Pagesのデフォルトのドメインから、お名前.comで購入したドメインに変更しました。&lt;/p&gt;&#xA;&lt;p&gt;この記事は、ドメインを変更したときに知った用語についてまとめたものです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2021年1月  1週目振り返り</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-11-retrospective/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-11-retrospective/</link>
       <pubDate>Mon, 11 Jan 2021 15:47:43 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-11-retrospective/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-11-retrospective/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;kona4&lt;/a&gt;です！&lt;/p&gt;&#xA;&lt;p&gt;今年も1週間が終わりました！&lt;br&gt;&#xA;1月に入って私が取り組んだことについてまとめです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugoにブログを作りました！</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-08-first/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-08-first/</link>
       <pubDate>Sat, 09 Jan 2021 00:10:56 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-08-first/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-08-first/</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/YoKaU2&#34;&gt;Kona4&lt;/a&gt;です。&#xA;2021年から、ブログを&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;で作成し、公開することにしました。&lt;/p&gt;&#xA;&lt;p&gt;軽いアウトプットはこれまで&lt;a href=&#34;https://konakomoti.hatenablog.com/&#34;&gt;はてなブログ&lt;/a&gt;に投稿していましたが、もっとページをカスタマイズしたいと思い、Hugoでサイトを構築しました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>curlコマンドでnoteからデータを取得してみる</title>
-      <link>http://localhost:1313/post/2020/12/17/141316/</link>
+      <link>https://kona4.com/post/2020/12/17/141316/</link>
       <pubDate>Thu, 17 Dec 2020 14:13:16 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/17/141316/</guid>
+      <guid>https://kona4.com/post/2020/12/17/141316/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;使い方を公式で説明しているわけではないが、&lt;a href=&#34;https://note.com/&#34;&gt;note&lt;/a&gt;にはAPIがあるみたい。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://note.com/hagure_melon/n/n964ff6f7ad0e&#34;&gt;【2020年度】noteのAPI一覧【完全版】&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;curlコマンドの使い方を学ぶついでに、noteに投稿されている記事のタイトルを取得してみる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PHPでテストを書く（PHPUnit）</title>
-      <link>http://localhost:1313/post/2020/12/16/122401/</link>
+      <link>https://kona4.com/post/2020/12/16/122401/</link>
       <pubDate>Wed, 16 Dec 2020 12:24:01 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/16/122401/</guid>
+      <guid>https://kona4.com/post/2020/12/16/122401/</guid>
       <description>&lt;h2 id=&#34;自動テストの重要性&#34;&gt;自動テストの重要性&lt;/h2&gt;&#xA;&lt;p&gt;コードを書き換えた後、再テストには大きな労力がかかる。 =&amp;gt; &lt;!-- raw HTML omitted --&gt;自動テスト&lt;!-- raw HTML omitted --&gt;という仕組みが役に立つ。&lt;/p&gt;&#xA;&lt;p&gt;参考書籍に則り、&lt;!-- raw HTML omitted --&gt;PHPUnit&lt;!-- raw HTML omitted --&gt;という自動テストツールを使用する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>簡単なRESTful APIサーバーを作ってみる</title>
-      <link>http://localhost:1313/post/2020/12/14/100351/</link>
+      <link>https://kona4.com/post/2020/12/14/100351/</link>
       <pubDate>Mon, 14 Dec 2020 10:03:51 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/14/100351/</guid>
+      <guid>https://kona4.com/post/2020/12/14/100351/</guid>
       <description>&lt;h2 id=&#34;restful-apiって&#34;&gt;RESTful APIって？&lt;/h2&gt;&#xA;&lt;p&gt;標準的なWebAPIの設計方式。&lt;br&gt;&#xA;リソースに対するURLを1つだけ用意し、HTTPメソッドの切り替えで操作を表す。&lt;/p&gt;</description>
     </item>
     <item>
       <title>merpay Tech Talk ~伝わる技術文書の書き方~　12/1/2020配信メモ</title>
-      <link>http://localhost:1313/post/2020/12/13/190140/</link>
+      <link>https://kona4.com/post/2020/12/13/190140/</link>
       <pubDate>Sun, 13 Dec 2020 19:01:40 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/13/190140/</guid>
+      <guid>https://kona4.com/post/2020/12/13/190140/</guid>
       <description>&lt;h2 id=&#34;言葉の揺れをなくす&#34;&gt;言葉の揺れをなくす&lt;/h2&gt;&#xA;&lt;p&gt;たとえば or 例えば&#xA;一つ or １つ&lt;/p&gt;</description>
     </item>
     <item>
       <title>【PHP】正規表現メモ</title>
-      <link>http://localhost:1313/post/2020/12/09/110055/</link>
+      <link>https://kona4.com/post/2020/12/09/110055/</link>
       <pubDate>Wed, 09 Dec 2020 11:00:55 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/09/110055/</guid>
+      <guid>https://kona4.com/post/2020/12/09/110055/</guid>
       <description>目的: CSSプロパティで指定された画像URLを取り出したい background-image: url( https://xxxxx.png );&#xA;function getUrl($url) { preg_match(&amp;#39;/(https).*\.(png|jpg|jpeg)/i&amp;#39;, $url, $match); return $match[0] ?? null; } $url = getUrl(&amp;#34;background-image: url( https://xxxxx.png );&amp;#34;); echo $url; $ php index.php &amp;#34;https://xxxxx.png&amp;#34; </description>
     </item>
     <item>
       <title>Rust環境構築メモ</title>
-      <link>http://localhost:1313/post/2020/12/04/101225/</link>
+      <link>https://kona4.com/post/2020/12/04/101225/</link>
       <pubDate>Fri, 04 Dec 2020 10:12:25 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/04/101225/</guid>
-      <description>&lt;p&gt;Rustの環境構築をする際に、VSCodeの拡張機能である&lt;strong&gt;Remote - Containers&lt;/strong&gt;を使用しました。&lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:1313/img/2020-12/04-01.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://kona4.com/post/2020/12/04/101225/</guid>
+      <description>&lt;p&gt;Rustの環境構築をする際に、VSCodeの拡張機能である&lt;strong&gt;Remote - Containers&lt;/strong&gt;を使用しました。&lt;br&gt;&#xA;&lt;img src=&#34;https://kona4.com/img/2020-12/04-01.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>PHPでLINE Messaging APIを使う</title>
-      <link>http://localhost:1313/post/2020/11/18/004646/</link>
+      <link>https://kona4.com/post/2020/11/18/004646/</link>
       <pubDate>Wed, 18 Nov 2020 00:46:46 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/11/18/004646/</guid>
+      <guid>https://kona4.com/post/2020/11/18/004646/</guid>
       <description>&lt;p&gt;この記事は、&lt;/p&gt;&#xA;&lt;h4 id=&#34;line-developersコンソールでチャネルを作成済み&#34;&gt;LINE Developersコンソールでチャネルを作成済み。&lt;/h4&gt;&#xA;&lt;h4 id=&#34;githubでリポジトリを作成済み&#34;&gt;GitHubでリポジトリを作成済み。&lt;/h4&gt;&#xA;&lt;h4 id=&#34;herokuにアカウントを作成済み&#34;&gt;herokuにアカウントを作成済み。&lt;/h4&gt;&#xA;&lt;p&gt;であることが前提です。LINE Developersのチャネルは&lt;a href=&#34;https://developers.line.biz/ja/docs/messaging-api/getting-started/&#34;&gt;ここから&lt;/a&gt;すぐに作成できます！&lt;/p&gt;</description>
     </item>
     <item>
       <title>なぜWWWが誕生したか</title>
-      <link>http://localhost:1313/post/2020/11/15/102143/</link>
+      <link>https://kona4.com/post/2020/11/15/102143/</link>
       <pubDate>Sun, 15 Nov 2020 10:21:43 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/11/15/102143/</guid>
+      <guid>https://kona4.com/post/2020/11/15/102143/</guid>
       <description>&lt;h2 id=&#34;wwwが誕生&#34;&gt;wwwが誕生&lt;/h2&gt;&#xA;&lt;p&gt;1989年、素粒子物理学の研究所から考案された。&lt;br&gt;&#xA;当時、「実験の結果などを世界の研究者と共有したい！」という話になったが、これまであった電子メールなどのやりとりは不便だった。&lt;br&gt;&#xA;そんな中、欧州原子核研究機構(&lt;strong&gt;CERN&lt;/strong&gt;)に所属していたティム・バーナーズ ＝ リー博士が&lt;strong&gt;www&lt;/strong&gt;を提案、開発した。&lt;/p&gt;</description>
     </item>
     <item>
       <title>自分用読書方法のまなび</title>
-      <link>http://localhost:1313/post/2020/05/28/105348/</link>
+      <link>https://kona4.com/post/2020/05/28/105348/</link>
       <pubDate>Thu, 28 May 2020 10:53:48 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/05/28/105348/</guid>
+      <guid>https://kona4.com/post/2020/05/28/105348/</guid>
       <description>&lt;h2 id=&#34;つまらなかったら読むのをやめる&#34;&gt;つまらなかったら読むのをやめる&lt;/h2&gt;&#xA;&lt;p&gt;買ったからにはすべて読まねば、という気持ちがこれまであった。しかし読んでいてつまらない・読む気にならない本は、読んでいる時も読んだ後も記憶に残らないことはよくある。いっそ読むのをやめてしまおうと決めた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWSを学び始める</title>
-      <link>http://localhost:1313/post/2020/05/26/111332/</link>
+      <link>https://kona4.com/post/2020/05/26/111332/</link>
       <pubDate>Tue, 26 May 2020 11:13:32 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/05/26/111332/</guid>
+      <guid>https://kona4.com/post/2020/05/26/111332/</guid>
       <description>&lt;h2 id=&#34;awsを始めたい理由&#34;&gt;AWSを始めたい理由&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;来年就職する予定の内定先の企業がAWSをインフラで使用している点&lt;/li&gt;&#xA;&lt;li&gt;個人で開発したアプリ等をAWSを用いてデプロイしたい&lt;/li&gt;&#xA;&lt;li&gt;これまではGitHub Pagesやherokuなどでしかページを公開したことがなかったので、一からシステムを構成することを学びたい&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>UNI&#39;S ON AIR（ユニゾンエアー ）欅坂46と日向坂46の音ゲーがかっこいい</title>
-      <link>http://localhost:1313/post/2019/09/25/010040/</link>
+      <link>https://kona4.com/post/2019/09/25/010040/</link>
       <pubDate>Wed, 25 Sep 2019 01:00:40 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/09/25/010040/</guid>
-      <description>&lt;p&gt;9月24日、欅坂46と日向坂46の音楽アプリがリリースされた。&#xA; &#xA;&lt;img src=&#34;http://localhost:1313/img/2019-09/25-01.png&#34; alt=&#34;img&#34;&gt;&#xA;&lt;a href=&#34;https://keyahina-unisonair.com/&#34;&gt;UNI&amp;rsquo;S ON AIR（ユニゾンエアー ）｜欅坂46・日向坂46 応援 [公式] 音楽アプリ&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://kona4.com/post/2019/09/25/010040/</guid>
+      <description>&lt;p&gt;9月24日、欅坂46と日向坂46の音楽アプリがリリースされた。&#xA; &#xA;&lt;img src=&#34;https://kona4.com/img/2019-09/25-01.png&#34; alt=&#34;img&#34;&gt;&#xA;&lt;a href=&#34;https://keyahina-unisonair.com/&#34;&gt;UNI&amp;rsquo;S ON AIR（ユニゾンエアー ）｜欅坂46・日向坂46 応援 [公式] 音楽アプリ&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>人生の夏休み</title>
-      <link>http://localhost:1313/post/2019/09/20/002217/</link>
+      <link>https://kona4.com/post/2019/09/20/002217/</link>
       <pubDate>Fri, 20 Sep 2019 00:22:17 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/09/20/002217/</guid>
+      <guid>https://kona4.com/post/2019/09/20/002217/</guid>
       <description>&lt;p&gt;真夏の全国ツアー、インターンシップ、握手会、、、僕の濃密な夏は終わりました。笑&#xA;今年も残り約三か月なので、後悔が残らぬよう毎日を充実させていきたい。&#xA; &lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud（クラウド）について</title>
-      <link>http://localhost:1313/post/2019/08/25/222933/</link>
+      <link>https://kona4.com/post/2019/08/25/222933/</link>
       <pubDate>Sun, 25 Aug 2019 22:29:33 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/08/25/222933/</guid>
+      <guid>https://kona4.com/post/2019/08/25/222933/</guid>
       <description>&lt;p&gt;インターンシップで、クラウドサービスを扱う会社にお邪魔させてもらえることになったので、クラウドについてかるーく勉強したのでまとめてみた。&lt;/p&gt;&#xA;&lt;h2 id=&#34;クラウドとは&#34;&gt;クラウドとは&lt;/h2&gt;&#xA;&lt;p&gt;本来自身のコンピュータで行う情報処理を、インターネットを通してクラウド事業者のコンピュータで行うサービスのこと。&lt;/p&gt;</description>
     </item>
     <item>
       <title>はじめてのブログ</title>
-      <link>http://localhost:1313/post/2019/08/25/171017/</link>
+      <link>https://kona4.com/post/2019/08/25/171017/</link>
       <pubDate>Sun, 25 Aug 2019 17:10:17 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/08/25/171017/</guid>
+      <guid>https://kona4.com/post/2019/08/25/171017/</guid>
       <description>このブログは、僕の趣味である乃木坂46のことを共有したり、プログラミング等の勉強から学んだことの発信をしたいなーと思い開設しました。 好きなことを書いていきたいと思っています。 </description>
     </item>
     <item>
       <title>Kona4</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kona4.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kona4.com/about/</guid>
       <description>東京でヘルスケア企業のWebエンジニアをやっています👍&#xA;このブログは学習のアウトプットとして使用しています。&#xA;I am a Web Engineer in Japan👍&#xA;I use this blog as an output of my learning.&#xA;最近の興味 / interested Ruby（Rails） Unity（C#） Golang TypeScript 趣味 / hobby ライブに行くこと 読書 ボルダリング ゲーム実況を見ること 散歩 Going to a live concert ( of Nogizaka46 ). Books Bouldering Watching video games on YouTube. Walking around the neighborhood. </description>
     </item>
   </channel>

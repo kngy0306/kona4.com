@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ふるさと納税 on kona4 Blog</title>
-    <link>http://localhost:1313/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/</link>
+    <link>https://kona4.com/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/</link>
     <description>Recent content in ふるさと納税 on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Dec 2021 13:40:14 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>新卒1年目がふるさと納税をやるときに意識したこと</title>
-      <link>http://localhost:1313/post/2021/12/2021-12-26-hurusato/</link>
+      <link>https://kona4.com/post/2021/12/2021-12-26-hurusato/</link>
       <pubDate>Sun, 26 Dec 2021 13:40:14 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/12/2021-12-26-hurusato/</guid>
+      <guid>https://kona4.com/post/2021/12/2021-12-26-hurusato/</guid>
       <description>&lt;p&gt;今年(2021年)に社会人として働き始め、12月に滑り込みでふるさと納税をしてみました！&lt;br&gt;&#xA;これは、ふるさと納税をするにあたって気をつけたこと、意識したことをまとめた記事になります。&lt;/p&gt;</description>
     </item>
   </channel>

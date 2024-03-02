@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rust on kona4 Blog</title>
-    <link>http://localhost:1313/tags/rust/</link>
+    <link>https://kona4.com/tags/rust/</link>
     <description>Recent content in Rust on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 04 Dec 2020 10:12:25 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rust環境構築メモ</title>
-      <link>http://localhost:1313/post/2020/12/04/101225/</link>
+      <link>https://kona4.com/post/2020/12/04/101225/</link>
       <pubDate>Fri, 04 Dec 2020 10:12:25 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/12/04/101225/</guid>
-      <description>&lt;p&gt;Rustの環境構築をする際に、VSCodeの拡張機能である&lt;strong&gt;Remote - Containers&lt;/strong&gt;を使用しました。&lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:1313/img/2020-12/04-01.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://kona4.com/post/2020/12/04/101225/</guid>
+      <description>&lt;p&gt;Rustの環境構築をする際に、VSCodeの拡張機能である&lt;strong&gt;Remote - Containers&lt;/strong&gt;を使用しました。&lt;br&gt;&#xA;&lt;img src=&#34;https://kona4.com/img/2020-12/04-01.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

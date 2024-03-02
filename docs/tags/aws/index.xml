@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aws on kona4 Blog</title>
-    <link>http://localhost:1313/tags/aws/</link>
+    <link>https://kona4.com/tags/aws/</link>
     <description>Recent content in Aws on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Nov 2022 16:16:59 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EC2からPlanetScaleへ接続したときのエラー解消</title>
-      <link>http://localhost:1313/post/2022/11/ec2-planetscale/</link>
+      <link>https://kona4.com/post/2022/11/ec2-planetscale/</link>
       <pubDate>Sun, 27 Nov 2022 16:16:59 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/11/ec2-planetscale/</guid>
+      <guid>https://kona4.com/post/2022/11/ec2-planetscale/</guid>
       <description>&lt;p&gt;EC2上でLaravelを使用してアプリケーションを作成したさい、DBに&lt;a href=&#34;https://planetscale.com/&#34;&gt;PlaceScale&lt;/a&gt;を使用し、Laravelから接続を行いました。そのときに&lt;code&gt;SQLSTATE[HY000] [2002] No such file or directory&lt;/code&gt;というエラーが出たため、その解消手順を記載しました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWSを学び始める</title>
-      <link>http://localhost:1313/post/2020/05/26/111332/</link>
+      <link>https://kona4.com/post/2020/05/26/111332/</link>
       <pubDate>Tue, 26 May 2020 11:13:32 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/05/26/111332/</guid>
+      <guid>https://kona4.com/post/2020/05/26/111332/</guid>
       <description>&lt;h2 id=&#34;awsを始めたい理由&#34;&gt;AWSを始めたい理由&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;来年就職する予定の内定先の企業がAWSをインフラで使用している点&lt;/li&gt;&#xA;&lt;li&gt;個人で開発したアプリ等をAWSを用いてデプロイしたい&lt;/li&gt;&#xA;&lt;li&gt;これまではGitHub Pagesやherokuなどでしかページを公開したことがなかったので、一からシステムを構成することを学びたい&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

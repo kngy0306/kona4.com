@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rails on kona4 Blog</title>
-    <link>http://localhost:1313/tags/rails/</link>
+    <link>https://kona4.com/tags/rails/</link>
     <description>Recent content in Rails on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 28 Jan 2023 19:37:28 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/tags/rails/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【Rails】セキュリティに関わりが大きそうなバリデーションヘルパーを試す</title>
-      <link>http://localhost:1313/post/2023/01/rails_validates_method/</link>
+      <link>https://kona4.com/post/2023/01/rails_validates_method/</link>
       <pubDate>Sat, 28 Jan 2023 19:37:28 +0900</pubDate>
-      <guid>http://localhost:1313/post/2023/01/rails_validates_method/</guid>
+      <guid>https://kona4.com/post/2023/01/rails_validates_method/</guid>
       <description>&lt;p&gt;Ruby on Railsのモデルで使用できるバリデーションヘルパーには多くの種類が存在します。その中でセキュリティに関わりが大きそうなヘルパーを抜粋し、実際の挙動を試してみました。&lt;/p&gt;&#xA;&lt;p&gt;以下ページ内にある「バリデーションヘルパー」を参考にしています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://railsguides.jp/active_record_validations.html&#34;&gt;https://railsguides.jp/active_record_validations.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Railsでクッキーを扱う</title>
-      <link>http://localhost:1313/post/2022/11/rails_cookies/</link>
+      <link>https://kona4.com/post/2022/11/rails_cookies/</link>
       <pubDate>Tue, 29 Nov 2022 22:50:33 +0900</pubDate>
-      <guid>http://localhost:1313/post/2022/11/rails_cookies/</guid>
+      <guid>https://kona4.com/post/2022/11/rails_cookies/</guid>
       <description>&lt;p&gt;先日 &lt;a href=&#34;https://zenn.dev/powder/articles/session_rails_20221124&#34;&gt;セキュリティ上重要なクッキー属性を読んでみる&lt;/a&gt; という記事を投稿しました。そこで取り上げたクッキーについて、Railsでの保存、削除、オプションの付与などを試してみました。&lt;/p&gt;</description>
     </item>
   </channel>

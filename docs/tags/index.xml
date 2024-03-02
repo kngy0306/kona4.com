@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on kona4 Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://kona4.com/tags/</link>
     <description>Recent content in Tags on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 Dec 2023 16:27:41 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>振り返り</title>
-      <link>http://localhost:1313/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <link>https://kona4.com/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
       <pubDate>Sun, 31 Dec 2023 16:27:41 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <guid>https://kona4.com/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
       <description></description>
     </item>
     <item>
       <title>Rails</title>
-      <link>http://localhost:1313/tags/rails/</link>
+      <link>https://kona4.com/tags/rails/</link>
       <pubDate>Sat, 28 Jan 2023 19:37:28 +0900</pubDate>
-      <guid>http://localhost:1313/tags/rails/</guid>
+      <guid>https://kona4.com/tags/rails/</guid>
       <description></description>
     </item>
     <item>
       <title>Sql</title>
-      <link>http://localhost:1313/tags/sql/</link>
+      <link>https://kona4.com/tags/sql/</link>
       <pubDate>Thu, 26 Jan 2023 16:54:54 +0900</pubDate>
-      <guid>http://localhost:1313/tags/sql/</guid>
+      <guid>https://kona4.com/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws</title>
-      <link>http://localhost:1313/tags/aws/</link>
+      <link>https://kona4.com/tags/aws/</link>
       <pubDate>Sun, 27 Nov 2022 16:16:59 +0900</pubDate>
-      <guid>http://localhost:1313/tags/aws/</guid>
+      <guid>https://kona4.com/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
+      <link>https://kona4.com/tags/react/</link>
       <pubDate>Fri, 07 Oct 2022 16:15:14 +0900</pubDate>
-      <guid>http://localhost:1313/tags/react/</guid>
+      <guid>https://kona4.com/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>Ruby</title>
-      <link>http://localhost:1313/tags/ruby/</link>
+      <link>https://kona4.com/tags/ruby/</link>
       <pubDate>Fri, 07 Oct 2022 16:15:14 +0900</pubDate>
-      <guid>http://localhost:1313/tags/ruby/</guid>
+      <guid>https://kona4.com/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
       <title>Php</title>
-      <link>http://localhost:1313/tags/php/</link>
+      <link>https://kona4.com/tags/php/</link>
       <pubDate>Sat, 11 Jun 2022 08:23:17 +0900</pubDate>
-      <guid>http://localhost:1313/tags/php/</guid>
+      <guid>https://kona4.com/tags/php/</guid>
       <description></description>
     </item>
     <item>
       <title>Db</title>
-      <link>http://localhost:1313/tags/db/</link>
+      <link>https://kona4.com/tags/db/</link>
       <pubDate>Sat, 04 Jun 2022 08:58:58 +0900</pubDate>
-      <guid>http://localhost:1313/tags/db/</guid>
+      <guid>https://kona4.com/tags/db/</guid>
       <description></description>
     </item>
     <item>
       <title>Typescript</title>
-      <link>http://localhost:1313/tags/typescript/</link>
+      <link>https://kona4.com/tags/typescript/</link>
       <pubDate>Sat, 21 May 2022 10:37:47 +0900</pubDate>
-      <guid>http://localhost:1313/tags/typescript/</guid>
+      <guid>https://kona4.com/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
+      <link>https://kona4.com/tags/docker/</link>
       <pubDate>Sat, 12 Feb 2022 09:26:16 +0900</pubDate>
-      <guid>http://localhost:1313/tags/docker/</guid>
+      <guid>https://kona4.com/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Shell</title>
-      <link>http://localhost:1313/tags/shell/</link>
+      <link>https://kona4.com/tags/shell/</link>
       <pubDate>Sat, 22 Jan 2022 13:44:21 +0900</pubDate>
-      <guid>http://localhost:1313/tags/shell/</guid>
+      <guid>https://kona4.com/tags/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>ふるさと納税</title>
-      <link>http://localhost:1313/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/</link>
+      <link>https://kona4.com/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/</link>
       <pubDate>Sun, 26 Dec 2021 13:40:14 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/</guid>
+      <guid>https://kona4.com/tags/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/</guid>
       <description></description>
     </item>
     <item>
       <title>API</title>
-      <link>http://localhost:1313/tags/api/</link>
+      <link>https://kona4.com/tags/api/</link>
       <pubDate>Fri, 10 Dec 2021 22:03:06 +0900</pubDate>
-      <guid>http://localhost:1313/tags/api/</guid>
+      <guid>https://kona4.com/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>MySQL</title>
-      <link>http://localhost:1313/tags/mysql/</link>
+      <link>https://kona4.com/tags/mysql/</link>
       <pubDate>Wed, 20 Oct 2021 22:30:21 +0900</pubDate>
-      <guid>http://localhost:1313/tags/mysql/</guid>
+      <guid>https://kona4.com/tags/mysql/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
+      <link>https://kona4.com/tags/flutter/</link>
       <pubDate>Sat, 16 Oct 2021 12:31:37 +0900</pubDate>
-      <guid>http://localhost:1313/tags/flutter/</guid>
+      <guid>https://kona4.com/tags/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Django</title>
-      <link>http://localhost:1313/tags/django/</link>
+      <link>https://kona4.com/tags/django/</link>
       <pubDate>Sun, 10 Oct 2021 19:43:12 +0900</pubDate>
-      <guid>http://localhost:1313/tags/django/</guid>
+      <guid>https://kona4.com/tags/django/</guid>
       <description></description>
     </item>
     <item>
       <title>IT</title>
-      <link>http://localhost:1313/tags/it/</link>
+      <link>https://kona4.com/tags/it/</link>
       <pubDate>Sun, 03 Oct 2021 13:12:29 +0900</pubDate>
-      <guid>http://localhost:1313/tags/it/</guid>
+      <guid>https://kona4.com/tags/it/</guid>
       <description></description>
     </item>
     <item>
       <title>ガジェット</title>
-      <link>http://localhost:1313/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
+      <link>https://kona4.com/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
       <pubDate>Sat, 02 Oct 2021 13:50:25 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</guid>
+      <guid>https://kona4.com/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>http://localhost:1313/tags/go/</link>
+      <link>https://kona4.com/tags/go/</link>
       <pubDate>Sat, 16 Jan 2021 20:50:17 +0900</pubDate>
-      <guid>http://localhost:1313/tags/go/</guid>
+      <guid>https://kona4.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>DNS</title>
-      <link>http://localhost:1313/tags/dns/</link>
+      <link>https://kona4.com/tags/dns/</link>
       <pubDate>Tue, 12 Jan 2021 09:32:23 +0900</pubDate>
-      <guid>http://localhost:1313/tags/dns/</guid>
+      <guid>https://kona4.com/tags/dns/</guid>
       <description></description>
     </item>
     <item>
       <title>メモ</title>
-      <link>http://localhost:1313/tags/%E3%83%A1%E3%83%A2/</link>
+      <link>https://kona4.com/tags/%E3%83%A1%E3%83%A2/</link>
       <pubDate>Sun, 13 Dec 2020 19:01:40 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E3%83%A1%E3%83%A2/</guid>
+      <guid>https://kona4.com/tags/%E3%83%A1%E3%83%A2/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>http://localhost:1313/tags/rust/</link>
+      <link>https://kona4.com/tags/rust/</link>
       <pubDate>Fri, 04 Dec 2020 10:12:25 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rust/</guid>
+      <guid>https://kona4.com/tags/rust/</guid>
       <description></description>
     </item>
   </channel>

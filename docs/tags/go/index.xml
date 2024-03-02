@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on kona4 Blog</title>
-    <link>http://localhost:1313/tags/go/</link>
+    <link>https://kona4.com/tags/go/</link>
     <description>Recent content in Go on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 16 Jan 2021 20:50:17 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kona4.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【Go】structの埋め込みについて</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-16-gooutput/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-16-gooutput/</link>
       <pubDate>Sat, 16 Jan 2021 20:50:17 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-16-gooutput/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-16-gooutput/</guid>
       <description>&lt;p&gt;structについてまとめたものです。&lt;br&gt;&#xA;structのことを&lt;strong&gt;構造体&lt;/strong&gt;といいます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>入門Goプログラミングのアウトプット</title>
-      <link>http://localhost:1313/post/2021/01/2021-01-13-gooutput/</link>
+      <link>https://kona4.com/post/2021/01/2021-01-13-gooutput/</link>
       <pubDate>Wed, 13 Jan 2021 14:44:15 +0900</pubDate>
-      <guid>http://localhost:1313/post/2021/01/2021-01-13-gooutput/</guid>
+      <guid>https://kona4.com/post/2021/01/2021-01-13-gooutput/</guid>
       <description>&lt;p&gt;書籍: &lt;a href=&#34;https://www.amazon.co.jp/%E5%85%A5%E9%96%80Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Nathan-Youngman/dp/4798158658/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&#34;&gt;入門Goプログラミング&lt;/a&gt;の中にある、チャレンジのアウトプット。&lt;/p&gt;</description>
     </item>
   </channel>
