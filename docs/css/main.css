@@ -2,7 +2,7 @@
 
 body {
   /* font-family: 'Lora', 'Times New Roman', serif; */
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', 'Lora', 'Times New Roman', sans-serif;
   font-size: 17px;
   color: #404040;
   position: relative;
@@ -38,8 +38,8 @@ p a {
   word-break: break-all;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Noto Sans JP', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
   line-height: 1.75em;
   margin-top: 2.2em;
   margin-bottom: 2.4rem;
@@ -68,10 +68,6 @@ a:focus {
   /* color: #0085a1; */
   color: #812990;
   text-decoration-line: none;
-}
-
-strong {
-  background: linear-gradient(transparent 85%, rgba(129, 41,144, .5) 75%);
 }
 
 pre {
@@ -608,6 +604,7 @@ footer .theme-by {
   font-size: 30px;
   text-align: center;
   border-bottom: none;
+  line-height: normal;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {

@@ -21,7 +21,7 @@ Rubyのクラスはすべて、**Objectクラス**を継承しているので、
 
 # Karnelモジュール
 
-↓Kernelモジュールの、リファレンスマニュアル
+↓Kernelモジュールの、リファレンスマニュアル  
 https://docs.ruby-lang.org/ja/latest/class/Kernel.html
 
 # Objectクラス
