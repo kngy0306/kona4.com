@@ -197,6 +197,7 @@ img {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 7px 0;
 }
 
 .navbar-custom .nav li a {
@@ -240,7 +241,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 7px 0;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -426,6 +427,7 @@ footer .theme-by {
 .post-preview .post-title {
   font-size: 30px;
   margin-top: 0;
+  border: none;
 }
 
 .post-title::after {
@@ -492,6 +494,7 @@ footer .theme-by {
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
     font-size: 30px;
+    border: none;
   }
   .post-title::after {
     display: none;
@@ -596,8 +599,11 @@ footer .theme-by {
 .intro-header .page-heading h1,
 .intro-header .tags-heading h1,
 .intro-header .categories-heading h1 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-top: 0;
   font-size: 40px;
+  font-weight: 800;
+  border: none;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
@@ -656,7 +662,10 @@ footer .theme-by {
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1,
   .intro-header .categories-heading h1 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 50px;
+    font-weight: 800;
+    border: none;
   }
   .intro-header .post-heading h1 {
     font-size: 40px;
