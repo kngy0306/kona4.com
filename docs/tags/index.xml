@@ -6,8 +6,15 @@
     <description>Recent content in Tags on kona4 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 Dec 2023 16:27:41 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2024 09:02:04 +0900</lastBuildDate>
     <atom:link href="https://kona4.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DB</title>
+      <link>https://kona4.com/tags/db/</link>
+      <pubDate>Sun, 03 Mar 2024 09:02:04 +0900</pubDate>
+      <guid>https://kona4.com/tags/db/</guid>
+      <description></description>
+    </item>
     <item>
       <title>振り返り</title>
       <link>https://kona4.com/tags/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
@@ -55,13 +62,6 @@
       <link>https://kona4.com/tags/php/</link>
       <pubDate>Sat, 11 Jun 2022 08:23:17 +0900</pubDate>
       <guid>https://kona4.com/tags/php/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Db</title>
-      <link>https://kona4.com/tags/db/</link>
-      <pubDate>Sat, 04 Jun 2022 08:58:58 +0900</pubDate>
-      <guid>https://kona4.com/tags/db/</guid>
       <description></description>
     </item>
     <item>

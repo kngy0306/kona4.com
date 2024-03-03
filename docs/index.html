@@ -236,6 +236,85 @@ if (!doNotTrack) {
           
           
             <article class="post-preview">
+    <a href="https://kona4.com/post/2024/03/db_transaction/">
+        <h2 class="post-title">DBトランザクションの分離レベルについて</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2024/3/3
+  
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <p>復数のトランザクションが同時に実行されるとき、それらのトランザクションがどのように相互作用するかを定義するのが分離レベル。</p>
+<!-- raw HTML omitted -->
+<p>本来は直列実行すれば並行で実行することの問題が解決できるが、サービスは複数人が同時に使うのが一般的なのでアプリケーション全体のパフォーマンスを考えるとそれは現実的じゃなさそう。（「誰かが実行中なのでお待ちください。」はやばい）</p>
+<h1 id="並行で実行されるときの問題">並行で実行されるときの問題</h1>
+<ul>
+<li>1つのトランザクションが別のトランザクションで変更されているデータを読み取ること。</li>
+<li>2つ以上のトランザクションが同じデータを同時に変更すること。</li>
+</ul>
+<h1 id="トランザクション分離レベル">トランザクション分離レベル</h1>
+<p>問題に対し、ある部分に関しては許容する。と段階的に定義しているものがトランザクション分離レベル。</p>
+<ul>
+<li>リードアンコミッティド（Read uncommitted）</li>
+<li>リードコミッティド（Read committed）</li>
+<li>リピータブルリード（Repeatable read）</li>
+<li>シリアライザブル（Serializable）</li>
+</ul>
+<p><strong>PostgreSQLのデフォルトのトランザクション分離レベルは「リードミコッティド」</strong></p>
+<h1 id="postgresqlで発生しうること">PostgreSQLで発生しうること</h1>
+<p>リードコミッティドの場合、以下の3つが発生しうる。</p>
+<ul>
+<li>反復不可能読み取り（Nonrepeatable Read）（ファジーリードと読んでいる記事もある fuzzy = 曖昧な、ぼんやりした）</li>
+<li>ファントムリード（Phantom Read）</li>
+<li>直列化異常（Serialization Anomaly）</li>
+</ul>
+<p><strong>ダーティーリードは起きない。</strong></p>
+<h2 id="反復不可能読み取り">反復不可能読み取り</h2>
+<p>一度読み取ったデータを他のトランザクションが変更することで、同じデータを読み取ったとしても異なる値が読み取られること。</p>
+<h2 id="ファントムリード">ファントムリード</h2>
+<p>トランザクションが複数行のある集合を返す検索条件で問い合わせを行ったあと、別のトランザクションのコミットが行われることで、同じ検索条件で問い合わせを行ったとしても異なる行が返されること。</p>
+<h2 id="直列化異常">直列化異常</h2>
+<p>復数のトランザクションがコミットされたあとの結果が、トランザクションを直列化した場合の結果と異なること。(＝直列で実行した場合は正常に値が反映されるが、並列で実行した場合は異なる値になること)</p>
+<h1 id="業務で遭遇したこと">業務で遭遇したこと</h1>
+<p>PostgreSQLでは、トランザクション分離レベルをリードアンコミッティド（デフォルトのひとつ下で、もっとも下のレベル）にしたとしても、ファントムリードが発生しない。つまりほかトランザクションのコミット前のデータを読み取ることがない。</p>
+<p>上記の挙動をするため、他トランザクションでコミットされるデータを読み取らず、自トランザクションでコミットしようとしたときに、Unique制約に引っかかったことがある。（自トランザクションのコミットは他トランザクションのあと）</p>
+<p>トランザクション分離レベルと発生しうる問題を理解していると当然の挙動と理解できる。</p>
+<h1 id="参考">参考</h1>
+<ul>
+<li><a href="https://qiita.com/WebEngrChild/items/e85d0762c1383e353349">https://qiita.com/WebEngrChild/items/e85d0762c1383e353349</a></li>
+<li><a href="https://zenn.dev/bellwood4486/articles/postgresql-trans-iso-level">https://zenn.dev/bellwood4486/articles/postgresql-trans-iso-level</a></li>
+<li><a href="https://www.postgresql.jp/docs/11/transaction-iso.html">https://www.postgresql.jp/docs/11/transaction-iso.html</a></li>
+</ul>
+
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+        <a href="https://kona4.com//tags/db/">DB</a>&nbsp;
+        
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://kona4.com/post/2023/12/retrospective/">
         <h2 class="post-title">2023年振り返り</h2>
         
@@ -614,45 +693,6 @@ if (!doNotTrack) {
 
 </article>
           
-            <article class="post-preview">
-    <a href="https://kona4.com/post/2022/09/ruby_module/">
-        <h2 class="post-title">putsメソッドはなぜどこでも使用することができるのか</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2022/9/20
-  
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>Rubyにおいて、プログラムのどこでも使用できる<code>puts</code>メソッド、<code>pp</code>メソッドなどは、どこで定義されており、なぜ使用することができるのか。</p>
-        <a href="https://kona4.com/post/2022/09/ruby_module/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://kona4.com//tags/ruby/">ruby</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
         </div>
 
         
@@ -691,7 +731,7 @@ if (!doNotTrack) {
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2023
+            2024
           
 
           
