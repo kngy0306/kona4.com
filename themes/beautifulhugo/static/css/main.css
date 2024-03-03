@@ -59,6 +59,10 @@ h2::after {
   background: linear-gradient(to right, rgba(129, 41, 144, 0.7) 0%, rgba(124,199,232,0.7) 100%);
 }
 
+.panel-title {
+  border-bottom: none;
+}
+
 a {
   /* color: #008AFF; */
   color: #5BBEE5;
