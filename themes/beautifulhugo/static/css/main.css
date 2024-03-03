@@ -51,10 +51,17 @@ h1 {
   /* text-decoration-line: underline; */
 }
 
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 h2::after {
-  margin-top: 10px;
   display: block;
-  height: 2.5px;
+  height: 1px;
   content: "";
   background: linear-gradient(to right, rgba(129, 41, 144, 0.7) 0%, rgba(124,199,232,0.7) 100%);
 }
